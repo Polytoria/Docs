@@ -6,7 +6,7 @@ Function of [Environment](/classes/Environment/)
 
 #### Parameters
 Position `Vector3`  
-Radius `number`
+Radius `number`  
 Force `number`  
 AffectAnchored `bool`
 
