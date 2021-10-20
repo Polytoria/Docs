@@ -1,4 +1,4 @@
-# Anchored
+# Material
 ### Description
 Specifies the material of the part.
 

@@ -1,4 +1,4 @@
-# Anchored
+# Shape
 ### Description
 Specifies the shape of a part.
 
