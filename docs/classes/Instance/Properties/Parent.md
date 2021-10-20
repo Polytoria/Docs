@@ -1,0 +1,14 @@
+# Parent
+### Description
+Specifies the parent instance of an instance.
+
+Property of [Instance](/classes/Instance/)
+
+#### Returns
+`Instance`
+
+### Example
+```lua
+instance.Parent = game["Environment"]
+print(instance.Parent.Name) -- Prints "Environment"
+```
