@@ -9,7 +9,7 @@ Property of [PointLight](/classes/PointLight/)
 
 ### Example
 ```lua
-light.Range = 0.75
+light.Brightness = 0.75
 ```
 
 ### Notes
