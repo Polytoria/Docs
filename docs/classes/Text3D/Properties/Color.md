@@ -9,5 +9,5 @@ Property of [Text3D](/classes/Text3D/)
 
 ### Example
 ```lua
-text.Color3 = Color3.Random()
+text.Color = Color3.Random()
 ```
