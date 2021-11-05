@@ -5,7 +5,7 @@ Calls a function of this script.
 Function of [Environment](/classes/Environment/)
 
 #### Parameters
-Name `Vector3`  
+Name `string`  
 Arguments `DynValue[]`
 
 ### Example
