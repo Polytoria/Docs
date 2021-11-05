@@ -1,4 +1,4 @@
-# ScriptInstance
-Script that only runs on the server.
+# LocalScriptInstance
+Script that runs on clients.
 
 Inherited from [BaseScriptInstance](../BaseScriptInstance)
