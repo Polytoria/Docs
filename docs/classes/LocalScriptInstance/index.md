@@ -1,4 +1,4 @@
 # LocalScriptInstance
 Script that runs on clients.
 
-Inherited from [BaseScriptInstance](../BaseScriptInstance)
+Inherited from [BaseScript](../BaseScript)

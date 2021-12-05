@@ -1,4 +1,4 @@
-# Touched
+# Clicked
 ### Description
 Gets triggered when this instance was clicked by a player.
 
