@@ -4,8 +4,8 @@ Returns the parent of this instance.
 
 Function of [Instance](/classes/Instance/)
 
-#### Returns
-Parent `Instance`
+#### Return type
+`Instance`
 
 ### Example
 ```lua

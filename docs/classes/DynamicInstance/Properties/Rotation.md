@@ -4,7 +4,7 @@ Specifies the rotation of an instance.
 
 Property of [DynamicInstance](/classes/DynamicInstance/)
 
-#### Returns
+#### Type
 `Vector3`
 
 ### Example

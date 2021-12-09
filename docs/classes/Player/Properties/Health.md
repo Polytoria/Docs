@@ -4,7 +4,7 @@ Specifies the current amount of health of a player.
 
 Property of [Player](/classes/Player/)
 
-#### Returns
+#### Type
 `number`
 
 ### Example

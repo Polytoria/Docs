@@ -5,10 +5,10 @@ Returns whether the instance is of the specified class.
 Function of [Instance](/classes/Instance/)
 
 #### Parameters
-ClassName `string`
+className `String`
 
-#### Returns
-`bool`
+#### Return type
+`Boolean`
 
 ### Example
 ```lua

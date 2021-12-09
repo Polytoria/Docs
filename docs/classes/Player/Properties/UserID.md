@@ -4,13 +4,10 @@ Returns the ID of an user.
 
 Property of [Player](/classes/Player/)
 
-#### Returns
+#### Type
 `number`
 
 ### Example
 ```lua
 print(game["Players"]["willemsteller"].UserID) -- Prints "2"
 ```
-
-### Tags
-`readonly`

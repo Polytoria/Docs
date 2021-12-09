@@ -4,7 +4,7 @@ Specifies the image asset ID of the decal.
 
 Property of [Decal](/classes/Decal/)
 
-#### Returns
+#### Type
 `number`
 
 ### Example

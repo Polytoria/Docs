@@ -4,7 +4,7 @@ Specifies the brightness of the sun.
 
 Property of [Lighting](/classes/Lighting/)
 
-#### Returns
+#### Type
 `number`
 
 ### Example

@@ -1,13 +1,13 @@
 # Color
 ### Description
-Specifies the hex color of a part.
+Specifies the color of a part.
 
 Property of [Part](/classes/Part/)
 
-#### Returns
-`string`
+#### Type
+`Color`
 
 ### Example
 ```lua
-part.Color = "#ffaabb"
+part.Color = Color.FromHex('#ffaabb')
 ```

@@ -4,11 +4,12 @@ Clones the instance.
 
 Function of [Instance](/classes/Instance/)
 
-Returns `Instance`
+#### Return type
+`Instance`
 
 ### Example
 ```lua
-local clone = instance:Clone()
+local clone = part:Clone()
 clone.Position = Vector3.New(0, 10, 0)
 ```
 

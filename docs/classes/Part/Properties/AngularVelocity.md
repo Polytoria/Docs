@@ -4,7 +4,7 @@ Specifies the angular velocity of a part.
 
 Property of [Part](/classes/Part/)
 
-#### Returns
+#### Type
 `Vector3`
 
 ### Example

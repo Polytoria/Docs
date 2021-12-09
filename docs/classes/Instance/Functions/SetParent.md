@@ -5,7 +5,10 @@ Returns the parent of this instance.
 Function of [Instance](/classes/Instance/)
 
 #### Parameters
-Parent `Instance`
+par `Instance`
+
+#### Return type
+`Void`
 
 ### Example
 ```lua

@@ -4,8 +4,10 @@ Returns an array of all children.
 
 Function of [Instance](/classes/Instance/)
 
-#### Returns
-Children `Array`
+#### Parameters
+
+#### Return type
+`Instance[]`
 
 ### Example
 ```lua

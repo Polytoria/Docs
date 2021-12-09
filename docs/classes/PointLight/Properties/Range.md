@@ -4,7 +4,7 @@ Specifies how far out the light can reach.
 
 Property of [PointLight](/classes/PointLight/)
 
-#### Returns
+#### Type
 `number`
 
 ### Example

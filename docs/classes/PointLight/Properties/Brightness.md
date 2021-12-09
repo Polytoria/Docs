@@ -4,7 +4,7 @@ Specifies how bright/intense the light is.
 
 Property of [PointLight](/classes/PointLight/)
 
-#### Returns
+#### Type
 `number`
 
 ### Example

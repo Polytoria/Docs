@@ -4,8 +4,8 @@ Specifies the parent instance of an instance.
 
 Property of [Instance](/classes/Instance/)
 
-#### Returns
-`Instance`
+#### Type
+```Instance```
 
 ### Example
 ```lua

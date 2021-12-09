@@ -5,10 +5,10 @@ Finds the first child instance with the specified name.
 Function of [Instance](/classes/Instance/)
 
 #### Parameters
-Name `string`
+name `String`
 
-#### Returns
-Child `Instance`
+#### Return type
+`Instance`
 
 ### Example
 ```lua

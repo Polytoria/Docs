@@ -4,7 +4,7 @@ Determines how fast a player can walk.
 
 Property of [Player](/classes/Player/)
 
-#### Returns
+#### Type
 `number`
 
 ### Example

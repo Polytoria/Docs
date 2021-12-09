@@ -2,10 +2,10 @@
 ### Description
 Returns a list of all players.
 
-Function of [Player](/classes/Player/)
+Function of [Players](/classes/Players/)
 
-#### Returns
-Players `Array`
+#### Return type
+`Player[]`
 
 ### Example
 ```lua

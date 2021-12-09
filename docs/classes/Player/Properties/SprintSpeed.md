@@ -4,7 +4,7 @@ Determines how fast a player can sprint.
 
 Property of [Player](/classes/Player/)
 
-#### Returns
+#### Type
 `number`
 
 ### Example

@@ -4,7 +4,7 @@ Specifies the material of the part.
 
 Property of [Part](/classes/Part/)
 
-#### Returns
+#### Type
 `PartMaterial`
 
 ### Example

@@ -4,7 +4,7 @@ Specifies the shape of a part.
 
 Property of [Part](/classes/Part/)
 
-#### Returns
+#### Type
 `PartShape`
 
 ### Example

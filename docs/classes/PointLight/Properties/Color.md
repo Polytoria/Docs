@@ -4,8 +4,8 @@ Specifies the color of the light.
 
 Property of [PointLight](/classes/PointLight/)
 
-#### Returns
-`Color3`
+#### Type
+`Color`
 
 ### Example
 ```lua

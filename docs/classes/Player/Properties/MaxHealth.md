@@ -4,7 +4,7 @@ Specifies the maximum amount of health a player can have.
 
 Property of [Player](/classes/Player/)
 
-#### Returns
+#### Type
 `number`
 
 ### Example

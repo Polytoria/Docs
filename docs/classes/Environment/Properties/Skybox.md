@@ -4,8 +4,8 @@ Specifies which skybox to use in the game.
 
 Property of [Environment](/classes/Environment/)
 
-#### Returns
-`SkyboxPreset`
+#### Type
+```SkyboxPreset```
 
 ### Example
 ```lua

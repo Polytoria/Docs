@@ -13,6 +13,3 @@ game["Environment"]["Part"].Clicked:Connect(function (player)
     print(player.Name .. " clicked on this part!")
 end)
 ```
-
-### Notes
-- There must be an active collider on the instance for this event to trigger ([Part](/classes/Part), [Player](/classes/Player), etc.)

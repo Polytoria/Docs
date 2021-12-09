@@ -4,8 +4,8 @@ Specifies the name of an instance.
 
 Property of [Instance](/classes/Instance/)
 
-#### Returns
-`string`
+#### Type
+```String```
 
 ### Example
 ```lua

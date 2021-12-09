@@ -1,13 +1,13 @@
 # ClimbSpeed
 ### Description
-Specifies the speed at which the climbable is climbed.
+Defines how fast a player can climb a climbable.
 
 Property of [Climbable](/classes/Climbable/)
 
-#### Returns
-`number`
+#### Type
+`Number`
 
 ### Example
 ```lua
-game["Environment"]["Truss"].ClimbSpeed = 2
+climbable.ClimbSpeed = 2
 ```

@@ -4,13 +4,10 @@ Returns the name of the class.
 
 Property of [Instance](/classes/Instance/)
 
-#### Returns
-`string`
+#### Type
+`String`
 
 ### Example
 ```lua
 print(game["Environment"].ClassName) -- Prints "Environment"
 ```
-
-### Tags
-`readonly`

@@ -4,8 +4,8 @@ Specifies the text to display.
 
 Property of [Text3D](/classes/Text3D/)
 
-#### Returns
-`string`
+#### Type
+`String`
 
 ### Example
 ```lua

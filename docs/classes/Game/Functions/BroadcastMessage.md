@@ -1,11 +1,14 @@
-# BroadcastChat
+# BroadcastMessage
 ### Description
 Sends a system message in the chat to everyone in the server.
 
 Function of [Game](/classes/Game/)
 
 #### Parameters
-Message `string`
+message `String`
+
+#### Return type
+`Void`
 
 ### Example
 ```lua

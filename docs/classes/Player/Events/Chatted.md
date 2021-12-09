@@ -1,6 +1,6 @@
 # Chatted
 ### Description
-Gets triggered when the player sends a chat message.
+Gets triggered when a player sends a chat message.
 
 Event of [Player](/classes/Player/)
 

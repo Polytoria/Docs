@@ -2,15 +2,15 @@
 ### Description
 Calls a function of this script.
 
-Function of [Environment](/classes/Environment/)
+Function of [BaseScript](/classes/BaseScript/)
 
 #### Parameters
-Name `string`  
-Arguments `DynValue[]`
+function `String`
+args `DynValue[]`
 
 ### Example
 ```lua
-game["Environment"]:CreateExplosion(Vector3.New(0, 0, 0), 30, 5000, false)
+game["ScriptService"]["Script"]:Call("Foo", "Bar")
 ```
 
 ### Notes

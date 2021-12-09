@@ -2,10 +2,13 @@
 ### Description
 Gets a player by their username.
 
-Function of [Player](/classes/Player/)
+Function of [Players](/classes/Players/)
 
-#### Returns
-Player `Player`
+#### Parameters
+Username `String`
+
+#### Return type
+`Player`
 
 ### Example
 ```lua

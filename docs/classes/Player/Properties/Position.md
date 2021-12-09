@@ -4,7 +4,7 @@ Specifies the position of a player.
 
 Property of [Player](/classes/Player/)
 
-#### Returns
+#### Type
 `Vector3`
 
 ### Example

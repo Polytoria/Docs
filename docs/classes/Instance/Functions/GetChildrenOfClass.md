@@ -5,10 +5,10 @@ Returns a list of all children with the specified class.
 Function of [Instance](/classes/Instance/)
 
 #### Parameters
-ClassName `string`
+className `String`
 
-#### Returns
-Children `Array`
+#### Return type
+`Instance[]`
 
 ### Example
 ```lua
