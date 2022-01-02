@@ -1,6 +1,6 @@
 # MoveTarget
 ### Description
-Set where NPC will move to.
+Set the location to which the NPC should move to.
 
 Property of [NPC](/classes/NPC/)
 
