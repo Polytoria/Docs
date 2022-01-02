@@ -1,5 +1,5 @@
 # Players
-> Not creatable
+> Non-constructional class
 > This class cannot be created with `Instance.new` constructor function.
 
 Players is a child class of [Game](../Game). It contains all connected players in the server.

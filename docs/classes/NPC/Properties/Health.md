@@ -1,6 +1,6 @@
 # Health
 ### Description
-Specifies the current amount of health of a NPC.
+Health property of an NPC
 
 Property of [NPC](/classes/NPC/)
 
