@@ -1,4 +1,4 @@
-# SunBrightness
+# SunColor
 ### Description
 Specifies the color of the sun.
 
