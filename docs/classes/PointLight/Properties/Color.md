@@ -9,5 +9,5 @@ Property of [PointLight](/classes/PointLight/)
 
 ### Example
 ```lua
-light.Color = Color3.Random()
+light.Color = Color.Random()
 ```

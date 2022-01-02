@@ -15,7 +15,7 @@ Instance `Instance`
 ```lua
 local part = Instance.New("Part", game["Environment"])
 part.Size = Vector3.New(4, 4, 4)
-part.Color = Color3.New(0.5, 0.5, 0.5, 1.0)
+part.Color = Color.New(0.5, 0.5, 0.5, 1.0)
 ```
 
 ### Notes

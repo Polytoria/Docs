@@ -1,6 +1,6 @@
-# Rotation
+# LocalRotation
 ### Description
-Specifies the rotation of an instance.
+Specifies the local rotation of an instance.
 
 Property of [DynamicInstance](/classes/DynamicInstance/)
 
@@ -9,7 +9,7 @@ Property of [DynamicInstance](/classes/DynamicInstance/)
 
 ### Example
 ```lua
-part.Rotation = Vector3.New(0, 45, 0)
+part.LocalRotation = Vector3.New(0, 45, 0)
 ```
 
 ### Notes
