@@ -1,6 +1,6 @@
 # RightLegColor
 ### Description
-Specifies the NPC s' Right leg color.
+Specifies the color of an NPC's right leg.
 
 Property of [NPC](/classes/NPC/)
 

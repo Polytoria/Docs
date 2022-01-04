@@ -1,6 +1,6 @@
 # LocalRotation
 ### Description
-Specifies the local rotation of an instance.
+Specifies the rotation relative to the parent of an instance.
 
 Property of [DynamicInstance](/classes/DynamicInstance/)
 

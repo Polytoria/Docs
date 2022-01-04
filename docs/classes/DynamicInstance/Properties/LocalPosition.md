@@ -1,6 +1,6 @@
 # LocalPosition
 ### Description
-Specifies the local position of an instance.
+Specifies the position relative to the parent of an instance.
 
 Property of [DynamicInstance](/classes/DynamicInstance/)
 

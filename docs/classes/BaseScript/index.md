@@ -1,4 +1,6 @@
 # BaseScript
+> This class cannot be created using the `Instance.new` function.
+
 BaseScripts are the base classes of all scripts (Scripts, LocalScripts). They can be parented to any instance.
 
 You can get the currently executing script in a script using the `script` keyword.  

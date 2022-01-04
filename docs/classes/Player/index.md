@@ -1,7 +1,7 @@
 
 # Player
-> Non-constructional class
-> This class cannot be created with `Instance.new` constructor function.
+> This class cannot be created using the `Instance.new` function.
+
 
 A Player is an object controlled by players.
 

@@ -1,4 +1,4 @@
 # ScriptInstance
-Script that only runs on the server.
+A ScriptInstance is a script that only runs on the server.
 
 Inherited from [BaseScript](../BaseScript)

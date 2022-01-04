@@ -1,6 +1,6 @@
 # HeadColor
 ### Description
-Specifies the NPC s' Head color.
+Specifies the color of an NPC's head.
 
 Property of [NPC](/classes/NPC/)
 

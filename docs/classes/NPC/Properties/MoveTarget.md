@@ -1,6 +1,6 @@
 # MoveTarget
 ### Description
-Set the location to which the NPC should move to.
+Determines the position the NPC should walk towards.
 
 Property of [NPC](/classes/NPC/)
 

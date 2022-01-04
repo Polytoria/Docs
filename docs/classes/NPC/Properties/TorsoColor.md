@@ -1,6 +1,6 @@
 # TorsoColor
 ### Description
-Specifies the NPC s' Torso color.
+Specifies the color of an NPC's torso.
 
 Property of [NPC](/classes/NPC/)
 

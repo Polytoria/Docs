@@ -1,6 +1,6 @@
 # RightArmColor
 ### Description
-Specifies the NPC s' Right arm color.
+Specifies the color of an NPC's right arm.
 
 Property of [NPC](/classes/NPC/)
 

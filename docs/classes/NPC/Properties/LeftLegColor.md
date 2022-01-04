@@ -1,6 +1,6 @@
 # LeftLegColor
 ### Description
-Specifies the NPC s' Left leg color.
+Specifies the color of an NPC's left leg.
 
 Property of [NPC](/classes/NPC/)
 
