@@ -1,20 +1,22 @@
 site_name: Polytoria Scripting API
-copyright: Copyright &copy; 2019 - 2021 Polytoria
+copyright: Copyright &copy; 2019 - 2022 Polytoria
 theme:
   features:
     - navigation.tabs
     - navigation.instant
     - content.code.annotate
   name: material
-  logo: assets/icon.png
+  logo: assets/logo.svg
   font:
-    text: Poppins
-  palette: 
+    text: Rubik
+  palette:
     - scheme: default
+      primary: blue
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
-    - scheme: slate 
+    - scheme: slate
+      primary: blue
       toggle:
         icon: material/weather-night
         name: Switch to light mode
@@ -24,3 +26,5 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.snippets
   - tables
+extra_css:
+  - assets/extra.css
