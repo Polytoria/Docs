@@ -1,6 +1,6 @@
 # PlayInWorld
 ### Description
-Determines whether the sound should be played globally or not.
+When enabled, the sound will be played in 3D world space rather than having the same volume for everyone.
 
 Property of [Sound](/classes/Sound/)
 

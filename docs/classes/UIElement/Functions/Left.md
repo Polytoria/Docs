@@ -1,0 +1,16 @@
+# Left
+### Description
+Method description
+
+Function of [UIElement](/classes/UIElement/)
+
+#### Parameters
+n `Single`
+
+#### Return type
+`Void`
+
+### Example
+```lua
+print("Example code")
+```
