@@ -5,7 +5,7 @@ Method description
 Function of [UIElement](/classes/UIElement/)
 
 #### Parameters
-n `Single`
+n `number`
 
 #### Return type
 `Void`

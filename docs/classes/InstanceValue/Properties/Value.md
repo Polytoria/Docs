@@ -1,6 +1,6 @@
 # Value
 ### Description
-Property description
+The value of this object.
 
 Property of [InstanceValue](/classes/InstanceValue/)
 
@@ -9,5 +9,5 @@ Property of [InstanceValue](/classes/InstanceValue/)
 
 ### Example
 ```lua
-print("Example code")
+instanceValue.Value = game["Environment"]["Part"]
 ```

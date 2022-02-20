@@ -5,7 +5,7 @@ Specifies the size of the font.
 Property of [Text3D](/classes/Text3D/)
 
 #### Type
-`Single`
+`number`
 
 ### Example
 ```lua

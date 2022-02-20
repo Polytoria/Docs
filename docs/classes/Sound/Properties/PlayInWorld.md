@@ -5,7 +5,7 @@ When enabled, the sound will be played in 3D world space rather than having the 
 Property of [Sound](/classes/Sound/)
 
 #### Type
-`Boolean`
+`boolean`
 
 ### Example
 ```lua

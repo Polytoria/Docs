@@ -5,7 +5,7 @@ Property description
 Property of [UILabel](/classes/UILabel/)
 
 #### Type
-`Single`
+`number`
 
 ### Example
 ```lua

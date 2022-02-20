@@ -8,7 +8,7 @@ Function of [Instance](/classes/Instance/)
 other `Instance`
 
 #### Return type
-`Boolean`
+`boolean`
 
 ### Example
 ```lua

@@ -1,6 +1,6 @@
 # Value
 ### Description
-Property description
+The value of this object.
 
 Property of [Vector3Value](/classes/Vector3Value/)
 
@@ -9,5 +9,5 @@ Property of [Vector3Value](/classes/Vector3Value/)
 
 ### Example
 ```lua
-print("Example code")
+vecValue.Value = Vector3.New(5, 123, 10)
 ```

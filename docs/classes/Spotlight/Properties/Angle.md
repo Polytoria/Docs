@@ -5,7 +5,7 @@ Property description
 Property of [Spotlight](/classes/Spotlight/)
 
 #### Type
-`Single`
+`number`
 
 ### Example
 ```lua

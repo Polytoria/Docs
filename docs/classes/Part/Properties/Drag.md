@@ -1,13 +1,13 @@
 # Drag
 ### Description
-Property description
+Drag (air resistance) of this part.
 
 Property of [Part](/classes/Part/)
 
 #### Type
-`Single`
+`number`
 
 ### Example
 ```lua
-print("Example code")
+part.Drag = 2
 ```

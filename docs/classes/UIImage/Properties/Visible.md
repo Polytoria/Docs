@@ -5,7 +5,7 @@ Property description
 Property of [UIImage](/classes/UIImage/)
 
 #### Type
-`Boolean`
+`boolean`
 
 ### Example
 ```lua

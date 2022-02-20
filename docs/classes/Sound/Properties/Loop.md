@@ -5,7 +5,7 @@ Determines whether the sound should loop or not.
 Property of [Sound](/classes/Sound/)
 
 #### Type
-`Boolean`
+`boolean`
 
 ### Example
 ```lua

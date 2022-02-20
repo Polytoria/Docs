@@ -1,6 +1,6 @@
 # TargetPosition
 ### Description
-Property description
+The target position to move the body towards.
 
 Property of [BodyPosition](/classes/BodyPosition/)
 
@@ -9,5 +9,5 @@ Property of [BodyPosition](/classes/BodyPosition/)
 
 ### Example
 ```lua
-print("Example code")
+bodyPosition.TargetPosition = Vector3.New(0, 50, 0)
 ```

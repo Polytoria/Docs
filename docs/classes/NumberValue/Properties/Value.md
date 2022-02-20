@@ -1,13 +1,13 @@
 # Value
 ### Description
-Property description
+The value of this object.
 
 Property of [NumberValue](/classes/NumberValue/)
 
 #### Type
-`Single`
+`number`
 
 ### Example
 ```lua
-print("Example code")
+numberValue.Value = 1.5
 ```

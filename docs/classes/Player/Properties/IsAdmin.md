@@ -1,13 +1,15 @@
 # IsAdmin
 ### Description
-Property description
+Returns true if the player is a Polytoria staff member.
 
 Property of [Player](/classes/Player/)
 
 #### Type
-`Boolean`
+`boolean`
 
 ### Example
 ```lua
-print("Example code")
+if player.IsAdmin then
+    print(player.Name .. " is very cool!")
+end
 ```

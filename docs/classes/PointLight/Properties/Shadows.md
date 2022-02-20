@@ -5,7 +5,7 @@ Specifies whether this light emits shadows or not.
 Property of [PointLight](/classes/PointLight/)
 
 #### Type
-`Boolean`
+`boolean`
 
 ### Example
 ```lua

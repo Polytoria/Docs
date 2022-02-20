@@ -1,13 +1,13 @@
 # UseGravity
 ### Description
-Property description
+Determines whether this part is affected by gravity or not.
 
 Property of [Part](/classes/Part/)
 
 #### Type
-`Boolean`
+`boolean`
 
 ### Example
 ```lua
-print("Example code")
+part.UseGravity = false
 ```

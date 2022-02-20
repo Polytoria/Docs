@@ -1,13 +1,13 @@
 # Force
 ### Description
-Property description
+The amount of force to apply to the body to move it towards the target position.
 
 Property of [BodyPosition](/classes/BodyPosition/)
 
 #### Type
-`Single`
+`number`
 
 ### Example
 ```lua
-print("Example code")
+bodyPosition.Force = 100
 ```

@@ -1,6 +1,6 @@
 # Gravity
 ### Description
-Property description
+Determines the constant force to apply to all physics-based objects in the world.
 
 Property of [Environment](/classes/Environment/)
 
@@ -9,5 +9,5 @@ Property of [Environment](/classes/Environment/)
 
 ### Example
 ```lua
-print("Example code")
+game["Environment"].Gravity = Vector3.New(0, -75, 0) -- Default gravity value.
 ```

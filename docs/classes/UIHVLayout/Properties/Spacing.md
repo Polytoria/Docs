@@ -5,7 +5,7 @@ Property description
 Property of [UIHVLayout](/classes/UIHVLayout/)
 
 #### Type
-`Single`
+`number`
 
 ### Example
 ```lua

@@ -1,13 +1,13 @@
 # Value
 ### Description
-Property description
+The value of this object.
 
 Property of [BoolValue](/classes/BoolValue/)
 
 #### Type
-`Boolean`
+`boolean`
 
 ### Example
 ```lua
-print("Example code")
+boolValue.Value = true
 ```

@@ -1,6 +1,6 @@
 # Value
 ### Description
-Property description
+The value of this object.
 
 Property of [IntValue](/classes/IntValue/)
 
@@ -9,5 +9,5 @@ Property of [IntValue](/classes/IntValue/)
 
 ### Example
 ```lua
-print("Example code")
+intValue.Value = 10
 ```

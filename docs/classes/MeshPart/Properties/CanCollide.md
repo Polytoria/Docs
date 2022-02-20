@@ -5,7 +5,7 @@ Property description
 Property of [MeshPart](/classes/MeshPart/)
 
 #### Type
-`Boolean`
+`boolean`
 
 ### Example
 ```lua

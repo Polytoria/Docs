@@ -1,6 +1,6 @@
 # Value
 ### Description
-Property description
+The value of this object.
 
 Property of [StringValue](/classes/StringValue/)
 
@@ -9,5 +9,5 @@ Property of [StringValue](/classes/StringValue/)
 
 ### Example
 ```lua
-print("Example code")
+stringValue.Value = "Hello, world!"
 ```

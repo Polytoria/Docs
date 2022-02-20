@@ -1,13 +1,13 @@
 # PlayerCollisionEnabled
 ### Description
-Property description
+Determines whether collisions between players are enabled.
 
 Property of [Players](/classes/Players/)
 
 #### Type
-`Boolean`
+`boolean`
 
 ### Example
 ```lua
-print("Example code")
+game["Players"].PlayerCollisionEnabled = false
 ```

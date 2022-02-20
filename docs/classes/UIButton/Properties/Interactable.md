@@ -5,7 +5,7 @@ Property description
 Property of [UIButton](/classes/UIButton/)
 
 #### Type
-`Boolean`
+`boolean`
 
 ### Example
 ```lua

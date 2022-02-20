@@ -1,13 +1,15 @@
 # IsCreator
 ### Description
-Property description
+Returns true if the user is the owner of this game.
 
 Property of [Player](/classes/Player/)
 
 #### Type
-`Boolean`
+`boolean`
 
 ### Example
 ```lua
-print("Example code")
+if player.IsAdmin then
+    print(player.Name .. " is the creator of this place!")
+end
 ```

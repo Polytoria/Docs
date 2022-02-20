@@ -5,7 +5,7 @@ Tells if the sound is currently playing.
 Property of [Sound](/classes/Sound/)
 
 #### Type
-`Boolean`
+`boolean`
 
 ### Example
 ```lua

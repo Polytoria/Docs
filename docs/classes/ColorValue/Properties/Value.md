@@ -1,6 +1,6 @@
 # Value
 ### Description
-Property description
+The value of this object.
 
 Property of [ColorValue](/classes/ColorValue/)
 
@@ -9,5 +9,5 @@ Property of [ColorValue](/classes/ColorValue/)
 
 ### Example
 ```lua
-print("Example code")
+colorValue.Value = Color.New(1, 1, 1, 1)
 ```

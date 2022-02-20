@@ -1,13 +1,12 @@
 # Changed
 ### Description
-Event description
+Gets invoked when the value of this object changes.
 
 Event of [ValueBase](/classes/ValueBase/)
 
-#### Returns
-What does it return
-
 ### Example
 ```lua
-print("Example code")
+boolValue.Changed:Connect(function()
+    print("My new value is " .. boolValue.Value)
+end)
 ```

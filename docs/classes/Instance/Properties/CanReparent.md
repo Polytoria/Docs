@@ -5,7 +5,7 @@ Returns whether this instance can be reparented/deleted or not.
 Property of [Instance](/classes/Instance/)
 
 #### Type
-`Boolean`
+`boolean`
 
 ### Example
 ```lua

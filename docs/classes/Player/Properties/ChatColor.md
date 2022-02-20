@@ -1,6 +1,6 @@
 # ChatColor
 ### Description
-Property description
+Determines the color of the Player's name in the chat.
 
 Property of [Player](/classes/Player/)
 
@@ -9,5 +9,5 @@ Property of [Player](/classes/Player/)
 
 ### Example
 ```lua
-print("Example code")
+game["Players"]["willemsteller"].ChatColor = Color.new(0, 1, 0)
 ```

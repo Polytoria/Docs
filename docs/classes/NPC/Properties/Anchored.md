@@ -1,13 +1,13 @@
 # Anchored
 ### Description
-Property description
+Determines whether this NPC is affected by physics or not.
 
 Property of [NPC](/classes/NPC/)
 
 #### Type
-`Boolean`
+`boolean`
 
 ### Example
 ```lua
-print("Example code")
+npc.Anchored = true
 ```

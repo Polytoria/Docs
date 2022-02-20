@@ -1,13 +1,13 @@
 # AngularDrag
 ### Description
-Property description
+Angular drag (air resistance) of this part.
 
 Property of [Part](/classes/Part/)
 
 #### Type
-`Single`
+`number`
 
 ### Example
 ```lua
-print("Example code")
+part.AngularDrag = 2
 ```

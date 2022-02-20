@@ -1,13 +1,13 @@
 # AcceptanceDistance
 ### Description
-Property description
+AcceptanceDistance defines how close the body has to be to the target to stop applying forces to it.
 
 Property of [BodyPosition](/classes/BodyPosition/)
 
 #### Type
-`Single`
+`number`
 
 ### Example
 ```lua
-print("Example code")
+bodyPosition.AcceptanceDistance = 5
 ```
