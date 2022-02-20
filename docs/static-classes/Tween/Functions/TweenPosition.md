@@ -2,7 +2,7 @@
 ### Description
 Tweens the position of a DynamicInstance
 
-Function of [TweenService](../../)
+Function of [Tween](../../)
 
 #### Parameters
 Target `DynamicInstance`  
@@ -13,7 +13,7 @@ Callback `function`
 
 ### Example
 ```lua
-TweenService:TweenPosition(part, Vector3.New(100, 0, 0), 100, TweenType.linear, function() 
+Tween:TweenPosition(part, Vector3.New(100, 0, 0), 100, TweenType.linear, function() 
     print("I have arrived!")
 end)
 ```

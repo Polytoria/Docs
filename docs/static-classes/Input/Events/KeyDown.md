@@ -2,14 +2,14 @@
 ### Description
 Gets triggered when a key was pressed.
 
-Event of [InputService](/static-classes/InputService/)
+Event of [Input](/static-classes/Input/)
 
 #### Returns
 `string`
 
 ### Example
 ```lua
-InputService.KeyDown:Connect(function (key)
+Input.KeyDown:Connect(function (key)
     print(key .. " was pressed!")
 
     if key == "P" then

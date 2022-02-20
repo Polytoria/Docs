@@ -2,14 +2,14 @@
 ### Description
 Gets triggered when a key was released.
 
-Event of [InputService](/static-classes/InputService/)
+Event of [Input](/static-classes/Input/)
 
 #### Returns
 `string`
 
 ### Example
 ```lua
-InputService.KeyUp:Connect(function (key)
+Input.KeyUp:Connect(function (key)
     print(key .. " was released!")
 
     if key == "P" then

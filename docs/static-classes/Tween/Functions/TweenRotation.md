@@ -2,7 +2,7 @@
 ### Description
 Tweens the rotation of a DynamicInstance
 
-Function of [TweenService](../../)
+Function of [Tween](../../)
 
 #### Parameters
 Target `DynamicInstance`  
@@ -13,7 +13,7 @@ Callback `function`
 
 ### Example
 ```lua
-TweenService:TweenRotation(part, Vector3.New(0, 90, 0), 1, TweenType.linear, function() 
+Tween:TweenRotation(part, Vector3.New(0, 90, 0), 1, TweenType.linear, function() 
     print("Rotating finished")
 end)
 ```

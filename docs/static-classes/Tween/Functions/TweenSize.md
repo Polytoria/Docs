@@ -2,7 +2,7 @@
 ### Description
 Tweens the size of a DynamicInstance
 
-Function of [TweenService](../../)
+Function of [Tween](../../)
 
 #### Parameters
 Target `DynamicInstance`  
@@ -13,7 +13,7 @@ Callback `function`
 
 ### Example
 ```lua
-TweenService:TweenSize(part, Vector3.New(5, 5, 5), 1, TweenType.linear, function() 
+Tween:TweenSize(part, Vector3.New(5, 5, 5), 1, TweenType.linear, function() 
     print("Sizing finished")
 end)
 ```
