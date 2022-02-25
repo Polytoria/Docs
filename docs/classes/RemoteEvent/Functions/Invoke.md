@@ -5,6 +5,7 @@ Invokes the event.
 Function of [RemoteEvent](/classes/RemoteEvent/)
 
 #### Parameters
+Player `Player`
 Parameter `object`
 
 #### Return type
@@ -12,5 +13,5 @@ Parameter `object`
 
 ### Example
 ```lua
-event.Invoke(Vector3.New(0, 100, 0))
+event.Invoke(game["Players"]["willemsteller"],Vector3.New(0, 100, 0))
 ```
