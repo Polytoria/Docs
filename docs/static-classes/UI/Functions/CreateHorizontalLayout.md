@@ -1,13 +1,13 @@
-# CreateVerticalLayout
+# CreateHorizontalLayout
 ### Description
 Creates a horizontal UI layout.
 
 Function of [UI](../../)
 
 #### Return type
-`UIVerticalLayout`
+`UIHorizontalLayout`
 
 ### Example
 ```lua
-local layout = UI:CreateVerticalLayout()
+local layout = UI:CreateHorizontalLayout()
 ```
