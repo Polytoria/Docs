@@ -1,6 +1,6 @@
 # Get
 ### Description
-Send a HTTP GET request to specific URL
+Sends a GET request to the specified url.
 
 Function of [Http](../../)
 

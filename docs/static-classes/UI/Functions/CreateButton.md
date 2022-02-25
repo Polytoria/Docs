@@ -1,6 +1,6 @@
 # CreateButton
 ### Description
-Create a GUI Button
+Creates a GUI Button
 
 Function of [UI](../../)
 
@@ -9,7 +9,7 @@ Function of [UI](../../)
 
 ### Example
 ```lua
-local Button = UI:CreateButton()
-Button.Size = Vector2.New(200,100)
-Button:ApplyAnchorPreset(AnchorPreset.Center)
+local button = UI:CreateButton()
+button.Size = Vector2.New(200,100)
+button:ApplyAnchorPreset(AnchorPreset.Center)
 ```

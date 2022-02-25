@@ -1,6 +1,6 @@
 # CreateHorizontalLayout
 ### Description
-Create a GUI Horizontal Layout
+Creates a horizontal UI layout.
 
 Function of [UI](../../)
 
@@ -9,5 +9,5 @@ Function of [UI](../../)
 
 ### Example
 ```lua
-local Container = UI:CreateHorizontalLayout()
+local layout = UI:CreateHorizontalLayout()
 ```

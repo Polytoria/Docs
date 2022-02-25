@@ -1,6 +1,6 @@
 # CreateImage
 ### Description
-Create a GUI Image
+Creates an UI image.
 
 Function of [UI](../../)
 
@@ -9,8 +9,8 @@ Function of [UI](../../)
 
 ### Example
 ```lua
-local CoolImage = UI:CreateImage()
-CoolImage.ImageID = 12384
-CoolImage.ApplyAnchorPreset(AnchorPreset.Center)
-CoolImage.Size = Vector2.New(200,200)
+local image = UI:CreateImage()
+image.ImageID = 12384
+image.ApplyAnchorPreset(AnchorPreset.Center)
+image.Size = Vector2.New(200,200)
 ```

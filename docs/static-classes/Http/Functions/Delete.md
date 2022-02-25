@@ -1,6 +1,6 @@
 # Delete
 ### Description
-Send a HTTP DELETE request to specific URL
+Sends a DELETE request to the specified url.
 
 Function of [Http](../../)
 
@@ -14,8 +14,7 @@ callback `DynValue, default = nil`
 
 ### Example
 ```lua
--- Delete your Discord Webhook message
-Http:Delete("https://discord.com/api/webhooks/.../messages/...", "" , function (data, error, errmsg)
+Http:Delete("https://example.com/api/delete", "id=1" , function (data, error, errmsg)
     if not error then
         script.Parent.Color = Color.New(1, 1, 1)
         script.Parent.Text = data
@@ -27,4 +26,4 @@ end)
 ```
 
 #### Note
-- Params are in query form, Example: key1=value&key2=value
+- Params are in query form (key1=value&key2=value)

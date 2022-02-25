@@ -1,23 +1,19 @@
 # CreateLabel
 ### Description
-Create a GUI Text
+Creates a text label.
 
 Function of [UI](../../)
 
 #### Parameters
-Text `string`  
+Text `string` (default = "")
 
 #### Return type
 `UILabel`
 
 ### Example
 ```lua
-local Text = UI:CreateLabel()
-Text.ApplyAnchorPreset(AnchorPreset.Center)
-Text.Size = Vector2.New(200,200)
-
-for i = 10, 0, 1 do
-    Text.Text = i
-end
-Text.Text = "😁 Hi!"
+local text = UI:CreateLabel()
+text.ApplyAnchorPreset(AnchorPreset.Center)
+text.Size = Vector2.New(200, 32)
+text.Text = "Hello, world!"
 ```

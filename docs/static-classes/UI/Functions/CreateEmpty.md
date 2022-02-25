@@ -1,6 +1,6 @@
 # CreateEmpty
 ### Description
-Create a GUI Empty Container
+Creates an empty UI element
 
 Function of [UI](../../)
 
@@ -9,5 +9,5 @@ Function of [UI](../../)
 
 ### Example
 ```lua
-local Container = UI:CreateEmpty()
+local empty = UI:CreateEmpty()
 ```

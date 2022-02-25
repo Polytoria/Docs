@@ -1,6 +1,6 @@
 # TweenColor
 ### Description
-Tweens the color
+Tweens a color between two specified values.
 
 Function of [Tween](../../)
 
@@ -16,7 +16,7 @@ Callback `function`
 ```lua
 Tween:TweenColor(Color.New(1,1,1,1), Color.New(1,1,1,0), 5, function(val) 
     part.Color = val
-end, TweenType.linear,function()
-    print("I just faded!")
+end, TweenType.linear, function()
+    print("Tween finished")
 end)
 ```

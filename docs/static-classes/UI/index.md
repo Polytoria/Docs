@@ -1,2 +1,2 @@
 # UI
-UI is a class to make GUIs
+UI is a static class used for creating User Interface elements through LocalScripts. While it is possible to create UI elements in normal scripts, it will only work in local playtesting and not on server.

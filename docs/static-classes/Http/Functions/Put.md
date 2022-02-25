@@ -1,6 +1,6 @@
 # Put
 ### Description
-Send a HTTP PUT request to specific URL
+Sends a PUT request to the specified URL
 
 Function of [Http](../../)
 
@@ -14,7 +14,7 @@ callback `DynValue, default = nil`
 
 ### Example
 ```lua
-Http:Put("https://example.com", "" , function (data, error, errmsg)
+Http:Put("https://example.com", "id=1&content=Hello" , function (data, error, errmsg)
     if not error then
         script.Parent.Color = Color.New(1, 1, 1)
         script.Parent.Text = data
@@ -26,4 +26,4 @@ end)
 ```
 
 #### Note
-- Params are in query form, Example: key1=value&key2=value
+- Params are in query form (key1=value&key2=value)

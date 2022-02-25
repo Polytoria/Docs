@@ -1,6 +1,6 @@
 # CreateVerticalLayout
 ### Description
-Create a GUI Vertical Layout
+Creates a horizontal UI layout.
 
 Function of [UI](../../)
 
@@ -9,5 +9,5 @@ Function of [UI](../../)
 
 ### Example
 ```lua
-local Container = UI:CreateVerticalLayout()
+local layout = UI:CreateVerticalLayout()
 ```
