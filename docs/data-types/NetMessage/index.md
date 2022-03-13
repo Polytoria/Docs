@@ -12,7 +12,7 @@ NetMessage is a data type used for transporting data between client and server.
 |---|
 |Sets a string value.|
 
-|`void` NetMessage.GetString(`string` key)|
+|`string` NetMessage.GetString(`string` key)|
 |---|
 |Gets a string value.|
 
@@ -20,7 +20,7 @@ NetMessage is a data type used for transporting data between client and server.
 |---|
 |Sets an int value.|
 
-|`void` NetMessage.GetInt(`string` key)|
+|`int` NetMessage.GetInt(`string` key)|
 |---|
 |Gets an int value.|
 
@@ -28,7 +28,7 @@ NetMessage is a data type used for transporting data between client and server.
 |---|
 |Sets a number value.|
 
-|`void` NetMessage.GetNumber(`string` key)|
+|`number` NetMessage.GetNumber(`string` key)|
 |---|
 |Gets a number value.|
 
@@ -36,7 +36,7 @@ NetMessage is a data type used for transporting data between client and server.
 |---|
 |Sets a boolean value.|
 
-|`void` NetMessage.GetBool(`string` key)|
+|`bool` NetMessage.GetBool(`string` key)|
 |---|
 |Gets a boolean value.|
 
@@ -44,7 +44,7 @@ NetMessage is a data type used for transporting data between client and server.
 |---|
 |Sets a Vector2 value.|
 
-|`void` NetMessage.GetVector2(`string` key)|
+|`Vector2` NetMessage.GetVector2(`string` key)|
 |---|
 |Gets a Vector2 value.|
 
@@ -52,7 +52,7 @@ NetMessage is a data type used for transporting data between client and server.
 |---|
 |Sets a Vector3 value.|
 
-|`void` NetMessage.GetVector3(`string` key)|
+|`Vector3` NetMessage.GetVector3(`string` key)|
 |---|
 |Gets a Vector3 value.|
 
@@ -60,7 +60,7 @@ NetMessage is a data type used for transporting data between client and server.
 |---|
 |Sets a Color value.|
 
-|`void` NetMessage.GetColor(`string` key)|
+|`Color` NetMessage.GetColor(`string` key)|
 |---|
 |Gets a Color value.|
 
@@ -68,7 +68,7 @@ NetMessage is a data type used for transporting data between client and server.
 |---|
 |Sets an Instance value.|
 
-|`void` NetMessage.GetInstance(`string` key)|
+|`Instance` NetMessage.GetInstance(`string` key)|
 |---|
 |Gets an Instance value.|
 

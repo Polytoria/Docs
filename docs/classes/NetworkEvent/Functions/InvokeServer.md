@@ -1,4 +1,4 @@
-# InvokeClient
+# InvokeServer
 ### Description
 Sends a NetMessage from the client to the server. Can only be called from client.
 

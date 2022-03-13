@@ -1,4 +1,4 @@
-# InvokeClient
+# InvokeClients
 ### Description
 Sends a NetMessage from the server to all players. Can only be called from server.
 
