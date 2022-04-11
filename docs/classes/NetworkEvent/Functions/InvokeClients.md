@@ -14,5 +14,5 @@ msg `NetMessage`
 ```lua
 local message = NetMessage.New()
 message.AddString("key", "value")
-netEvent.InvokeClients(msg)
+netEvent.InvokeClients(message)
 ```
