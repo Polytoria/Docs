@@ -15,5 +15,5 @@ player `Player`
 ```lua
 local message = NetMessage.New()
 message.AddString("key", "value")
-netEvent.InvokeClient(msg, game["Players"]["willemsteller"])
+netEvent.InvokeClient(message, game["Players"]["willemsteller"])
 ```

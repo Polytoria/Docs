@@ -1,6 +1,6 @@
 # Invoke
 ### Description
-Invokes the event.
+Invokes the event. Can only be called from client.
 
 Function of [RemoteEvent](/classes/RemoteEvent/)
 

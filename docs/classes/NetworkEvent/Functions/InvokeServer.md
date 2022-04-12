@@ -15,5 +15,5 @@ player `Player`
 ```lua
 local message = NetMessage.New()
 message.AddString("key", "value")
-netEvent.InvokeServer(msg)
+netEvent.InvokeServer(message)
 ```
