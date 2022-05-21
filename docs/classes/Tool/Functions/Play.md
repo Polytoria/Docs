@@ -14,3 +14,10 @@ anim `String`
 ```lua
 tool:Play("slash")
 ```
+
+### Animation List
+```
+slash (Sword Animation)
+eat (Eating Animation)
+drink (Drinking Animation)
+```
