@@ -1,4 +1,4 @@
-# Position
+# IsFirstPerson
 `readonly`
 ### Description
 Returns whether the camera is currently in first person mode.
