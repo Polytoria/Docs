@@ -11,3 +11,10 @@ Property of [Camera](../../)
 ```lua
 Camera.Mode = CameraMode.Scripted
 ```
+
+### Modes List
+```
+Scripted (Scripted Camera Movement)
+FollowPlayer (Default Camera)
+Free (Free Camera Movement)
+```
