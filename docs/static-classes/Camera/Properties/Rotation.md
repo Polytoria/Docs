@@ -1,4 +1,4 @@
-# Position
+# Rotation
 ### Description
 The rotation of the camera.
 
