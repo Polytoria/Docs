@@ -1,13 +1,13 @@
 # Respawned
 ### Description
-Event description
+Gets triggered when the player respawns.
 
 Event of [Player](/classes/Player/)
 
-#### Returns
-What does it return
 
 ### Example
 ```lua
-print("Example code")
+game["Players"]["willemsteller"].Respawned:Connect(function ()
+    print("Player has respawned!")
+end)
 ```
