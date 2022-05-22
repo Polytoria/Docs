@@ -7,7 +7,7 @@ Function of [Http](../../)
 #### Parameters
 url `String`
 callback `DynValue, default = nil`
-
+header `Table`
 #### Return type
 `Void`
 
