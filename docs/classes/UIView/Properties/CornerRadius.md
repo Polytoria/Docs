@@ -1,6 +1,6 @@
 # CornerRadius
 ### Description
-Property description
+Corner radius of the ui.
 
 Property of [UIView](/classes/UIView/)
 
@@ -9,5 +9,5 @@ Property of [UIView](/classes/UIView/)
 
 ### Example
 ```lua
-print("Example code")
+element.CornerRadius = 10
 ```

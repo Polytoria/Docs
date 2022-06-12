@@ -1,6 +1,6 @@
 # PaddingLeft
 ### Description
-Property description
+Specifies the left padding of a UIHVLayout.
 
 Property of [UIHVLayout](/classes/UIHVLayout/)
 
@@ -9,5 +9,5 @@ Property of [UIHVLayout](/classes/UIHVLayout/)
 
 ### Example
 ```lua
-print("Example code")
+layout.PaddingLeft = 10
 ```

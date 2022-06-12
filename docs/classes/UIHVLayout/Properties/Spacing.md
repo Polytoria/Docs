@@ -1,6 +1,6 @@
 # Spacing
 ### Description
-Property description
+Specifies the spacing between child.
 
 Property of [UIHVLayout](/classes/UIHVLayout/)
 
@@ -9,5 +9,5 @@ Property of [UIHVLayout](/classes/UIHVLayout/)
 
 ### Example
 ```lua
-print("Example code")
+layout.Spacing = 10
 ```

@@ -1,6 +1,6 @@
 # JustifyText
 ### Description
-Property description
+Determines how the text is justified.
 
 Property of [UITextInput](/classes/UITextInput/)
 
@@ -9,5 +9,5 @@ Property of [UITextInput](/classes/UITextInput/)
 
 ### Example
 ```lua
-print("Example code")
+element.JustifyText = TextJustify.Center
 ```

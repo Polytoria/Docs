@@ -1,6 +1,6 @@
 # IsReadOnly
 ### Description
-Property description
+Set if the text input can be edited or not.
 
 Property of [UITextInput](/classes/UITextInput/)
 
@@ -9,5 +9,5 @@ Property of [UITextInput](/classes/UITextInput/)
 
 ### Example
 ```lua
-print("Example code")
+element.IsReadOnly = true
 ```

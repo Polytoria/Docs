@@ -1,6 +1,6 @@
 # AngularVelocity
 ### Description
-Property description
+Specifies the angular velocity of a part.
 
 Property of [MeshPart](/classes/MeshPart/)
 
@@ -9,5 +9,5 @@ Property of [MeshPart](/classes/MeshPart/)
 
 ### Example
 ```lua
-print("Example code")
+part.AngularVelocity = Vector3.new(0, 0, 0)
 ```

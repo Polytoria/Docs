@@ -1,6 +1,6 @@
 # Color
 ### Description
-Property description
+Specifies the color of the image.
 
 Property of [UIImage](/classes/UIImage/)
 
@@ -9,5 +9,5 @@ Property of [UIImage](/classes/UIImage/)
 
 ### Example
 ```lua
-print("Example code")
+image.Color = Color.new(1, 0, 0)
 ```

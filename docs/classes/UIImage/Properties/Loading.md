@@ -1,6 +1,6 @@
 # Loading
 ### Description
-Property description
+True if the image is loading.
 
 Property of [UIImage](/classes/UIImage/)
 
@@ -9,5 +9,8 @@ Property of [UIImage](/classes/UIImage/)
 
 ### Example
 ```lua
-print("Example code")
+while image.Loading do
+    wait(0)
+end
+print("Image loaded")
 ```

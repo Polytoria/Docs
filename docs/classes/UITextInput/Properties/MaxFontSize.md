@@ -1,6 +1,6 @@
 # MaxFontSize
 ### Description
-Property description
+The maximum font size of the UI element if AutoSize is set to true.
 
 Property of [UITextInput](/classes/UITextInput/)
 
@@ -9,5 +9,5 @@ Property of [UITextInput](/classes/UITextInput/)
 
 ### Example
 ```lua
-print("Example code")
+element.MaxFontSize = 16
 ```

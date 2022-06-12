@@ -1,6 +1,6 @@
 # AssetID
 ### Description
-Property description
+The asset id of the mesh part.
 
 Property of [MeshPart](/classes/MeshPart/)
 
@@ -9,5 +9,5 @@ Property of [MeshPart](/classes/MeshPart/)
 
 ### Example
 ```lua
-print("Example code")
+part.AssetID = 14467
 ```

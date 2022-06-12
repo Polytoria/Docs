@@ -1,6 +1,6 @@
 # ChildScaleHeight
 ### Description
-Property description
+Specifies the height of the child.
 
 Property of [UIHVLayout](/classes/UIHVLayout/)
 
@@ -9,5 +9,5 @@ Property of [UIHVLayout](/classes/UIHVLayout/)
 
 ### Example
 ```lua
-print("Example code")
+layout.ChildScaleHeight = false
 ```

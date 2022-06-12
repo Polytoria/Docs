@@ -1,6 +1,6 @@
 # Font
 ### Description
-Property description
+The font of the label.
 
 Property of [UITextInput](/classes/UITextInput/)
 
@@ -9,5 +9,5 @@ Property of [UITextInput](/classes/UITextInput/)
 
 ### Example
 ```lua
-print("Example code")
+element.Font = TextFontPreset.Montserrat
 ```

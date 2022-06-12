@@ -1,6 +1,6 @@
 # Shape
 ### Description
-Property description
+Specifies the shape of a part.
 
 Property of [MeshPart](/classes/MeshPart/)
 
@@ -9,5 +9,5 @@ Property of [MeshPart](/classes/MeshPart/)
 
 ### Example
 ```lua
-print("Example code")
+part.Shape = PartShape.Wedge
 ```

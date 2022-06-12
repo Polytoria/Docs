@@ -1,6 +1,6 @@
 # Material
 ### Description
-Property description
+Specifies the material of the part.
 
 Property of [MeshPart](/classes/MeshPart/)
 
@@ -9,5 +9,5 @@ Property of [MeshPart](/classes/MeshPart/)
 
 ### Example
 ```lua
-print("Example code")
+part.Material = PartMaterial.Concrete
 ```

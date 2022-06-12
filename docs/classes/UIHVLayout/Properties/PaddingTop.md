@@ -1,6 +1,6 @@
 # PaddingTop
 ### Description
-Property description
+Specifies the top padding of the UIHVLayout.
 
 Property of [UIHVLayout](/classes/UIHVLayout/)
 
@@ -9,5 +9,5 @@ Property of [UIHVLayout](/classes/UIHVLayout/)
 
 ### Example
 ```lua
-print("Example code")
+layout.PaddingTop = 10
 ```
