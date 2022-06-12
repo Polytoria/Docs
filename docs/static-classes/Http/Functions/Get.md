@@ -7,7 +7,7 @@ Function of [Http](../../)
 #### Parameters
 url `String`
 callback `DynValue, default = nil`
-
+header `Table`
 #### Return type
 `Void`
 
@@ -21,5 +21,5 @@ Http:Get("https://api.polytoria.com/v1/asset/owner?userID=1&assetID=234", functi
         script.Parent.Color = Color.New(1, 0, 0)
         script.Parent.Text = errmsg
     end
-end)
+end,{})
 ```

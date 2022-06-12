@@ -1,6 +1,6 @@
 # FontSize
 ### Description
-Property description
+The font size of the label.
 
 Property of [UILabel](/classes/UILabel/)
 
@@ -9,5 +9,5 @@ Property of [UILabel](/classes/UILabel/)
 
 ### Example
 ```lua
-print("Example code")
+element.FontSize = 16
 ```

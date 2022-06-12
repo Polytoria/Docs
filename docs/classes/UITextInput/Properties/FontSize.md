@@ -1,11 +1,11 @@
-# Visible
+# FontSize
 ### Description
 Property description
 
-Property of [UILabel](/classes/UILabel/)
+Property of [UITextInput](/classes/UITextInput/)
 
 #### Type
-`boolean`
+`Single`
 
 ### Example
 ```lua
