@@ -1,6 +1,6 @@
 # FontSize
 ### Description
-Property description
+The font size of the label.
 
 Property of [UITextInput](/classes/UITextInput/)
 
@@ -9,5 +9,5 @@ Property of [UITextInput](/classes/UITextInput/)
 
 ### Example
 ```lua
-print("Example code")
+element.FontSize = 20
 ```

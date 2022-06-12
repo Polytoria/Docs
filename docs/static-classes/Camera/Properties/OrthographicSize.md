@@ -9,7 +9,5 @@ Property of [Camera](../../)
 
 ### Example
 ```lua
-Camera.Ortographic = 30
+Camera.Orthographic = 30
 ```
-#### Note
-- Orthographic is misspelled as ortographic and will be updated in the next version.

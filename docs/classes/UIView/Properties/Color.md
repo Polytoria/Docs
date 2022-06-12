@@ -1,6 +1,6 @@
 # Color
 ### Description
-Property description
+The color of the ui.
 
 Property of [UIView](/classes/UIView/)
 
@@ -9,5 +9,5 @@ Property of [UIView](/classes/UIView/)
 
 ### Example
 ```lua
-print("Example code")
+element.Color = Color.New(0, 0, 0, 1)
 ```

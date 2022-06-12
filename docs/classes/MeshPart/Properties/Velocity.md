@@ -1,6 +1,6 @@
 # Velocity
 ### Description
-Property description
+Specifies the velocity of a part.
 
 Property of [MeshPart](/classes/MeshPart/)
 
@@ -9,5 +9,5 @@ Property of [MeshPart](/classes/MeshPart/)
 
 ### Example
 ```lua
-print("Example code")
+part.Velocity = Vector3.new(0, 100, 0)
 ```

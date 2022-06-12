@@ -1,6 +1,6 @@
 # Anchored
 ### Description
-Property description
+Specifies whether the part is to be affected by physics or not.
 
 Property of [MeshPart](/classes/MeshPart/)
 
@@ -9,5 +9,5 @@ Property of [MeshPart](/classes/MeshPart/)
 
 ### Example
 ```lua
-print("Example code")
+part.Anchored = false
 ```

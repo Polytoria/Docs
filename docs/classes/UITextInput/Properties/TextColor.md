@@ -1,6 +1,6 @@
 # TextColor
 ### Description
-Property description
+The color of the text.
 
 Property of [UITextInput](/classes/UITextInput/)
 
@@ -9,5 +9,5 @@ Property of [UITextInput](/classes/UITextInput/)
 
 ### Example
 ```lua
-print("Example code")
+element.TextColor = Color.New(0, 0, 0, 1)
 ```

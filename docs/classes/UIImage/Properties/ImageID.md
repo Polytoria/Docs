@@ -1,6 +1,6 @@
 # ImageID
 ### Description
-Property description
+Specifies the image ID of the UIImage.
 
 Property of [UIImage](/classes/UIImage/)
 
@@ -9,5 +9,5 @@ Property of [UIImage](/classes/UIImage/)
 
 ### Example
 ```lua
-print("Example code")
+image.ImageID = 12274
 ```

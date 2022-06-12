@@ -1,6 +1,6 @@
 # Loading
 ### Description
-Property description
+True if the mesh is loading.
 
 Property of [MeshPart](/classes/MeshPart/)
 
@@ -9,5 +9,8 @@ Property of [MeshPart](/classes/MeshPart/)
 
 ### Example
 ```lua
-print("Example code")
+while part.Loading do
+    wait()
+end
+print("Mesh loaded")
 ```

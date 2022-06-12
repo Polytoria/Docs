@@ -1,6 +1,6 @@
 # BorderColor
 ### Description
-Property description
+The border color of the ui.
 
 Property of [UIView](/classes/UIView/)
 
@@ -9,5 +9,5 @@ Property of [UIView](/classes/UIView/)
 
 ### Example
 ```lua
-print("Example code")
+element.BorderColor = Color.New(1, 0, 0, 1)
 ```

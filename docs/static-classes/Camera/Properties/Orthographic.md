@@ -1,4 +1,4 @@
-# Ortographic
+# Orthographic
 ### Description
 Returns whether the camera should render in orthographic (2D) mode or not (3D).
 
@@ -9,7 +9,5 @@ Property of [Camera](../../)
 
 ### Example
 ```lua
-Camera.Ortographic = true
+Camera.Orthographic = true
 ```
-#### Note
-- Orthographic is misspelled as ortographic and will be updated in the next version.

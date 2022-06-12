@@ -1,6 +1,6 @@
 # Mass
 ### Description
-Property description
+Specifies the mass of a part in kilograms.
 
 Property of [MeshPart](/classes/MeshPart/)
 
@@ -9,5 +9,5 @@ Property of [MeshPart](/classes/MeshPart/)
 
 ### Example
 ```lua
-print("Example code")
+part.Mass = 0
 ```

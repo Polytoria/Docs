@@ -1,6 +1,6 @@
 # ChildForceExpandHeight
 ### Description
-Property description
+Specifies whether the should expand to the height of the parent.
 
 Property of [UIHVLayout](/classes/UIHVLayout/)
 
@@ -9,5 +9,5 @@ Property of [UIHVLayout](/classes/UIHVLayout/)
 
 ### Example
 ```lua
-print("Example code")
+layout.ChildForceExpandHeight = false
 ```

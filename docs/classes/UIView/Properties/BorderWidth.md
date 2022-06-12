@@ -1,6 +1,6 @@
 # BorderWidth
 ### Description
-Property description
+The border width of the ui.
 
 Property of [UIView](/classes/UIView/)
 
@@ -9,5 +9,5 @@ Property of [UIView](/classes/UIView/)
 
 ### Example
 ```lua
-print("Example code")
+element.BorderWidth = 10
 ```

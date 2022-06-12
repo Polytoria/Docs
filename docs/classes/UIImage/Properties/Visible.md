@@ -1,6 +1,6 @@
 # Visible
 ### Description
-Property description
+Specifies if the image is visible.
 
 Property of [UIImage](/classes/UIImage/)
 
@@ -9,5 +9,5 @@ Property of [UIImage](/classes/UIImage/)
 
 ### Example
 ```lua
-print("Example code")
+image.Visible = false
 ```

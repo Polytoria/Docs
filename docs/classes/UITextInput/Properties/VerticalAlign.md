@@ -1,6 +1,6 @@
 # VerticalAlign
 ### Description
-Property description
+The vertical alignment of the text.
 
 Property of [UITextInput](/classes/UITextInput/)
 
@@ -9,5 +9,5 @@ Property of [UITextInput](/classes/UITextInput/)
 
 ### Example
 ```lua
-print("Example code")
+element.VerticalAlign = TextVerticalAlign.Middle
 ```

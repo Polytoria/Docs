@@ -1,3 +1,3 @@
 # UIButton
 
-Inherited from [UIImage](../UIImage)
+Inherited from [UILabel](../UILabel)

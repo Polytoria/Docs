@@ -1,4 +1,7 @@
 # CreateButton
+
+<div class="alert alert-danger">Removed in version 1.2.0</div>
+
 ### Description
 Creates a GUI Button
 

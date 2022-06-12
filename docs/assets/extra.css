@@ -5,3 +5,24 @@
 [dir=rtl] .md-header__title {
 	margin-right: initial;
 }
+
+.alert {
+	padding: 0.5rem;
+	border-radius: 0.25rem;
+	margin-bottom: 1rem;
+}
+
+.alert-danger {
+	background-color: #e63757;
+	color: #fff;
+}
+
+.alert-warning {
+	background-color: #f9a825;
+	color: #fff;
+}
+
+.alert-info {
+	background-color: #00a0d2;
+	color: #fff;
+}

@@ -1,6 +1,6 @@
 # AutoSize
 ### Description
-
+Whether the text should be automatically sized to fit the label's size.
 
 Property of [UITextInput](/classes/UITextInput/)
 
@@ -9,5 +9,5 @@ Property of [UITextInput](/classes/UITextInput/)
 
 ### Example
 ```lua
-print("Example code")
+element.AutoSize = true
 ```

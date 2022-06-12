@@ -1,6 +1,6 @@
 # Placeholder
 ### Description
-Property description
+The placeholder of the text input.
 
 Property of [UITextInput](/classes/UITextInput/)
 
@@ -9,5 +9,5 @@ Property of [UITextInput](/classes/UITextInput/)
 
 ### Example
 ```lua
-print("Example code")
+element.Placeholder = "Type here..."
 ```

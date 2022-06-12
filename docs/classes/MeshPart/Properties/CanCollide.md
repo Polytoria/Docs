@@ -1,6 +1,6 @@
 # CanCollide
 ### Description
-Property description
+Specifies whether the part can be collided with or not.
 
 Property of [MeshPart](/classes/MeshPart/)
 
@@ -9,5 +9,5 @@ Property of [MeshPart](/classes/MeshPart/)
 
 ### Example
 ```lua
-print("Example code")
+part.CanCollide = false
 ```

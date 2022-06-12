@@ -1,6 +1,6 @@
 # Angle
 ### Description
-Property description
+Specifies the angle of the spotlight.
 
 Property of [Spotlight](/classes/Spotlight/)
 
@@ -9,5 +9,5 @@ Property of [Spotlight](/classes/Spotlight/)
 
 ### Example
 ```lua
-print("Example code")
+spotlight.Angle = 45
 ```
