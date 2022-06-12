@@ -1,6 +1,6 @@
 # Text
 ### Description
-Property description
+The text of the label.
 
 Property of [UILabel](/classes/UILabel/)
 
@@ -9,5 +9,5 @@ Property of [UILabel](/classes/UILabel/)
 
 ### Example
 ```lua
-print("Example code")
+element.Text = "Hello, World!"
 ```

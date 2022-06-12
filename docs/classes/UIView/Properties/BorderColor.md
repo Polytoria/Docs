@@ -1,11 +1,11 @@
-# HorizontalAlignment
+# BorderColor
 ### Description
 Property description
 
-Property of [UILabel](/classes/UILabel/)
+Property of [UIView](/classes/UIView/)
 
 #### Type
-`HorizontalAlignmentOptions`
+`Color`
 
 ### Example
 ```lua

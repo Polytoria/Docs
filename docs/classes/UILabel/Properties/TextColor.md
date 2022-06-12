@@ -1,13 +1,13 @@
-# FontSize
+# TextColor
 ### Description
-The font size of the label.
+The color of the text.
 
 Property of [UILabel](/classes/UILabel/)
 
 #### Type
-`number`
+`Color`
 
 ### Example
 ```lua
-element.FontSize = 16
+element.TextColor = Color.New(1, 0, 0)
 ```

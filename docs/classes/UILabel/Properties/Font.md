@@ -1,13 +1,13 @@
-# Color
+# Font
 ### Description
-Property description
+The font of the label.
 
 Property of [UILabel](/classes/UILabel/)
 
 #### Type
-`Color`
+`TextFontPreset`
 
 ### Example
 ```lua
-print("Example code")
+element.Font = TextFontPreset.Montserrat
 ```
