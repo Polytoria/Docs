@@ -1,13 +1,12 @@
 # Died
 ### Description
-Event description
+Gets triggered when the NPC dies.
 
 Event of [NPC](/classes/NPC/)
 
-#### Returns
-What does it return
-
 ### Example
 ```lua
-print("Example code")
+game["Environment"]["NPC"].Died:Connect(function ()
+    print("NPC died!")
+end)
 ```
