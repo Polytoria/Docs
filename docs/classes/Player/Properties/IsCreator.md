@@ -9,7 +9,7 @@ Property of [Player](/classes/Player/)
 
 ### Example
 ```lua
-if player.IsAdmin then
+if player.IsCreator then
     print(player.Name .. " is the creator of this place!")
 end
 ```
