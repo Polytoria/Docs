@@ -1,9 +1,9 @@
 # TextJustify
 
-|Name|
-|--|
-|Left|
-|Center|
-|Right|
-|Justify|
-|Flush|
+| Name    |
+| ------- |
+| Left    |
+| Center  |
+| Right   |
+| Justify |
+| Flush   |

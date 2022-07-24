@@ -1,17 +1,23 @@
 # Get
+
 ### Description
+
 Sends a GET request to the specified url.
 
 Function of [Http](../../)
 
 #### Parameters
+
 url `String`
 callback `DynValue, default = nil`
 header `Table`
+
 #### Return type
+
 `Void`
 
 ### Example
+
 ```lua
 Http:Get("https://api.polytoria.com/v1/asset/owner?userID=1&assetID=234", function (data, error, errmsg)
     if not error then

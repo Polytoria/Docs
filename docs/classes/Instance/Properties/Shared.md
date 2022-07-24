@@ -1,13 +1,17 @@
 # Shared
+
 ### Description
+
 An empty table you can use to hold metadata about anything on any object or player you want. Does not sync client <-> server.
 
 Property of [Instance](/classes/Instance/)
 
 #### Type
+
 `Table`
 
 ### Example
+
 ```lua
 -- Script 1
 local players = game.Players.GetChildren()

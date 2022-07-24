@@ -1,13 +1,17 @@
 # ScreenHeight
+
 ### Description
+
 Get current user's screen height
 
 Property of [UI](../../)
 
 #### Type
+
 `number`
 
 ### Example
+
 ```lua
 local Background = UI:CreateImage()
 Background.ImageID = 12384

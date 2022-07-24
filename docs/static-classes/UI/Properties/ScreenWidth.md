@@ -1,13 +1,17 @@
 # ScreenWidth
+
 ### Description
+
 Get current user's screen width
 
 Property of [UI](../../)
 
 #### Type
+
 `number`
 
 ### Example
+
 ```lua
 local Background = UI:CreateImage()
 Background.ImageID = 12384

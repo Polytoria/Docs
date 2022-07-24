@@ -1,8 +1,8 @@
-[dir=ltr] .md-header__title {
+[dir="ltr"] .md-header__title {
 	margin-left: initial;
 }
 
-[dir=rtl] .md-header__title {
+[dir="rtl"] .md-header__title {
 	margin-right: initial;
 }
 

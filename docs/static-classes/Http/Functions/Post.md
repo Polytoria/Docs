@@ -1,18 +1,23 @@
 # Post
+
 ### Description
+
 Sends a POST request to the specified url.
 
 Function of [Http](../../)
 
 #### Parameters
+
 url `String`
 params `params`
 callback `DynValue, default = nil`
 
 #### Return type
+
 `Void`
 
 ### Example
+
 ```lua
 Http:Post("https://example.com/api/post", "id=1&name=Hello" , function (data, error, errmsg)
     if not error then
@@ -26,4 +31,5 @@ end)
 ```
 
 #### Note
+
 - Params are in query form (key1=value&key2=value)

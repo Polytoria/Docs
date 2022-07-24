@@ -1,9 +1,11 @@
 # Creator Interface
+
 This page will explain you everything about the creator interface. Everything you need to know about the creator interface. When you start the creator, you will see the following screen:
 
 ![Creator Interface](/assets/interface/startup.png)
 
 ## Setup wizard
+
 ![Setup Wizard](/assets/interface/setup-wizard.png)
 
 1. Starter places. You can pick one of these template to start creating your game.
@@ -11,6 +13,7 @@ This page will explain you everything about the creator interface. Everything yo
 3. Close button, click this to close the setup wizard.
 
 ## Main Interface
+
 ![Main Interface](/assets/interface/main-interface.png)
 
 1. Menu bar ─ You can use file options our others on this bar.
@@ -21,6 +24,7 @@ This page will explain you everything about the creator interface. Everything yo
 6. Scene view ─ Where you can see the game scene.
 
 ### Menu bar options
+
 1. File ─ You can use this menu to create a new game, open a game, save the game, and more.
 2. Edit ─ You can use this menu to undo, redo, and more.
 3. Insert ─ You can use this menu to insert new objects into the game.
@@ -28,6 +32,7 @@ This page will explain you everything about the creator interface. Everything yo
 5. Tools ─ You can use this menu to test the game.
 
 ### Toolbar options
+
 1. Select ─ Select an object in the game.
 2. Move ─ Move an object in the game.
 3. Rotate ─ Rotate an object in the game.
@@ -42,6 +47,7 @@ This page will explain you everything about the creator interface. Everything yo
 12. Create Sound ─ Create a new sound.
 
 ### Toolbox options
+
 1. Filter ─ Filter the toolbox.
 2. Search ─ Search the toolbox.
 3. Refresh ─ Refresh the toolbox.
@@ -49,6 +55,7 @@ This page will explain you everything about the creator interface. Everything yo
 5. Next ─ Go to next page.
 
 ## Public place menu
+
 ![Public place](/assets/interface/publish-place.png)
 
 1. Your games ─ You can pick one of these to see the info of the game.

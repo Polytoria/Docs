@@ -1,7 +1,7 @@
 # TextVerticalAlign
 
-|Name|
-|--|
-|Top|
-|Middle|
-|Bottom|
+| Name   |
+| ------ |
+| Top    |
+| Middle |
+| Bottom |

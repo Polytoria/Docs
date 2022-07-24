@@ -1,7 +1,7 @@
 # CameraMode
 
-|Mode|
-|--|
-|Scripted|
-|FollowPlayer|
-|Free|
+| Mode         |
+| ------------ |
+| Scripted     |
+| FollowPlayer |
+| Free         |

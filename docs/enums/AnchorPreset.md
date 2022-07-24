@@ -1,12 +1,12 @@
 # AnchorPreset
 
-|Name|
-|--|
-|Top|
-|Bottom|
-|Left|
-|Right|
-|TopLeft|
-|TopRight|
-|BottomLeft|
-|BottomRight|
+| Name        |
+| ----------- |
+| Top         |
+| Bottom      |
+| Left        |
+| Right       |
+| TopLeft     |
+| TopRight    |
+| BottomLeft  |
+| BottomRight |
