@@ -8,7 +8,7 @@ Property of [GUI](/classes/GUI/)
 
 #### Type
 
-`Boolean`
+`boolean`
 
 ### Example
 

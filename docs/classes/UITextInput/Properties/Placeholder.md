@@ -8,7 +8,7 @@ Property of [UITextInput](/classes/UITextInput/)
 
 #### Type
 
-`String`
+`string`
 
 ### Example
 

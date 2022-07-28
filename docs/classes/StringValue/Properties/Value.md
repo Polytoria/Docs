@@ -8,7 +8,7 @@ Property of [StringValue](/classes/StringValue/)
 
 #### Type
 
-`String`
+`string`
 
 ### Example
 

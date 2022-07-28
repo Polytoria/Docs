@@ -8,7 +8,7 @@ Function of [Http](../../)
 
 #### Parameters
 
-url `String`
+url `string`
 params `params`
 callback `DynValue, default = nil`
 

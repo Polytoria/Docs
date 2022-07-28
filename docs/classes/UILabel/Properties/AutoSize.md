@@ -8,7 +8,7 @@ Property of [UILabel](/classes/UILabel/)
 
 #### Type
 
-`Boolean`
+`boolean`
 
 ### Example
 

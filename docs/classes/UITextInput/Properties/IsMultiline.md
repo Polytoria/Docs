@@ -8,7 +8,7 @@ Property of [UITextInput](/classes/UITextInput/)
 
 #### Type
 
-`Boolean`
+`boolean`
 
 ### Example
 

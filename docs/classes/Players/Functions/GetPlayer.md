@@ -8,7 +8,7 @@ Function of [Players](/classes/Players/)
 
 #### Parameters
 
-Username `String`
+Username `string`
 
 #### Return type
 

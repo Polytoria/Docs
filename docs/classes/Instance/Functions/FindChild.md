@@ -8,7 +8,7 @@ Function of [Instance](/classes/Instance/)
 
 #### Parameters
 
-name `String`
+name `string`
 
 #### Return type
 

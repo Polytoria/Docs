@@ -8,7 +8,7 @@ Property of [Tool](/classes/Tool/)
 
 #### Type
 
-`Boolean`
+`boolean`
 
 ### Example
 

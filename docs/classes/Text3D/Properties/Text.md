@@ -8,7 +8,7 @@ Property of [Text3D](/classes/Text3D/)
 
 #### Type
 
-`String`
+`string`
 
 ### Example
 

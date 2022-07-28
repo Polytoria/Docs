@@ -8,7 +8,7 @@ Property of [Instance](/classes/Instance/)
 
 #### Type
 
-`String`
+`string`
 
 ### Example
 

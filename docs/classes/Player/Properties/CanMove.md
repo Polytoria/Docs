@@ -8,7 +8,7 @@ Property of [Player](/classes/Player/)
 
 #### Type
 
-`Boolean`
+`boolean`
 
 ### Example
 
