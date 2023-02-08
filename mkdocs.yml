@@ -1,5 +1,5 @@
 site_name: Polytoria Scripting API
-copyright: Copyright &copy; 2019 - 2022 Polytoria
+copyright: Copyright &copy; 2019 - 2023 Polytoria
 theme:
   features:
     - navigation.tabs
