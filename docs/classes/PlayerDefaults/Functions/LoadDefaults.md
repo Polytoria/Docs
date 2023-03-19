@@ -2,7 +2,7 @@
 
 ### Description
 
-Method description
+Loads configuration from `game["PlayerDefaults"]`
 
 Function of [PlayerDefaults](/classes/PlayerDefaults/)
 
@@ -17,5 +17,5 @@ player `Player`
 ### Example
 
 ```lua
-print("Example code")
+game["PlayerDefaults"]:LoadDefaults(game["Players"]["willemsteller"])
 ```
