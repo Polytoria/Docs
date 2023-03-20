@@ -13,8 +13,7 @@ Property of [Input](../../)
 ### Example
 
 ```lua
-local Text = UI:CreateLabel("I will keep following the cursor!")
-Text.Size = Vector2.New(200,200)
+local Text = script.Parent["Text"]
 
 game.Rendered:Connect(function()
     Text.Position = Input.MousePosition
