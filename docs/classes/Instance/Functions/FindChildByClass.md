@@ -17,7 +17,7 @@ className `string`
 ### Example
 
 ```lua
-print(game:FindChildOfClass("Environment").Name) -- Prints "Environment"
+print(game:FindChildByClass("Environment").Name) -- Prints "Environment"
 ```
 
 ### Notes
