@@ -19,5 +19,5 @@ screenPosition `Vector3`
 ### Example
 
 ```lua
-Input.WorldToScreenPoint(worldPosition)
+Input.ScreenToViewportPoint(screenPosition)
 ```
