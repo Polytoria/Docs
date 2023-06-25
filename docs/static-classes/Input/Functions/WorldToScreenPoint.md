@@ -4,8 +4,6 @@
 
 Transforms `worldPosition` from world space into screen space.
 
-The z position is in world units from the camera.
-
 Function of [Input](../../)
 
 #### Parameters
