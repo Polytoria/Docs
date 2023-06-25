@@ -2,7 +2,9 @@
 
 ### Description
 
-Transforms `position` from screen space into viewport space.
+Transforms `screenPosition` from screen space into viewport space.
+
+The z position is in world units from the camera.
 
 Function of [Input](../../)
 
