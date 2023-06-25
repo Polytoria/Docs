@@ -2,9 +2,7 @@
 
 ### Description
 
-Transforms `worldPosition` from world space into viewport space. <br />
-Viewport space is normalized and relative to the camera. <br />
-The bottom-left of the camera is (0,0); the top-right is (1,1). The z position is in world units from the camera.
+Transforms `worldPosition` from world space into viewport space.
 
 Function of [Input](../../)
 
