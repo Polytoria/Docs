@@ -2,7 +2,7 @@
 
 ### Description
 
-Transforms `viewportPosition` from world space into screen space. <br />
+Transforms `viewportPosition` from viewport space into world space. <br />
 Note that ViewportToWorldPoint transforms an x-y screen position into a x-y-z position in 3D space.
 
 Function of [Input](../../)
