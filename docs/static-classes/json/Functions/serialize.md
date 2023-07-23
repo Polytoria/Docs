@@ -18,7 +18,7 @@ table `Table`
 
 ```lua
 print(json.serialize({
-    Name: "Cool Sword",
-    Damage: 10,
+    Name = "Cool Sword",
+    Damage = 10,
 }))
 ```
