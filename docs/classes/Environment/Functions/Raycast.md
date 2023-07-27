@@ -9,8 +9,12 @@ Function of [Environment](/classes/Environment/)
 #### Parameters
 
 Origin `Vector3`
+
 Direction `Vector3`
+
 MaxDistance `number, default = Infinity`
+
+IgnoreList `Instance[]`
 
 #### Return type
 
