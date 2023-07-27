@@ -6,9 +6,9 @@ Respawns the NPC.
 
 Function of [NPC](/classes/NPC/)
 
-#### Return type
+#### Returns
 
-`Void`
+`void`
 
 ### Example
 

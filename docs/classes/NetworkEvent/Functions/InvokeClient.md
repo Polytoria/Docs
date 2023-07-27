@@ -11,9 +11,9 @@ Function of [NetworkEvent](/classes/NetworkEvent/)
 msg `NetMessage`
 player `Player`
 
-#### Return type
+#### Returns
 
-`Void`
+`void`
 
 ### Example
 

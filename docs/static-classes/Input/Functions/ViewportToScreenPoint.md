@@ -10,7 +10,7 @@ Function of [Input](../../)
 
 viewportPosition `Vector3`
 
-#### Return type
+#### Returns
 
 `Vector3`
 

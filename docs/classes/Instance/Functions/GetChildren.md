@@ -6,9 +6,7 @@ Returns an array of all children.
 
 Function of [Instance](/classes/Instance/)
 
-#### Parameters
-
-#### Return type
+#### Returns
 
 `Instance[]`
 

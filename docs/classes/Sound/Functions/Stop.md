@@ -6,9 +6,9 @@ Stops playing the sound.
 
 Function of [Sound](/classes/Sound/)
 
-#### Return type
+#### Returns
 
-`Void`
+`void`
 
 ### Example
 

@@ -16,7 +16,7 @@ MaxDistance `number, default = Infinity`
 
 IgnoreList `Instance[]`
 
-#### Return type
+#### Returns
 
 `RayResult[]`
 

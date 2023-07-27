@@ -10,9 +10,9 @@ Function of [Part](/classes/Part/)
 
 Rotation `Vector3`
 
-#### Return type
+#### Returns
 
-`Void`
+`void`
 
 ### Example
 

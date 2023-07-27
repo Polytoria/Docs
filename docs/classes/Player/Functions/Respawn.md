@@ -6,11 +6,9 @@ Respawns the player.
 
 Function of [Player](/classes/Player/)
 
-#### Parameters
+#### Returns
 
-#### Return type
-
-`Void`
+`void`
 
 ### Example
 

@@ -8,11 +8,11 @@ Function of [Tween](../../)
 
 #### Parameters
 
-StartValue `Vector3`  
-EndValue `Vector3`  
-Time `number`  
+StartValue `Vector3`
+EndValue `Vector3`
+Time `number`
 CallPerStep `function`
-Type `TweenType`  
+Type `TweenType`
 Callback `function`
 
 ### Example

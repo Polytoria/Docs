@@ -8,7 +8,7 @@ Creates a GUI Button
 
 Function of [UI](../../)
 
-#### Return type
+#### Returns
 
 `UIButton`
 

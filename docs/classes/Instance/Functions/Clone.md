@@ -6,7 +6,7 @@ Clones the instance.
 
 Function of [Instance](/classes/Instance/)
 
-#### Return type
+#### Returns
 
 `Instance`
 

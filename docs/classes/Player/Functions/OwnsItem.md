@@ -8,7 +8,7 @@ Function of [Player](/classes/Player/)
 
 #### Parameters
 
-AssetID `number`  
+AssetID `number`
 Callback `function (bool error, bool ownsItem)`
 
 ### Example

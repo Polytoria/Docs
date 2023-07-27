@@ -10,7 +10,7 @@ Function of [Players](/classes/Players/)
 
 id `number`
 
-#### Return type
+#### Returns
 
 `Player`
 

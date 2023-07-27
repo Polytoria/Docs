@@ -8,10 +8,10 @@ Function of [Tween](../../)
 
 #### Parameters
 
-Target `DynamicInstance`  
-Destination `Vector3`  
-Time `number`  
-Type `TweenType`  
+Target `DynamicInstance`
+Destination `Vector3`
+Time `number`
+Type `TweenType`
 Callback `function`
 
 ### Example

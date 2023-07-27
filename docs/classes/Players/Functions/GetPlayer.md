@@ -10,7 +10,7 @@ Function of [Players](/classes/Players/)
 
 Username `string`
 
-#### Return type
+#### Returns
 
 `Player`
 

@@ -10,7 +10,7 @@ Function of [json](../../)
 
 jsonString `string`
 
-#### Return type
+#### Returns
 
 `Table`
 

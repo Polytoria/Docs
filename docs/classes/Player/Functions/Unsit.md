@@ -10,9 +10,9 @@ Function of [Player](/classes/Player/)
 
 addForce `bool, default = True`
 
-#### Return type
+#### Returns
 
-`Void`
+`void`
 
 ### Example
 

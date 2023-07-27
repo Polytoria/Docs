@@ -6,7 +6,7 @@ Returns a special value which is a representation of a null in a json
 
 Function of [json](../../)
 
-#### Return type
+#### Returns
 
 `string`
 

@@ -16,9 +16,9 @@ OR
 target `Vector3`
 worldUp `Vector3` = (0, 1, 0)
 
-#### Return type
+#### Returns
 
-`Void`
+`void`
 
 ### Example
 

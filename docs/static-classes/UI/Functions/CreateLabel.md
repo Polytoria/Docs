@@ -12,7 +12,7 @@ Function of [UI](../../)
 
 Text `string` (default = "")
 
-#### Return type
+#### Returns
 
 `UILabel`
 

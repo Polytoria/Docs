@@ -6,7 +6,7 @@ Returns the parent of this instance.
 
 Function of [Instance](/classes/Instance/)
 
-#### Return type
+#### Returns
 
 `Instance`
 

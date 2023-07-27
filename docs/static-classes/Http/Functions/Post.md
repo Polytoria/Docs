@@ -12,9 +12,9 @@ url `string`
 params `params`
 callback `DynValue, default = nil`
 
-#### Return type
+#### Returns
 
-`Void`
+`void`
 
 ### Example
 

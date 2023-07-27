@@ -6,9 +6,9 @@ Kicks the player from the server.
 
 Function of [Player](/classes/Player/)
 
-#### Return type
+#### Returns
 
-`Void`
+`void`
 
 ### Example
 

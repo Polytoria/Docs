@@ -10,9 +10,9 @@ Function of [Instance](/classes/Instance/)
 
 Delay `number, default = 0`
 
-#### Return type
+#### Returns
 
-`Void`
+`void`
 
 ### Example
 

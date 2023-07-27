@@ -12,9 +12,9 @@ url `string`
 callback `DynValue, default = nil`
 header `Table`
 
-#### Return type
+#### Returns
 
-`Void`
+`void`
 
 ### Example
 

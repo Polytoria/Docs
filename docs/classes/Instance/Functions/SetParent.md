@@ -10,9 +10,9 @@ Function of [Instance](/classes/Instance/)
 
 par `Instance`
 
-#### Return type
+#### Returns
 
-`Void`
+`void`
 
 ### Example
 

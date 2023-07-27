@@ -8,7 +8,7 @@ Creates an UI image.
 
 Function of [UI](../../)
 
-#### Return type
+#### Returns
 
 `UIImage`
 

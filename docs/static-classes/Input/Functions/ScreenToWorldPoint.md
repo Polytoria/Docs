@@ -11,7 +11,7 @@ Function of [Input](../../)
 
 screenPosition `Vector3`
 
-#### Return type
+#### Returns
 
 `Vector3`
 

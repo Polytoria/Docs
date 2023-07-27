@@ -6,9 +6,9 @@ Will drop the current tool the player is holding. Only works on server.
 
 Function of [Player](/classes/Player/)
 
-#### Return type
+#### Returns
 
-`Void`
+`void`
 
 ### Example
 

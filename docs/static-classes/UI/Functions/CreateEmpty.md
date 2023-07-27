@@ -8,7 +8,7 @@ Creates an empty UI element
 
 Function of [UI](../../)
 
-#### Return type
+#### Returns
 
 `UIElement`
 

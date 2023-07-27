@@ -10,9 +10,9 @@ Function of [MeshPart](/classes/MeshPart/)
 
 pos `Vector3`
 
-#### Return type
+#### Returns
 
-`Void`
+`void`
 
 ### Example
 

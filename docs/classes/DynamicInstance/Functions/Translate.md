@@ -10,9 +10,9 @@ Function of [DynamicInstance](/classes/DynamicInstance/)
 
 translation `Vector3`
 
-#### Return type
+#### Returns
 
-`Void`
+`void`
 
 ### Example
 

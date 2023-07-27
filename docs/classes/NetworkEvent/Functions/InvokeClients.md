@@ -10,9 +10,9 @@ Function of [NetworkEvent](/classes/NetworkEvent/)
 
 msg `NetMessage`
 
-#### Return type
+#### Returns
 
-`Void`
+`void`
 
 ### Example
 

@@ -10,9 +10,9 @@ Function of [PlayerDefaults](/classes/PlayerDefaults/)
 
 player `Player`
 
-#### Return type
+#### Returns
 
-`Void`
+`void`
 
 ### Example
 

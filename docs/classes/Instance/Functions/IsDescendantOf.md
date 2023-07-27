@@ -10,7 +10,7 @@ Function of [Instance](/classes/Instance/)
 
 other `Instance`
 
-#### Return type
+#### Returns
 
 `boolean`
 

@@ -10,9 +10,9 @@ Function of [Player](/classes/Player/)
 
 seat `Seat`
 
-#### Return type
+#### Returns
 
-`Void`
+`void`
 
 ### Example
 

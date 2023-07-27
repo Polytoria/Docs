@@ -10,9 +10,9 @@ Function of [RemoteEvent](/classes/RemoteEvent/)
 
 Parameter `object`
 
-#### Return type
+#### Returns
 
-`Void`
+`void`
 
 ### Example
 

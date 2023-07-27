@@ -10,7 +10,7 @@ Function of [Input](../../)
 
 worldPosition `Vector3`
 
-#### Return type
+#### Returns
 
 `Vector3`
 

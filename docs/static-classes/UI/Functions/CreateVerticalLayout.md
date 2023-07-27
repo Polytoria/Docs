@@ -8,7 +8,7 @@ Creates a horizontal UI layout.
 
 Function of [UI](../../)
 
-#### Return type
+#### Returns
 
 `UIVerticalLayout`
 

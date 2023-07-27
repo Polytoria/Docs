@@ -10,7 +10,7 @@ Function of [Instance](/classes/Instance/)
 
 name `string`
 
-#### Return type
+#### Returns
 
 `Instance`
 

@@ -14,9 +14,9 @@ Force `number, default = 5000`
 AffectAnchored `Boolean, default = True`
 Callback `DynValue, default = nil`
 
-#### Return type
+#### Returns
 
-`Void`
+`void`
 
 ### Example
 

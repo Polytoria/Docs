@@ -6,7 +6,7 @@ Returns a list of all players.
 
 Function of [Players](/classes/Players/)
 
-#### Return type
+#### Returns
 
 `Player[]`
 

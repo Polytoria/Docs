@@ -10,7 +10,7 @@ Function of [json](../../)
 
 val `string`
 
-#### Return type
+#### Returns
 
 `bool`
 

@@ -10,9 +10,9 @@ Function of [Tool](/classes/Tool/)
 
 anim `string`
 
-#### Return type
+#### Returns
 
-`Void`
+`void`
 
 ### Example
 
