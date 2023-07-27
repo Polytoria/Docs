@@ -8,11 +8,15 @@ Function of [Environment](/classes/Environment/)
 
 #### Parameters
 
-Position `Vector3`
-Radius `number, default = 10`
-Force `number, default = 5000`
-AffectAnchored `Boolean, default = True`
-Callback `DynValue, default = nil`
+position `Vector3`
+
+radius `number, default = 10`
+
+force `number, default = 5000`
+
+affectAnchored `Boolean, default = true`
+
+callback `DynValue, default = nil`
 
 #### Returns
 

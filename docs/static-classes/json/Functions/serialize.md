@@ -8,7 +8,7 @@ Function of [json](../../)
 
 #### Parameters
 
-table `Table`
+value `Table`
 
 #### Returns
 

@@ -8,7 +8,7 @@ Function of [Chat](../../)
 
 #### Parameters
 
-Message `string`
+message `string`
 
 ### Example
 

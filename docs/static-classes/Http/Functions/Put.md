@@ -9,8 +9,10 @@ Function of [Http](../../)
 #### Parameters
 
 url `string`
+
 params `params`
-callback `DynValue, default = nil`
+
+callback `function, default = nil`
 
 #### Returns
 

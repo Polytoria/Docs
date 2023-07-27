@@ -8,7 +8,7 @@ Function of [Instance](/classes/Instance/)
 
 #### Parameters
 
-par `Instance`
+parent `Instance`
 
 #### Returns
 

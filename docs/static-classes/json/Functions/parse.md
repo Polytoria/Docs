@@ -2,13 +2,13 @@
 
 ### Description
 
-Returns a table with the contents of the specified json string
+Returns a table with the contents of the specified JSON string
 
 Function of [json](../../)
 
 #### Parameters
 
-jsonString `string`
+value `string`
 
 #### Returns
 

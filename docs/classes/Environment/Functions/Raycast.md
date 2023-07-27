@@ -8,13 +8,13 @@ Function of [Environment](/classes/Environment/)
 
 #### Parameters
 
-Origin `Vector3`
+origin `Vector3`
 
-Direction `Vector3`
+direction `Vector3`
 
-MaxDistance `number, default = Infinity`
+maxDistance `number, default = inf`
 
-IgnoreList `Instance[]`
+ignoreList `Instance[]`
 
 #### Returns
 

@@ -8,7 +8,7 @@ Function of [Tool](/classes/Tool/)
 
 #### Parameters
 
-anim `string`
+name `string`
 
 #### Returns
 

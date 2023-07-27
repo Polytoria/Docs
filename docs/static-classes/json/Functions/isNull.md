@@ -8,7 +8,7 @@ Function of [json](../../)
 
 #### Parameters
 
-val `string`
+value `string`
 
 #### Returns
 

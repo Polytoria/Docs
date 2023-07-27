@@ -8,7 +8,7 @@ Function of [Part](/classes/Part/)
 
 #### Parameters
 
-Rotation `Vector3`
+rotation `Vector3`
 
 #### Returns
 

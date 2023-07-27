@@ -8,7 +8,7 @@ Function of [NetworkEvent](/classes/NetworkEvent/)
 
 #### Parameters
 
-msg `NetMessage`
+message `NetMessage`
 
 #### Returns
 

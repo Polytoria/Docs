@@ -8,12 +8,17 @@ Function of [Tween](../../)
 
 #### Parameters
 
-StartValue `Color`
-EndValue `Color`
-Time `number`
-CallPerStep `function`
-Type `TweenType`
-Callback `function`
+startValue `Color`
+
+endValue `Color`
+
+time `number`
+
+callPerStep `function`
+
+type `TweenType`
+
+callback `function`
 
 ### Example
 

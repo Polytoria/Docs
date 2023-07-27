@@ -9,7 +9,9 @@ Function of [Http](../../)
 #### Parameters
 
 url `string`
-callback `DynValue, default = nil`
+
+callback `function, default = nil`
+
 header `Table`
 
 #### Returns

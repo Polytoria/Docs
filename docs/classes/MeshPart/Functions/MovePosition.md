@@ -8,7 +8,7 @@ Function of [MeshPart](/classes/MeshPart/)
 
 #### Parameters
 
-pos `Vector3`
+position `Vector3`
 
 #### Returns
 

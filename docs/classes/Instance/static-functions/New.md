@@ -8,8 +8,9 @@ Function of [Instance](/classes/Instance/)
 
 #### Parameters
 
-ClassName `string`
-Parent `Instance`
+className `string`
+
+parent `Instance`
 
 #### Returns
 

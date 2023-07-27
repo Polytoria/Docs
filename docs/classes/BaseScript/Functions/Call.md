@@ -9,7 +9,8 @@ Function of [BaseScript](/classes/BaseScript/)
 #### Parameters
 
 function `string`
-args `DynValue[]`
+
+arguments `DynValue[]`
 
 ### Example
 

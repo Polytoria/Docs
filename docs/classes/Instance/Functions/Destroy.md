@@ -8,7 +8,7 @@ Function of [Instance](/classes/Instance/)
 
 #### Parameters
 
-Delay `number, default = 0`
+delay `number, default = 0`
 
 #### Returns
 

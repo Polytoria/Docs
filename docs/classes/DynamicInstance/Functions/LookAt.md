@@ -8,13 +8,9 @@ Function of [DynamicInstance](/classes/DynamicInstance/)
 
 #### Parameters
 
-target `DynamicInstance`
-worldUp `Vector3` = (0, 1, 0)
+target `DynamicInstance` or `Vector3`
 
-OR
-
-target `Vector3`
-worldUp `Vector3` = (0, 1, 0)
+worldUp `Vector3, default = Vector3(0, 1, 0)`
 
 #### Returns
 

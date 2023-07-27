@@ -8,7 +8,7 @@ Function of [Player](/classes/Player/)
 
 #### Parameters
 
-addForce `bool, default = True`
+addForce `bool, default = true`
 
 #### Returns
 

@@ -10,7 +10,7 @@ Function of [UI](../../)
 
 #### Parameters
 
-Text `string` (default = "")
+text `string, default = ""`
 
 #### Returns
 

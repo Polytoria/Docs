@@ -8,7 +8,7 @@ Function of [RemoteEvent](/classes/RemoteEvent/)
 
 #### Parameters
 
-Parameter `object`
+parameter `object`
 
 #### Returns
 
