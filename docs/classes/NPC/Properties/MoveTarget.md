@@ -13,5 +13,5 @@ Property of [NPC](/classes/NPC/)
 ### Example
 
 ```lua
-npc.MoveTarget = Vector3.new(100, 0, 0)
+npc.MoveTarget = Vector3.New(100, 0, 0)
 ```

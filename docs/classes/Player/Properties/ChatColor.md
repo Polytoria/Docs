@@ -13,5 +13,5 @@ Property of [Player](/classes/Player/)
 ### Example
 
 ```lua
-game["Players"]["willemsteller"].ChatColor = Color.new(0, 1, 0)
+game["Players"]["willemsteller"].ChatColor = Color.New(0, 1, 0)
 ```

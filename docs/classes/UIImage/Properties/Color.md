@@ -13,5 +13,5 @@ Property of [UIImage](/classes/UIImage/)
 ### Example
 
 ```lua
-image.Color = Color.new(1, 0, 0)
+image.Color = Color.New(1, 0, 0)
 ```

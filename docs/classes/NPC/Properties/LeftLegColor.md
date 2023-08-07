@@ -13,5 +13,5 @@ Property of [NPC](/classes/NPC/)
 ### Example
 
 ```lua
-npc.LeftLegColor = Color.new(0.5, 0.5, 0.5, 1)
+npc.LeftLegColor = Color.New(0.5, 0.5, 0.5, 1)
 ```

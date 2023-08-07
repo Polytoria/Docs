@@ -13,5 +13,5 @@ Property of [MeshPart](/classes/MeshPart/)
 ### Example
 
 ```lua
-part.Velocity = Vector3.new(0, 100, 0)
+part.Velocity = Vector3.New(0, 100, 0)
 ```
