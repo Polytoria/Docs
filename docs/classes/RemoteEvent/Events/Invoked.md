@@ -1,5 +1,7 @@
 # Invoked
 
+<div class="alert alert-danger">Replaced with <a href="https://docs.polytoria.com/classes/NetworkEvent/">Network Events</a></div>
+
 ### Description
 
 Fires when the Invoke function is called.
