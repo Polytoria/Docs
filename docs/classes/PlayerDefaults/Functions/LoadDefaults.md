@@ -2,7 +2,7 @@
 
 ### Description
 
-Method description
+Reset a player's properties to their respective default
 
 Function of [PlayerDefaults](/classes/PlayerDefaults/)
 
@@ -17,5 +17,5 @@ player `Player`
 ### Example
 
 ```lua
-print("Example code")
+game["PlayerDefaults"]:LoadDefaults(game["Players"]["willemsteller"])
 ```
