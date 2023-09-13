@@ -2,16 +2,18 @@
 
 ### Description
 
-Event description
+Fires when the UIButton is clicked
 
 Event of [UIButton](/classes/UIButton/)
 
 #### Returns
 
-What does it return
+`void`
 
 ### Example
 
 ```lua
-print("Example code")
+script.Parent.Clicked:Connect(function ()
+    print("The button was clicked!")
+end)
 ```
