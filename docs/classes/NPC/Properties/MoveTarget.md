@@ -8,10 +8,10 @@ Property of [NPC](/classes/NPC/)
 
 #### Type
 
-`Vector3`
+`Instance`
 
 ### Example
 
 ```lua
-npc.MoveTarget = Vector3.New(100, 0, 0)
+npc.MoveTarget = game["Environment"]["Part"]
 ```
