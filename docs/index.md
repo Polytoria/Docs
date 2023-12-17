@@ -15,7 +15,7 @@ Polytoria is a game platform where you can socialize, change your character, pla
 
 - [Download Polytoria's client - Windows](https://polytoria.com/places/download/windows)
 - [Download Polytoria's client- Linux(DEB)](https://polytoria.com/places/download/linux)
- - [Download Polytoria's client - MacOS](https://polytoria.com/places/download/macOS)  didn't found the macos link, please add.
+ - [Download Polytoria's client - MacOS](https://polytoria.com/places/download/macOS)
 
 ## Contributing to docs
 
