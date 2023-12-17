@@ -9,7 +9,7 @@ Polytoria uses Lua, of which you can find the documentation [here](https://www.l
 
 ## What is Polytoria?
 
-Polytoria is a site where you can socialize, change your character, play games, create clothes, and more. The limit is your imagination!
+Polytoria is a game platform where you can socialize, change your character, play games, create clothes, and more. The limit is your imagination!
 
 ## Want to start creating?
 
