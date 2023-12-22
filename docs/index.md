@@ -13,10 +13,10 @@ Polytoria is a game platform where you can socialize, change your character, pla
 
 ## Want to start creating?
 
-- [Download Polytoria's client - Windows](https://polytoria.com/places/download/windows)
-- [Download Polytoria's client- Linux (Flatpak)](https://polytoria.com/places/download/linux)
-- [Download Polytoria's client - MacOS](https://polytoria.com/places/download/macOS)
+- [Download Polytoria's Window client](https://polytoria.com/places/download/windows)
+- [Download Polytoria's Linux client (Flatpak)](https://polytoria.com/places/download/linux)
+- [Download Polytoria's MacOS client](https://polytoria.com/places/download/macOS)
 
 ## Contributing to docs
 
-You can contribute to the project by creating a pull request on [our github repository](https://github.com/Polytoria/Docs).
+You can contribute to the project by creating a pull request on [our GitHub repository](https://github.com/Polytoria/Docs).
