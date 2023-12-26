@@ -15,6 +15,6 @@ Message `NetMessage`
 
 ```lua
 netEvent.InvokedClient:Connect(function (sender, message)
-    local value = message:GetString("key")
+    local value = message.GetString("key")
 end)
 ```
