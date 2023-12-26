@@ -2,7 +2,7 @@
 
 ### Description
 
-Returns the parent of this instance.
+Sets the parent of this instance.
 
 Function of [Instance](/classes/Instance/)
 
