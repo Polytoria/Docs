@@ -1,6 +1,6 @@
 # BaseScript
 
-> This class cannot be created using the `Instance.new` function.
+> This class cannot be created using the `Instance.New` function.
 
 BaseScripts are the base classes of all scripts (Scripts, LocalScripts). They can be parented to any instance.
 

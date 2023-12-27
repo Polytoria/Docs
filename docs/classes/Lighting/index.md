@@ -1,6 +1,6 @@
 # Lighting
 
-> This class cannot be created using the `Instance.new` function.
+> This class cannot be created using the `Instance.New` function.
 
 Lighting is a child of [Game](../Game) meant for controlling the game's lighting.
 
