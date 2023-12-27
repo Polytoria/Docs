@@ -1,6 +1,6 @@
 # Setup Polytoria Creator
 
-Polytoria creator, is available to install on Windows, Mac and Linux. is a tool to create Polytoria games.
+Polytoria Creator is a tool that is used to create places on Polytoria. It's available to devices using Windows, Mac, and Linux.
 
 ## System requirements
 
@@ -22,5 +22,5 @@ Polytoria creator, is available to install on Windows, Mac and Linux. is a tool 
 
 <div class="alert alert-info">
     <strong>Note:</strong>
-    If you haven't downloaded the launcher yet, the download modal will popup for you to install it first.
+    If you haven't downloaded the launcher yet, you can download Polytoria by locating the Download button on the [places page.](https://polytoria.com/places/)
 </div>

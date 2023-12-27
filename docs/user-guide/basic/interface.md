@@ -1,6 +1,6 @@
 # Creator Interface
 
-This page will explain you everything about the creator interface. Everything you need to know about the creator interface. When you start the creator, you will see the following screen:
+This page will explain you everything about the creator interface. When you start the creator, you will see the following screen:
 
 ![Creator Interface](/assets/interface/startup.png)
 

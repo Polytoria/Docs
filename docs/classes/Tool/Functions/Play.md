@@ -17,7 +17,11 @@ name `string`
 ### Example
 
 ```lua
-tool:Play("slash")
+local tool = script.Parent
+
+tool.Activated:Connect(function()
+    tool:Play("slash")
+end)
 ```
 
 ### Animation List

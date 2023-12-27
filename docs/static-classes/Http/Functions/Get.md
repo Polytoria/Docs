@@ -21,7 +21,7 @@ header `Table`
 ### Example
 
 ```lua
-Http:Get("https://api.polytoria.com/v1/asset/owner?userID=1&assetID=234", function (data, error, errmsg)
+Http:Get("https://api.polytoria.com/v1/store/25272", function (data, error, errmsg)
     if not error then
         script.Parent.Color = Color.New(1, 1, 1)
         script.Parent.Text = data
