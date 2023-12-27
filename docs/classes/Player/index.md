@@ -1,6 +1,6 @@
 # Player
 
-> This class cannot be created using the `Instance.new` function.
+> This class cannot be created using the `Instance.New` function.
 
 A Player is an object controlled by players.
 
