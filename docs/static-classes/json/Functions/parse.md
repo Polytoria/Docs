@@ -17,7 +17,7 @@ value `string`
 ### Example
 
 ```lua
-Http:Get("https://api.polytoria.com/v1/asset/owner?userID=1&assetID=234", function (data, error, errmsg)
+Http:Get("https://api.polytoria.com/v1/store/25272", function (data, error, errmsg)
     if error then
         print("Something went wrong!")
         return
