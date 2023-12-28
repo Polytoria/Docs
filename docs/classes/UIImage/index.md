@@ -1,3 +1,3 @@
 # UIImage
 
-Inherited from [UIElement](../UIField)
+Inherited from [UIField](../UIField)
