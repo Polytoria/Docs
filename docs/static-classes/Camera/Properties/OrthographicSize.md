@@ -1,4 +1,4 @@
-# OrtographicSize
+# OrthographicSize
 
 ### Description
 
@@ -13,5 +13,5 @@ Property of [Camera](../../)
 ### Example
 
 ```lua
-Camera.Orthographic = 30
+Camera.OrthographicSize = 30
 ```
