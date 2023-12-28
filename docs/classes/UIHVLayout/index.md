@@ -2,4 +2,4 @@
 
 UIHVLayout is the base class for all UI layout elements.
 
-Inherited from [UIElement](../UIElement)
+Inherited from [UIElement](../UIField)
