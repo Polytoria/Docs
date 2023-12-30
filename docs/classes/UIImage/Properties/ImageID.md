@@ -8,7 +8,7 @@ Property of [UIImage](/classes/UIImage/)
 
 #### Type
 
-`Int32`
+`number`
 
 ### Example
 

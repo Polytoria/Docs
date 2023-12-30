@@ -8,7 +8,7 @@ Property of [MeshPart](/classes/MeshPart/)
 
 #### Type
 
-`Int32`
+`number`
 
 ### Example
 

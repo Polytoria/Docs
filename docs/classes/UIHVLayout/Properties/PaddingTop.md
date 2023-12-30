@@ -8,7 +8,7 @@ Property of [UIHVLayout](/classes/UIHVLayout/)
 
 #### Type
 
-`Int32`
+`number`
 
 ### Example
 

@@ -8,7 +8,7 @@ Property of [PlayerDefaults](/classes/PlayerDefaults/)
 
 #### Type
 
-`Single`
+`number`
 
 ### Example
 

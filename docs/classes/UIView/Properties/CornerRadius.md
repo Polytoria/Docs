@@ -8,7 +8,7 @@ Property of [UIView](/classes/UIView/)
 
 #### Type
 
-`Single`
+`number`
 
 ### Example
 

@@ -8,7 +8,7 @@ theme:
   name: material
   logo: assets/logo.svg
   font:
-    text: Rubik
+    text: Poppins
   palette:
     - scheme: default
       primary: blue

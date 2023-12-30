@@ -1,5 +1,5 @@
 # Home
-![Interface](/docs/assets/interface/startup.png)
+![Interface](/assets/interface/startup.png)
 
 ## Welcome!
 
@@ -9,7 +9,7 @@ Polytoria uses Lua, of which you can find the documentation [here](https://www.l
 
 ## What is Polytoria?
 
-Polytoria is a game platform where you can socialize, change your character, play games, create clothes, and more. The limit is your imagination!
+Polytoria is a digital sandbox platform where you can socialize, change your character, play games, create clothes, and more. The limit is your imagination!
 
 ## Want to start creating?
 
@@ -19,4 +19,4 @@ Polytoria is a game platform where you can socialize, change your character, pla
 
 ## Contributing to docs
 
-You can contribute to the project by creating a pull request on [our github repository](https://github.com/Polytoria/Docs).
+You can contribute to the Polytoria Documentation project by creating a pull request on [our github repository](https://github.com/Polytoria/Docs).

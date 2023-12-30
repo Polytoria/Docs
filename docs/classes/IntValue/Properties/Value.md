@@ -8,7 +8,7 @@ Property of [IntValue](/classes/IntValue/)
 
 #### Type
 
-`Int32`
+`number`
 
 ### Example
 

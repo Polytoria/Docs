@@ -8,7 +8,7 @@ Property of [ImageSky](/classes/ImageSky/)
 
 #### Type
 
-`Int32`
+`number`
 
 ### Example
 

@@ -8,7 +8,7 @@ Property of [UIField](/classes/UIField/)
 
 #### Type
 
-`Single`
+`number`
 
 ### Example
 
