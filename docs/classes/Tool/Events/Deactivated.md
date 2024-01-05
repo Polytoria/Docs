@@ -6,5 +6,7 @@ Event of [Tool](/classes/Tool/)
 
 ### Example
 ```lua
-print("Example code")
+tool.Deactivated:Connect(function()
+    print("Tool has been deactivated!")
+end)
 ```
