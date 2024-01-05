@@ -9,5 +9,5 @@ Property of [Environment](/classes/Environment/)
 
 ### Example
 ```lua
-game["Environment"].PartDestroyHeight = 1000
+game["Environment"].PartDestroyHeight = -1000
 ```
