@@ -1,0 +1,9 @@
+{
+	"grammarly.selectors": [
+		{
+			"language": "markdown",
+			"scheme": "file"
+		}
+	],
+	"liveServer.settings.port": 5501
+}

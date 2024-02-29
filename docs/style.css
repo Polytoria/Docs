@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&family=Poppins:wght@400;500;700&display=swap");
+
+:root {
+	--background: #181818;
+	--polytoria-red: #dd5555;
+}
+
+::-webkit-scrollbar {
+	width: 0px;
+	background: transparent;
+}
+
+html,
+body {
+	background-color: var(--background) !important;
+	font-family: "Poppins", sans-serif !important;
+
+	--bs-body-color: #fff;
+	--bs-secondary-color: #a1a3a4;
+
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+@media only screen and (max-width: 850px) {
+	.mobile-hidden {
+		display: none;
+		visibility: hidden;
+	}
+
+	[class^="col"] {
+		margin-bottom: 10px;
+	}
+
+	.start-journey-text {
+		text-align: center !important;
+	}
+
+	.resource-link {
+		margin-right: 25px;
+		margin-left: 25px;
+	}
+
+	.col-md-2:has(.resource-link) {
+		margin-bottom: 20px;
+	}
+}
+
+.navbar {
+	--bs-navbar-brand-color: #fff !important;
+	--bs-navbar-brand-hover-color: #fff !important;
+}
+
+nav .navbar-brand {
+	font-family: "JetBrains Mono", sans-serif;
+	font-weight: 500;
+}
+
+nav .nav-link {
+	color: #a1a3a4 !important;
+}
+
+.card {
+	--bs-card-bg: #1f1f1f !important;
+	--bs-card-border-radius: 10px !important;
+}
+
+.main-title {
+	font-size: 60px;
+	font-weight: 700;
+}
+
+.accent-blue {
+	background: linear-gradient(180deg, #0097ff 26.11%, #804fe8 73.33%),
+		linear-gradient(0deg, #ffffff, #ffffff);
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+}
+
+.accent-red {
+	color: var(--polytoria-red);
+}
+
+.avatar-headshot {
+	width: 70px;
+	height: 70px;
+	border-radius: 100%;
+}
+
+.game-card {
+	width: 500px;
+	height: 300px !important;
+	border-radius: 10px;
+
+	background-size: cover;
+}
+
+.game-card-details {
+	text-align: left;
+}
+
+.game-card-details p {
+	text-shadow: 0 3px 10px #00000040;
+	color: #e6e6e6;
+
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.game-card-details span {
+	text-shadow: 0 3px 10px #00000040;
+	color: #e6e6e6;
+}
+
+.game-card .avatar-headshot {
+	background: #00000040;
+	box-shadow: 0 2px 10px 0px #00000040;
+}
+
+.navbar-toggler-icon {
+	filter: brightness(100);
+}
