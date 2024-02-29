@@ -11,8 +11,8 @@ def getClassLink(className):
                     filePath = filePath[len(search_path):]
                     filePath = filePath[:-3]
                     if "enums/" in filePath:
-                        return "[:polytoria-%s: %s](/poly-newdocs/objects/%s)" % ("Enum", className, filePath)
-                    return "[:polytoria-%s: %s](/poly-newdocs/objects/%s)" % (className, className, filePath)
+                        return "[:polytoria-%s: %s](/objects/%s)" % ("Enum", className, filePath)
+                    return "[:polytoria-%s: %s](/objects/%s)" % (className, className, filePath)
     return "?"
 
 def getDirectory(category):
@@ -27,16 +27,16 @@ def getDirectory(category):
                 filePath = filePath[len(search_path):]
                 filePath = filePath[:-3]
                 if category == "enums":
-                    results.append("[:polytoria-%s: %s](/poly-newdocs/objects/%s)" % ("Enum", className, (category + "/" + className)))
+                    results.append("[:polytoria-%s: %s](/objects/%s)" % ("Enum", className, (category + "/" + className)))
                 else:
-                    results.append("[:polytoria-%s: %s](/poly-newdocs/objects/%s)" % (className, className, (category + "/" + className)))
+                    results.append("[:polytoria-%s: %s](/objects/%s)" % (className, className, (category + "/" + className)))
     results.sort()
     return results
 
 "Define macros"
 def define_env(env):
-     
-                        
+
+
     """
     Used to generate the "Inherited from" links in the documentation.
     This runs custom logic to find the correct link for a given class name,
@@ -51,7 +51,7 @@ def define_env(env):
     @env.macro
     def directory(category):
         return '\n'.join(["- " + item for item in getDirectory(category)])
-    
+
     @env.macro
     def directorySort(categories):
         text = ""
@@ -68,11 +68,11 @@ def define_env(env):
             categoryText = "## " + categoryName + "\n" + categoryText + "\n---"
             text += "\n" + categoryText
         return text
-   
+
     @env.macro
     def ambiguous(className, description):
         return "!!! note \"Not to be confused with %s, %s\"" % (getClassLink(className), description)
-    
+
     # Classes is an array of pairs of class names and descriptions
     @env.macro
     def ambiguousMultiple(classes):
@@ -80,18 +80,18 @@ def define_env(env):
         for i in range(len(classes)):
             text += "\n    - %s (%s)\n" % (getClassLink(classes[i][0]), classes[i][1])
         return text
-        
 
-    
+
+
 
 
     @env.macro
     def notnewable():
         return """<div data-search-exclude markdown>
-        
+
 !!! warning "Not newable"
     This object cannot be created by scripts using `Instance.New()`
-    
+
     </div>"""
 
     @env.macro
@@ -99,7 +99,7 @@ def define_env(env):
         return """<div data-search-exclude markdown>
 !!! danger "Abstract Object"
     This object exists only to serve as a foundation for other objects. It cannot be accessed directly, but its properties are documented below.
-    
+
     Additionally, it cannot be created in the creator menu or with `Instance.New()`
 </div>"""
 
@@ -115,14 +115,14 @@ def define_env(env):
         return """<div data-search-exclude markdown>
 !!! tip "Static Class"
     This object is a static class. It can be accessed by using it's name as a keyword like this `%s`.
-    
+
     Additionally, it cannot be created in the creator menu or with `Instance.New()`
 </div>""" % (className)
 
     @env.macro
     def serverexclusive():
         return "!!! warning \"This is only available to the server. It can only be accessed within server scripts.\""
-    
+
     @env.macro
     def clientexclusive():
         return "!!! warning \"This is only available to the client. It can only be accessed within local scripts.\""
@@ -133,15 +133,15 @@ def define_env(env):
 !!! failure "Does not sync!"
     This object does not sync across the server and client. It is recommended to avoid changing its properties from %ss, as the changes will not be visible to players.
 </div>""" % (getClassLink("Script"))
-    
+
     @env.macro
     def readonly():
         return "!!! warning \"This property is read-only and cannot be modified.\""
-    
+
     @env.macro
     def comingsoon():
         return "!!! failure \"This currently doesn't exist but has been promised by Polytoria developers.\""
-    
+
     @env.macro
     def classLink(className):
         return getClassLink(className)
@@ -175,7 +175,7 @@ def property(name):
     property_type = value.split(":")[1].strip()
     if property_type in type_friendlyname_table:
         property_type = type_friendlyname_table[property_type]
-        
+
     default_value = ""
     type_text = property_type
     has_link = False
@@ -184,7 +184,7 @@ def property(name):
         has_link = True
     else:
         property_type = "%s" % (property_type)
-        
+
     split = value.split("=")
     split[0] = split[0].replace(name+':', '').strip()
     if split[0] in type_friendlyname_table:
@@ -229,7 +229,7 @@ def event(name):
                 for part in range(len(parts)):
                     if parts[part] in parametertype_friendlyname_table:
                         parts[part] = parametertype_friendlyname_table[parts[part]]
-                
+
                     if getClassLink(parts[part]) != "?":
                         parts[part] = getClassLink(parts[part])
                     else:
@@ -293,7 +293,7 @@ def method(name):
                 for part in range(len(parts)):
                     if parts[part] in parametertype_friendlyname_table:
                         parts[part] = parametertype_friendlyname_table[parts[part]]
-                
+
                     if getClassLink(parts[part]) != "?":
                         parts[part] = getClassLink(parts[part])
                     else:
@@ -318,7 +318,7 @@ def method(name):
             parametersList = f"\n!!! quote \"**Parameters:** <span style=\"font-weight: normal;\">" + parameters[0] + "</span>\""
 
     return "### :polytoria-Method: %s → %s { #%s data-toc-label=\"%s\" }%s" % (name, property_type, name, name, parametersList)
-    
+
 def on_pre_page_macros(env):
     #find headers with { macroName } at the end and replace with the associated macro
     markdown_text = env.markdown

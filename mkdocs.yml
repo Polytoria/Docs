@@ -1,5 +1,5 @@
 site_name: Polytoria Scripting Documentation
-copyright: Copyright &copy; 2019 - 2024 Polytoria <a href="/poly-newdocs/contributors.html" class="contributors-link-footer"> - brought to you by <3</a>
+copyright: Copyright &copy; 2019 - 2024 Polytoria <a href="/contributors" class="contributors-link-footer"> - brought to you by <3</a>
 theme:
   features:
     - navigation.tabs
@@ -12,7 +12,6 @@ theme:
     - header.autohide
     - navigation.top
     - toc.follow
-
   name: material
   custom_dir: docs/theme
   logo: assets/logo.svg
@@ -29,11 +28,8 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to light mode
-
-# For consistency, for MkDocs is instead credited on the main home page ❤️
 extra:
   generator: true
-
 plugins:
   - search
   - macros
@@ -42,7 +38,10 @@ plugins:
       index_weight: -10
       warning: true
       reverse: false
-
+  - minify_html:
+      ensure_spec_compliant_unquoted_attribute_values: false
+      keep_closing_tags: true
+      keep_html_and_head_opening_tags: true
 markdown_extensions:
   - pymdownx.highlight
   - pymdownx.inlinehilite
