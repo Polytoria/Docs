@@ -8,7 +8,7 @@ weight: 3
 
 Modifying object properties is a vital part of scripting, as it allows you to manipulate objects.
 
-To get and set properties, you need a reference to the object itself. View [Accessing Objects in a Script](/tutorials/getting-started/accessing-objects/) for more info.
+To get and set properties, you need a reference to the object itself.
 
 To access a property, you may use the dot notation.
 
