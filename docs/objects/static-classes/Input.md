@@ -47,7 +47,7 @@ end)
 <div data-search-exclude markdown>
 !!! danger "Undocumented Methods"
 
-    This section is a work in progress! The methods `GetMouseWorldPoint`, `GetMouseWorldPosition`, `ScreenPointToRay`, and `ViewportPointToRay` are not written yet. Want to contribute? Go to the GitHub and open a pull request [here](https://github.com/StarManTheGamer/poly-newdocs)!
+    This section is a work in progress! The methods `GetMouseWorldPoint`, `GetMouseWorldPosition`, `ScreenPointToRay`, and `ViewportPointToRay` are not written yet. Want to contribute? Go to the GitHub and open a pull request [here](https://github.com/Polytoria/Docs)!
 
 </div>
 
