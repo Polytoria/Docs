@@ -6,23 +6,35 @@
 	margin-right: initial;
 }
 
-.alert {
-	padding: 0.5rem;
-	border-radius: 0.25rem;
-	margin-bottom: 1rem;
+.md-nav__link svg[viewBox="0 0 48 48"] {
+	width: 22px;
+	height: 22px;
+	margin-right: -4px;
 }
 
-.alert-danger {
-	background-color: #e63757;
-	color: #fff;
+svg[viewBox="0 0 48 48"] {
+	color: transparent !important;
+	transform: translateY(0.5px);
 }
 
-.alert-warning {
-	background-color: #f9a825;
-	color: #fff;
+.md-nav__link span:not(:only-child) {
+	font-size: 1em;
+	margin-top: 0.11em;
 }
 
-.alert-info {
-	background-color: #00a0d2;
-	color: #fff;
+p:has(small.parameters-text),
+p:has(small.parameters-text) + h3 {
+	margin: 0px;
+}
+
+h3:has(+ .admonition.quote) {
+	margin-bottom: 0px;
+}
+
+h3 + .admonition.quote {
+	margin-top: 5px;
+}
+
+.contributors-link-footer {
+	color: #007bff !important;
 }

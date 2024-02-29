@@ -1,0 +1,546 @@
+<!--
+  FRONTEND CREATED BY INDEX
+  DESIGN CREATED BY https://github.com/SK-Fast
+  ART CREATED BY https://github.com/SK-Fast
+-->
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Polytoria Scripting API</title>
+		<link rel="stylesheet" href="style.css" type="text/css" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+			crossorigin="anonymous"
+		/>
+		<link
+			href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+			rel="stylesheet"
+		/>
+
+		<meta name="theme-color" content="#2094f3" />
+		<meta name="title" content="Polytoria Scripting API" />
+		<meta
+			name="description"
+			content="Learn how to kickstart your ideas to reality with Polytoria's Scripting API."
+		/>
+	</head>
+	<body
+		style="
+			background-image: url(&quot;images/background.png&quot;);
+			background-repeat: no-repeat;
+		"
+	>
+		<!-- ICONS BACKGROUND-->
+		<div
+			style="
+				background-image: url(&quot;images/icons-background.png&quot;);
+				position: absolute;
+				margin-right: auto;
+				margin-left: auto;
+				margin-top: 4rem;
+				background-repeat: no-repeat;
+				background-position: top center;
+				width: 100%;
+				height: 450px;
+			"
+		></div>
+
+		<!-- NAVBAR -->
+		<nav class="navbar navbar-expand-lg w-75 mx-auto">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">
+					<img
+						src="images/polytoria-white.svg"
+						alt="Polytoria Logo"
+						style="vertical-align: top; margin-top: 1px"
+					/>
+					/docs
+				</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarContent"
+					aria-controls="navbarContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link" href="objects/game/Game/">API</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="tutorials/basic-scripting/"
+								>Tutorials</a
+							>
+						</li>
+						<li class="nav-item">
+							<a
+								class="nav-link"
+								href="tutorials/basic-scripting/project-basic-obby"
+								>Demos</a
+							>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<!-- SPACER -->
+		<div style="height: 125px"></div>
+
+		<div class="text-center w-100">
+			<!-- TITLE -->
+			<h1 class="main-title">
+				Kickstart your Ideas<br />To <span class="accent-blue">Reality</span>
+			</h1>
+			<p>
+				Polytoria simplifies your multiplayer game development. Easy to get
+				started for beginners, and welcoming from advanced developers.
+			</p>
+
+			<!-- MAIN BUTTONS-->
+			<div style="position: relative; z-index: 2000">
+				<div
+					class="d-block w-100 mx-auto fw-bold mb-2"
+					style="--bs-border-width: 2px; --bs-border-radius: 7px"
+				>
+					<a href="tutorials/getting-started/" class="btn btn-light"
+						><i class="bx bxs-star"></i> Get Started!</a
+					>
+					<div style="width: 5px; display: inline-block"></div>
+					<a href="objects/game/Game" class="btn btn-outline-light"
+						><i class="bx bxs-book"></i> Read the Docs</a
+					>
+				</div>
+				<!--
+        coming soon: <a href="#" class="text-muted">Developer from other platforms?</a>
+        -->
+			</div>
+
+			<!-- POP-UP CREATOR IMAGE-->
+			<div
+				style="
+					background: linear-gradient(
+							to bottom,
+							rgba(0, 0, 0, 0),
+							var(--background)
+						),
+						url(&quot;images/popup-background.png&quot;);
+					width: 100%;
+					height: 400px;
+					background-repeat: no-repeat;
+					background-position: center;
+				"
+			></div>
+
+			<!-- SPACER -->
+			<div style="height: 50px"></div>
+
+			<!-- FEATURES -->
+			<h3 class="mb-4">
+				Polytoria helps you kickstart your idea
+				<span class="accent-red">faster</span>
+			</h3>
+			<div class="row w-75 mx-auto text-center">
+				<div class="col-md-4">
+					<div class="card h-100">
+						<div class="card-body">
+							<div
+								class="d-block mx-auto mt-3"
+								style="
+									width: 150px;
+									height: 150px;
+									border-radius: 10px;
+									background: #262626;
+								"
+							></div>
+							<br />
+							<h3 style="font-size: 25px">Simple 3d</h3>
+							<span class="text-muted">
+								Different from other engines, in Polytoria you can build using
+								parts, it's a piece of cake!
+							</span>
+							<div style="height: 10px"></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card h-100">
+						<div class="card-body">
+							<div
+								class="d-block mx-auto mt-3"
+								style="
+									width: 150px;
+									height: 150px;
+									border-radius: 10px;
+									background: #262626;
+								"
+							></div>
+							<br />
+							<h3 style="font-size: 25px">Simple Multiplayer</h3>
+							<span class="text-muted">
+								Multiplayer is already built in Polytoria, all you need to do is
+								create your game!
+							</span>
+							<div style="height: 10px"></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card h-100">
+						<div class="card-body mt-auto mb-auto">
+							<div
+								class="d-block mx-auto mt-3"
+								style="
+									width: 150px;
+									height: 150px;
+									border-radius: 10px;
+									background: #262626;
+								"
+							></div>
+							<br />
+							<h3 style="font-size: 25px">Release to the Globe</h3>
+							<span class="text-muted">
+								Polytoria has a vibrant community, with players from all around
+								the world!
+							</span>
+							<div style="height: 10px"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- COMMUNITY CREATIONS (HIDDEN ON MOBILE) -->
+			<div class="mobile-hidden">
+				<!-- SPACER -->
+				<div style="height: 50px"></div>
+
+				<h3>Backed by a Global Developer Community</h3>
+				<p class="text-muted">
+					People from around the world come together and create their own
+					places.
+				</p>
+				<div class="row mb-4">
+					<div class="col-md-2"></div>
+					<div class="col-auto">
+						<a
+							href="https://polytoria.com/places/6010"
+							target="_blank"
+							class="text-decoration-none"
+						>
+							<div
+								class="card game-card"
+								style="
+									background-image: url(&quot;https://c0.ptacdn.com/places/thumbnails/dbrWfrZGoFHB6pXF-1gEmj7ZuL_wSHLT.png&quot;);
+								"
+							>
+								<div class="card-body">
+									<div class="game-card-details">
+										<div class="row">
+											<div class="col-auto">
+												<img
+													src="https://c0.ptacdn.com/thumbnails/avatars/e6355b909aaf8d9a9e7fea232890c65df0827eb9849070582f9844894b186dd6-icon.png"
+													alt="InsertSoda's Avatar"
+													class="avatar-headshot img-fluid"
+												/>
+											</div>
+											<div class="col" style="--bs-gutter-x: 0px">
+												<p class="mb-0 mt-2">Treasure Divers</p>
+												<span>By InsertSoda</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-auto">
+						<a
+							href="https://polytoria.com/places/6012"
+							target="_blank"
+							class="text-decoration-none"
+						>
+							<div
+								class="card game-card"
+								style="
+									background-image: url(&quot;https://c0.ptacdn.com/places/thumbnails/79aA7oX_pVSPtsodL4p1QgHVhzm8Pg1A.png&quot;);
+								"
+							>
+								<div class="card-body">
+									<div class="game-card-details">
+										<div class="row">
+											<div class="col-auto">
+												<img
+													src="https://c0.ptacdn.com/thumbnails/avatars/266480133a3e239581e9e93d3060dcc33c5adc7dcad265fee541b5ede30d67e7-icon.png"
+													alt="Index's Avatar"
+													class="avatar-headshot img-fluid"
+												/>
+											</div>
+											<div class="col" style="--bs-gutter-x: 0px">
+												<p class="mb-0 mt-2">Operation: Sea Cleanup</p>
+												<span>By Index</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-2"></div>
+				</div>
+				<div class="row mb-2">
+					<div class="col-md-2"></div>
+					<div class="col-auto">
+						<a
+							href="https://polytoria.com/places/6456"
+							target="_blank"
+							class="text-decoration-none"
+						>
+							<div
+								class="card game-card"
+								style="
+									background-image: url(&quot;https://c0.ptacdn.com/places/thumbnails/XImnomv8OntkWKrfjpXniJLi3Ta2Qxn8.png&quot;);
+								"
+							>
+								<div class="card-body">
+									<div class="game-card-details">
+										<div class="row">
+											<div class="col-auto">
+												<img
+													src="https://c0.ptacdn.com/thumbnails/avatars/e493bb228c0fe5d83d5e0d66637f9b149ab45f0bd3ab72fba5637984ad2fdcb1-icon.png"
+													alt="InsertSoda's Avatar"
+													class="avatar-headshot img-fluid"
+												/>
+											</div>
+											<div class="col" style="--bs-gutter-x: 0px">
+												<p class="mb-0 mt-2">Butterfly Yoinker</p>
+												<span>By abpintxp</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-auto">
+						<a
+							href="https://polytoria.com/places/6253"
+							target="_blank"
+							class="text-decoration-none"
+						>
+							<div
+								class="card game-card"
+								style="
+									background-image: url(&quot;https://c0.ptacdn.com/places/thumbnails/3G2kazyp8K9YGs7G_x_fnmdMcmmvRgJT.png&quot;);
+								"
+							>
+								<div class="card-body">
+									<div class="game-card-details">
+										<div class="row">
+											<div class="col-auto">
+												<img
+													src="https://c0.ptacdn.com/thumbnails/avatars/b9f70221214607413d1dcff6c4a917cc4f6755cadf02583b08172bb3eb24e6bf-icon.png"
+													alt="Index's Avatar"
+													class="avatar-headshot img-fluid"
+												/>
+											</div>
+											<div class="col" style="--bs-gutter-x: 0px">
+												<p class="mb-0 mt-2">snal's island</p>
+												<span>By turmoil</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-2"></div>
+				</div>
+			</div>
+
+			<!-- SPACER -->
+			<div style="height: 100px"></div>
+
+			<!-- DEVELOPER RESOURCES -->
+			<h3>Resources</h3>
+			<p class="text-muted">
+				Interested in developing for Polytoria? The Polytoria Documentation
+				gives you all the resources you need to get started on creating your
+				game.
+			</p>
+			<div class="row mb-5">
+				<div class="col-md-2"></div>
+				<div class="col-md-2">
+					<a href="objects/game/Game" class="text-decoration-none text-reset">
+						<div
+							class="card h-100 resource-link"
+							style="border: 1px solid gray"
+						>
+							<div class="card-body">
+								<img
+									src="images/icons/book.svg"
+									class="img-fluid mt-3 mb-3"
+									alt="API Documentation Icon"
+								/>
+								<h3 class="text-truncate" style="font-size: 20px">
+									API Documentation
+								</h3>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-2">
+					<a
+						href="tutorials/basic-scripting/"
+						class="text-decoration-none text-reset"
+					>
+						<div
+							class="card h-100 resource-link"
+							style="border: 1px solid gray"
+						>
+							<div class="card-body">
+								<img
+									src="images/icons/glasses.svg"
+									class="img-fluid mt-3 mb-3"
+									alt="Tutorials Icon"
+								/>
+								<h3 style="font-size: 20px">Tutorials</h3>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-2">
+					<a
+						href="tutorials/basic-scripting/project-basic-obby"
+						class="text-decoration-none text-reset"
+					>
+						<div
+							class="card h-100 resource-link"
+							style="border: 1px solid gray"
+						>
+							<div class="card-body">
+								<img
+									src="images/icons/cube.svg"
+									class="img-fluid mt-3 mb-3"
+									alt="Demos Icon"
+								/>
+								<h3 style="font-size: 20px">Demos</h3>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-2">
+					<a
+						href="https://discord.gg/sqVSKZRpdB"
+						class="text-decoration-none text-reset"
+						target="_blank"
+					>
+						<div
+							class="card h-100 resource-link"
+							style="border: 1px solid gray"
+						>
+							<div class="card-body">
+								<img
+									src="images/icons/discord.svg"
+									class="img-fluid mt-3 mb-3"
+									alt="DevHub Community Icon"
+								/>
+								<h3 style="font-size: 20px">DevHub Community</h3>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-2"></div>
+			</div>
+
+			<!-- DEVELOPER RESOURCES -->
+			<h3>Get Involved</h3>
+			<p class="text-muted">
+				Want to help get involved to help develop Polytoria together?
+			</p>
+			<div class="row">
+				<div class="col-md-3"></div>
+				<div class="col">
+					<a
+						href="https://github.com/StarmanTheGamer/poly-newdocs"
+						class="text-decoration-none text-reset"
+						target="_blank"
+					>
+						<div class="card h-100" style="border: 1px solid gray">
+							<div class="card-body">
+								<img
+									src="images/icons/Github.svg"
+									class="img-fluid mt-3 mb-3"
+									alt="Improve the Docs Icon"
+								/>
+								<h3 style="font-size: 20px">Improve the Docs</h3>
+							</div>
+						</div>
+					</a>
+				</div>
+				<!--
+      <div class="col">
+        <a href="#" class="text-decoration-none text-reset" target="_blank">
+          <div class="card h-100" style="border: 1px solid gray;">
+            <div class="card-body">
+              <img src="images/icons/users.svg" class="img-fluid mt-3 mb-3" alt="Apply for Developer Icon">
+              <h3 style="font-size: 20px;">Apply for Developer</h3>
+            </div>
+          </div>
+        </a>
+      </div>
+      -->
+				<div class="col-md-3"></div>
+			</div>
+
+			<!-- SPACER -->
+			<div style="height: 100px"></div>
+
+			<!-- START YOUR JOURNEY -->
+			<div class="row w-100" style="padding: 5rem; position: relative">
+				<div
+					style="
+						background-image: url(&quot;images/start-journey.png&quot;);
+						background-size: cover;
+						width: 100%;
+						height: 100%;
+						position: absolute;
+						top: 0;
+						left: 0;
+					"
+				></div>
+				<div class="col" style="z-index: 1">
+					<h2 class="fw-bold start-journey-text" style="text-align: left">
+						Start your journey today.
+					</h2>
+				</div>
+				<div class="col-md-3" style="z-index: 1">
+					<a href="objects/game/Game" class="btn btn-light"
+						><i class="bx bxs-star"></i> Get Started!</a
+					>
+				</div>
+			</div>
+
+			<!-- FOOTER -->
+			<div
+				class="row text-muted p-4"
+				style="padding-right: 200px !important; padding-left: 200px !important"
+			>
+				<div class="col" style="text-align: left">
+					Polytoria &copy; 2019-2024
+				</div>
+				<div class="col-md-3">
+					<img src="images/polytoria-gray.svg" alt="Polytoria Logo" />
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

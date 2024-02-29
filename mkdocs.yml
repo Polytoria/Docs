@@ -1,30 +1,65 @@
-site_name: Polytoria Scripting API
-copyright: Copyright &copy; 2019 - 2024 Polytoria
+site_name: Polytoria Scripting Documentation
+copyright: Copyright &copy; 2019 - 2024 Polytoria <a href="/poly-newdocs/contributors.html" class="contributors-link-footer"> - brought to you by <3</a>
 theme:
   features:
     - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.expand
     - navigation.instant
+    - navigation.path
     - content.code.annotate
+    - content.code.copy
+    - header.autohide
+    - navigation.top
+    - toc.follow
+
   name: material
+  custom_dir: docs/theme
   logo: assets/logo.svg
   font:
-    text: Poppins
+    text: Rubik
   palette:
-    - scheme: default
+    - scheme: slate
       primary: blue
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
-    - scheme: slate
+    - scheme: default
       primary: blue
       toggle:
         icon: material/weather-night
         name: Switch to light mode
+
+# For consistency, for MkDocs is instead credited on the main home page ❤️
+extra:
+  generator: true
+
+plugins:
+  - search
+  - macros
+  - mkdocs-nav-weight:
+      section_renamed: true
+      index_weight: -10
+      warning: true
+      reverse: false
+
 markdown_extensions:
   - pymdownx.highlight
   - pymdownx.inlinehilite
   - pymdownx.superfences
   - pymdownx.snippets
+  - pymdownx.details
   - tables
+  - admonition
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - docs/theme/.icons
 extra_css:
   - assets/extra.css
