@@ -1,5 +1,5 @@
 site_name: Polytoria Scripting Documentation
-copyright: Copyright &copy; 2019 - 2024 Polytoria <a href="/contributors" class="contributors-link-footer"> - brought to you by &lt3</a>
+copyright: Copyright &copy; 2019 - 2024 Polytoria - <a href="/contributors" class="contributors-link-footer">brought to you by &lt3</a>
 theme:
   features:
     - navigation.tabs
