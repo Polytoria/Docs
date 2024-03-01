@@ -9,5 +9,6 @@ icon: polytoria/Enum
 | `Asset`              |
 | `AssetThumbnail`     |
 | `PlaceThumbnail`     |
+| `UserAvatar`         |
 | `UserAvatarHeadshot` |
 | `GuildIcon`          |

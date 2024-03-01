@@ -35,7 +35,13 @@ image.ImageID = 12274
 
 ### ImageType:ImageType { property }
 
-TO-DO
+Specifies the image type of the UIImage.
+
+**Example**
+
+```lua
+image.ImageType = ImageType.UserAvatarHeadshot
+```
 
 ### Loading:bool { property }
 
