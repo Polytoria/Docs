@@ -27,11 +27,11 @@ Specifies the width of the child control.
 
 ### ChildForceExpandHeight:bool { property }
 
-Specifies whether the should expand to the height of the parent.
+Specifies whether the children should expand to the height of the parent.
 
 ### ChildForceExpandWidth:bool { property }
 
-Specifies whether the child should expand to fill the width of the parent.
+Specifies whether the children should expand to fill the width of the parent.
 
 ### ChildScaleHeight:bool { property }
 
