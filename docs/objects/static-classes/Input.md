@@ -91,7 +91,7 @@ Returns the current mouse position.
 
 ### CursorLocked:bool { property }
 
-to-do
+Determines whether or not the cursor is locked.
 
 **Example**
 
@@ -101,7 +101,7 @@ Input.CursorLocked = true
 
 ### CursorVisible:bool { property }
 
-to do
+Determines whether or not the cursor is visible.
 
 **Example**
 

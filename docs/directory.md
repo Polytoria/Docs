@@ -5,8 +5,8 @@ description: A list of all documentation pages on the site!
 
 ## Removed Classes
 
-- [UI](/objects/static-classes/UI/)
-- Remote Events (TO-DO)
+- [UI](/removed/UI/)
+- [Remote Events](/removed/RemoteEvent/)
 
 ---
 

@@ -18,6 +18,7 @@ def getClassLink(className):
 def getDirectory(category):
     # Find the actual link for the input classname by searching for the markdown file
     search_path = "docs/objects/" + category
+    if category == "removed": search_path = "docs/removed"
     results = []
     for root, dirs, files in os.walk(search_path):
         for file in files:
@@ -208,7 +209,6 @@ def property(name):
 def event(name):
     value = name[3:]
     name = value.split(":")[0].strip().split("(")[0].strip()
-    print("AAAAAAAAA", name)
 
     parametersList = ""
 
