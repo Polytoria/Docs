@@ -2,6 +2,7 @@
   FRONTEND CREATED BY INDEX
   DESIGN CREATED BY https://github.com/SK-Fast
   ART CREATED BY https://github.com/SK-Fast
+  CONTRIBUTORS SCRIPT CREATED BY https://github.com/StarManTheGamer
 -->
 <!doctype html>
 <html lang="en">
@@ -20,20 +21,82 @@
 			href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
 			rel="stylesheet"
 		/>
-
 		<meta name="theme-color" content="#2094f3" />
-		<meta name="title" content="Polytoria Scripting API" />
+		<meta name="title" content="Polytoria Scripting API - Contributors" />
 		<meta
 			name="description"
-			content="Learn how to kickstart your ideas to reality with Polytoria's Scripting API."
+			content="The Polytoria Scripting API is brought to you by... &lt;3"
 		/>
+		<style>
+			body {
+				font-family: Arial, sans-serif;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+			}
+
+			.container {
+				max-width: 1200px;
+				margin: 0 auto;
+				padding: 0 15px;
+			}
+
+			.contributors {
+				overflow-x: auto;
+				white-space: nowrap;
+				padding: 20px 0;
+			}
+
+			.text-center {
+				position: relative;
+				z-index: 1;
+			}
+
+			.contributor {
+				display: inline-block;
+				margin-right: 20px;
+				padding: 10px;
+				border: 3px solid #484848;
+				border-radius: 5px;
+				text-align: center;
+				background-color: #252525;
+			}
+
+			.avatar {
+				width: 60px;
+				height: 60px;
+				border-radius: 50%;
+				margin-bottom: 10px;
+			}
+
+			.name {
+				font-weight: bold;
+				display: block;
+				margin-bottom: 5px;
+				color: #cdcdcd;
+			}
+
+			.contributions {
+				color: #cdcdcd;
+			}
+
+			@keyframes scroll {
+				0% {
+					transform: translateX(100%);
+				}
+				100% {
+					transform: translateX(-100%);
+				}
+			}
+
+			.contributors-list {
+				display: inline-block;
+				white-space: nowrap;
+				animation: scroll 20s linear infinite;
+			}
+		</style>
 	</head>
-	<body
-		style="
-			background-image: url(&quot;images/background.png&quot;);
-			background-repeat: no-repeat;
-		"
-	>
+	<body>
 		<!-- ICONS BACKGROUND-->
 		<div
 			style="
@@ -84,6 +147,9 @@
 						<li class="nav-item">
 							<a class="nav-link" href="tutorials/getting-started/">Demos</a>
 						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contributors">Contributors</a>
+						</li>
 					</ul>
 				</div>
 			</div>
@@ -92,44 +158,67 @@
 		<!-- SPACER -->
 		<div style="height: 125px"></div>
 
-		<div class="text-center w-100">
-			<!-- TITLE -->
-			<h1 class="main-title">
-				Brought to you by... <span class="accent-blue">&lt3</span>
-			</h1>
-			<p class="mb-0">
-				Thanks for contributing to Polytoria's scripting documentation!
-			</p>
-			<a
-				href="https://github.com/Polytoria/Docs"
-				target="_blank"
-				style="position: relative; z-index: 2;"
-				class="text-decoration-none"
-			>
-				Want to contribute? Go to the GitHub repository here!
-			</a>
-
-			<!-- MAIN BUTTONS-->
-			<div class="mt-4" style="position: relative; z-index: 2000">
-				<ul class="list-unstyled text-muted">
-					<!-- TO-DO: make list automatically fetch from GitHub contributors -->
-					<li class="mb-1">
-						baggy - Revival of the new documentation and documentation
-					</li>
-					<li class="mb-1">
-						Index - Main code improvements, documentation, and added macros
-					</li>
-					<li class="mb-1">
-						InsertSoda - Embed improvements and documentation
-					</li>
-					<hr class="w-25 mx-auto" />
-					<li class="mb-2">
-						ItsLuiggiYahoo - Contributions to 2 icons, missing documentation,
-						and creation of<br />info pages like "Setting up Polytoria Creator"
-					</li>
-					<li class="mb-1">Brixster - Framework for us to build off of</li>
-				</ul>
+		<div class="container">
+			<div class="text-center">
+				<!-- TITLE -->
+				<h1 class="main-title">
+					Brought to you by... <span class="accent-blue">&lt3</span>
+				</h1>
+				<p>Thanks for contributing to Polytoria's scripting documentation!</p>
+				<p>
+					<a
+						href="https://github.com/Polytoria/Docs"
+						target="_blank"
+						class="text-decoration-none"
+					>
+						Want to contribute? Go to the GitHub repository here!
+					</a>
+				</p>
 			</div>
 		</div>
+
+		<div class="container">
+			<div class="contributors">
+				<div class="contributors-list" id="contributorsList">
+					<!-- Contributors will be added here -->
+				</div>
+			</div>
+		</div>
+
+		<script>
+			const repo = "Polytoria/Docs";
+			const apiUrl = `https://api.github.com/repos/${repo}/contributors`;
+
+			fetch(apiUrl)
+				.then((response) => response.json())
+				.then((data) => {
+					const contributorsList = document.getElementById("contributorsList");
+					data.forEach((contributor) => {
+						const contributorDiv = document.createElement("div");
+						contributorDiv.classList.add("contributor");
+
+						const avatarImg = document.createElement("img");
+						avatarImg.src = contributor.avatar_url;
+						avatarImg.alt = `${contributor.login}'s avatar`;
+						avatarImg.classList.add("avatar");
+						contributorDiv.appendChild(avatarImg);
+
+						const nameSpan = document.createElement("span");
+						nameSpan.textContent = contributor.login;
+						nameSpan.classList.add("name");
+						contributorDiv.appendChild(nameSpan);
+
+						const contributionsSpan = document.createElement("span");
+						contributionsSpan.textContent = `Contributions: ${contributor.contributions}`;
+						contributionsSpan.classList.add("contributions");
+						contributorDiv.appendChild(contributionsSpan);
+
+						contributorsList.appendChild(contributorDiv);
+					});
+				})
+				.catch((error) => {
+					console.error("Error fetching contributors:", error);
+				});
+		</script>
 	</body>
 </html>
