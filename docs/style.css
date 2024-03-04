@@ -121,3 +121,14 @@ nav .nav-link {
 .navbar-toggler-icon {
 	filter: brightness(100);
 }
+
+.visible {
+	opacity: 1;
+	transform: translateY(0);
+ }
+
+section{
+	opacity: 0;
+	transform: translateY(30px);
+	transition: opacity 0.9s ease, transform 0.9s ease;
+}

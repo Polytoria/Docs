@@ -34,6 +34,32 @@
 			background-repeat: no-repeat;
 		"
 	>
+
+		<!-- Script for scrolling-->
+		<script>		
+
+			window.addEventListener('scroll', function() {
+			   
+			   revealSection('section2');
+			   revealSection('section3');
+			   revealSection('section4');
+			   
+			});
+		 
+			function revealSection(sectionId) {
+			   var section = document.getElementById(sectionId);
+			   var position = section.getBoundingClientRect();
+		 
+			   // If the section is in the viewport
+			   if (position.top < window.innerHeight) {
+				  section.classList.add('visible');
+			   }
+			   else {
+					section.classList.remove('visible')
+			   }
+			}
+	
+		 </script>
 		<!-- ICONS BACKGROUND-->
 		<div
 			style="
@@ -95,55 +121,58 @@
 		<!-- SPACER -->
 		<div style="height: 125px"></div>
 
-		<div class="text-center w-100">
-			<!-- TITLE -->
-			<h1 class="main-title">
-				Kickstart your Ideas<br />To <span class="accent-blue">Reality</span>
-			</h1>
-			<p>
-				Polytoria simplifies your multiplayer game development. Easy to get
-				started for beginners, and welcoming from advanced developers.
-			</p>
+		<section id="section1" class="visible">
+			<div class="text-center w-100">
+				<!-- TITLE -->
+				<h1 class="main-title">
+					Kickstart your Ideas<br />To <span class="accent-blue">Reality</span>
+				</h1>
+				<p>
+					Polytoria simplifies your multiplayer game development. Easy to get
+					started for beginners, and welcoming from advanced developers.
+				</p>
 
-			<!-- MAIN BUTTONS-->
-			<div style="position: relative; z-index: 2000">
-				<div
-					class="d-block w-100 mx-auto fw-bold mb-2"
-					style="--bs-border-width: 2px; --bs-border-radius: 7px"
-				>
-					<a href="tutorials/getting-started/" class="btn btn-light"
-						><i class="bx bxs-star"></i> Get Started!</a
+				<!-- MAIN BUTTONS-->
+				<div style="position: relative; z-index: 2000">
+					<div
+						class="d-block w-100 mx-auto fw-bold mb-2"
+						style="--bs-border-width: 2px; --bs-border-radius: 7px"
 					>
-					<div style="width: 5px; display: inline-block"></div>
-					<a href="objects/game/Game" class="btn btn-outline-light"
-						><i class="bx bxs-book"></i> Read the Docs</a
-					>
+						<a href="tutorials/getting-started/" class="btn btn-light"
+							><i class="bx bxs-star"></i> Get Started!</a
+						>
+						<div style="width: 5px; display: inline-block"></div>
+						<a href="objects/game/Game" class="btn btn-outline-light"
+							><i class="bx bxs-book"></i> Read the Docs</a
+						>
+					</div>
+					<!--
+			coming soon: <a href="#" class="text-muted">Developer from other platforms?</a>
+			-->
 				</div>
-				<!--
-        coming soon: <a href="#" class="text-muted">Developer from other platforms?</a>
-        -->
-			</div>
 
-			<!-- POP-UP CREATOR IMAGE-->
-			<div
-				style="
-					background: linear-gradient(
-							to bottom,
-							rgba(0, 0, 0, 0),
-							var(--background)
-						),
-						url(&quot;images/popup-background.png&quot;);
-					width: 100%;
-					height: 400px;
-					background-repeat: no-repeat;
-					background-position: center;
-				"
-			></div>
+				<!-- POP-UP CREATOR IMAGE-->
+				<div
+					style="
+						background: linear-gradient(
+								to bottom,
+								rgba(0, 0, 0, 0),
+								var(--background)
+							),
+							url(&quot;images/popup-background.png&quot;);
+						width: 100%;
+						height: 400px;
+						background-repeat: no-repeat;
+						background-position: center;
+					"
+				></div>
+		</section>
 
 			<!-- SPACER -->
 			<div style="height: 50px"></div>
-
+		
 			<!-- FEATURES -->
+		<section id="section2">
 			<h3 class="mb-4">
 				Polytoria helps you kickstart your idea
 				<span class="accent-red">faster</span>
@@ -216,7 +245,9 @@
 					</div>
 				</div>
 			</div>
+		</section>
 
+		<section id="section3">
 			<!-- COMMUNITY CREATIONS (HIDDEN ON MOBILE) -->
 			<!-- TO-DO: maybe make this automatically fetch top games -->
 			<div class="mobile-hidden">
@@ -365,10 +396,10 @@
 					<div class="col-md-2"></div>
 				</div>
 			</div>
-
+		</section>	
 			<!-- SPACER -->
 			<div style="height: 100px"></div>
-
+		<section id="section4">
 			<!-- DEVELOPER RESOURCES -->
 			<h3>Resources</h3>
 			<p class="text-muted">
@@ -500,10 +531,10 @@
       -->
 				<div class="col-md-3"></div>
 			</div>
-
+		</section>	
 			<!-- SPACER -->
 			<div style="height: 100px"></div>
-
+		
 			<!-- START YOUR JOURNEY -->
 			<div class="row w-100" style="padding: 5rem; position: relative">
 				<div
