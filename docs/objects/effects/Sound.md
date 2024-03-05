@@ -57,6 +57,10 @@ The pitch property of this sound
 
 When enabled, the sound will be played in 3D world space rather than having the same volume for everyone.
 
+### MaxDistance:int { property }
+
+Specifies how far the player must be from the sound for it to stop playing, if the `PlayInWorld` property is set to true.
+
 ### Playing:bool { property }
 
 Determines whether the sound is currently playing or not.
