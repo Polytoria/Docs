@@ -35,6 +35,10 @@ Determines whether or not the text should be facing the camera or not.
 text.FaceCamera = true
 ```
 
+### Font:TextFontPreset { property }
+
+Specifies the font of the text (using the `TextFontPreset` enum)
+
 ### FontSize:int { property }
 
 Specifies the size of the font.
