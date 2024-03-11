@@ -27,8 +27,8 @@ Fires when a player joins the server.
 
 ```lua
 game["Players"].PlayerAdded:Connect(function(player)
-    if player.Name == "baggy" then
-        player:Kick("Baggy u stink!!!")
+    if player.Name == "Player" then
+        player:Kick("A player has joined the server, so they have been removed.")
     end
 end)
 ```
@@ -41,8 +41,8 @@ Fires when a player leaves the server.
 
 ```lua
 game["Players"].PlayerRemoved:Connect(function(player)
-    if player.Name == "baggy" then
-        print("Baggy left thank god!!!!!")
+    if player.Name == "Player" then
+        print("A player has left the server.")
     end
 end)
 ```

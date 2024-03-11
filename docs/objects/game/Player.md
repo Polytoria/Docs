@@ -71,8 +71,8 @@ Kicks the player from the server with an optional reason parameter.
 
 ```lua
 game["Players"].PlayerAdded:Connect(function(player)
-    if player.Name == "baggy" then
-        player:Kick("Baggy u stink!!!")
+    if player.Name == "Player" then
+        player:Kick("You've been kicked from the server.")
     end
 end)
 ```
