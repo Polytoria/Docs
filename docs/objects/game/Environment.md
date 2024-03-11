@@ -17,14 +17,14 @@ weight: 2
 
 ## Methods
 
-### CreateExplosion(Position;Vector3,Radius;int=10,Force;int=5000,affectAnchored;bool=true,callback;function=nil) { method }
+### CreateExplosion(Position;Vector3,Radius;int=10,Force;int=5000,affectAnchored;bool=true,callback;function=nil,damage;int=10000) { method }
 
 Creates a deadly explosion killing players and applying force to parts at the given position.
 
 **Example**
 
 ```lua
-game["Environment"]:CreateExplosion(Vector3.New(0, 0, 0), 30, 5000, false)
+game["Environment"]:CreateExplosion(Vector3.New(0, 0, 0), 30, 5000, false, 10)
 ```
 
 <div data-search-exclude markdown>
