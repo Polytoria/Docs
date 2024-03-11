@@ -51,7 +51,7 @@ Determines whether the sound should loop or not.
 
 ### Pitch:int { property }
 
-The pitch property of this sound
+The pitch of the sound.
 
 ### PlayInWorld:bool { property }
 
