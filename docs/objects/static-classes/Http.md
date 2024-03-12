@@ -17,13 +17,13 @@ icon: polytoria/Http
 
 !!! note "The place ID is sent along with the request under the header named `PT-Game-ID`."
 
-!!! note "When using Http `:Post`, `:Put`, or `:Delete` parameters are formatted in query form like this: `key1=value&key2=value`"
+!!! note "When using the Http `:Post`, `:Put`, or `:Delete` methods, parameters are formatted in query form like this: `key1=value&key2=value`"
 
 </div>
 
 ## Methods
 
-### Get(url;string,callback;function) { method }
+### Get(url;string,callback;function,headers;array) { method }
 
 Sends a GET request to the specified URL.
 
