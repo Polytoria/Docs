@@ -13,11 +13,13 @@ icon: polytoria/Tween
 <div data-search-exclude markdown>
 !!! note "Overlapping Tweens"
     Multiple tweens can be applied on the same object at the same time, but they must not be tweening the same property. Only the latest tween will override any other one being applied to the property.
+
+!!! note "All tween methods (eg. `TweenColor`, `TweenNumber`, `TweenPosition`, not `Cancel`) will return a tweenID in the form of a number used for things like cancelling a tween using the `Cancel` method."
 </div>
 
 ## Methods
 
-### TweenColor(startValue;Color,endValue;Color,time;number,callPerStep;function,type;TweenType,callback;function) { method }
+### TweenColor(startValue;Color,endValue;Color,time;number,callPerStep;function,type;TweenType,callback;function):int { method }
 
 Tweens a color between two specified values.
 
@@ -31,7 +33,7 @@ end, TweenType.linear, function()
 end
 ```
 
-### TweenNumber(startValue;int,endValue;int,time;number,callPerStep;function,type;TweenType,callback;function) { method }
+### TweenNumber(startValue;int,endValue;int,time;number,callPerStep;function,type;TweenType,callback;function):int { method }
 
 Tweens a number between two specified values.
 
@@ -45,7 +47,7 @@ end, TweenType.linear, function()
 end)
 ```
 
-### TweenPosition(target;DynamicInstance,destination;Vector3,time;number,type;TweenType,callback;function) { method }
+### TweenPosition(target;DynamicInstance,destination;Vector3,time;number,type;TweenType,callback;function):int { method }
 
 Tweens the position of a DynamicInstance
 
@@ -57,7 +59,7 @@ Tween:TweenPosition(part, Vector3.New(100, 0, 0), 100, TweenType.linear, functio
 end)
 ```
 
-### TweenRotation(target;DynamicInstance,destination;Vector3,time;number,type;TweenType,callback;function) { method }
+### TweenRotation(target;DynamicInstance,destination;Vector3,time;number,type;TweenType,callback;function):int { method }
 
 Tweens the rotation of a DynamicInstance
 
@@ -73,7 +75,7 @@ Tween:TweenRotation(part, Vector3.New(0, 90, 0), 1, TweenType.linear, function()
 end)
 ```
 
-### TweenSize(target;DynamicInstance,endValue;Vector3,time;number,type;TweenType,callback;function) { method }
+### TweenSize(target;DynamicInstance,endValue;Vector3,time;number,type;TweenType,callback;function):int { method }
 
 Tweens the size of a DynamicInstance
 
@@ -85,7 +87,7 @@ Tween:TweenSize(part, Vector3.New(5, 5, 5), 1, TweenType.linear, function()
 end)
 ```
 
-### TweenVector2(startValue;Vector2,endValue;Vector2,time;int,callPerStep;function,type;TweenType,callback;function) { method }
+### TweenVector2(startValue;Vector2,endValue;Vector2,time;int,callPerStep;function,type;TweenType,callback;function):int { method }
 
 Tweens a vector2 between two specified values.
 
@@ -99,7 +101,7 @@ end, TweenType.linear, function()
 end)
 ```
 
-### TweenVector3(startValue;Vector3,endValue;Vector3,time;int,callPerStep;function,type;TweenType,callback;function) { method }
+### TweenVector3(startValue;Vector3,endValue;Vector3,time;int,callPerStep;function,type;TweenType,callback;function):int { method }
 
 Tweens a vector3 between two specified values.
 
@@ -111,4 +113,19 @@ Tween:TweenVector3(Vector3.New(0,0,0), Vector3.New(0,50,0), 5, function(val)
 end, TweenType.linear, function()
     print("Tween finished")
 end)
+```
+
+### Cancel(tweenID;int) { method }
+
+Cancels an on-going tween based on its `tweenID`.
+
+```lua
+local numberTween = Tween:TweenNumber(1, 10, 1, function(val)
+    print(val)
+end, TweenType.linear, function()
+    print("Tween finished")
+end)
+-- the tweenID is the value of the variable
+
+Tween:Cancel(numberTween)
 ```

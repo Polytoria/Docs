@@ -1,10 +1,10 @@
 ---
-title: TweenStyle
-description: TweenStyle is an Enum.
+title: TweenType
+description: TweenType is an Enum.
 icon: polytoria/Enum
 ---
 
-# TweenStyle
+# TweenType
 
 | Name             |
 | ---------------- |
