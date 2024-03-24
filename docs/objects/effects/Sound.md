@@ -67,7 +67,7 @@ Determines whether the sound is currently playing or not.
 
 ### Size:Vector3 { property }
 
-Property description (what?? change this later)
+The size of the sound.
 
 ### SoundID:int { property }
 
