@@ -13,7 +13,7 @@ icon: polytoria/Http
 {{ serverexclusive() }}
 
 <div data-search-exclude markdown>
-!!! warning "Each server has a rate limit of 15 requests per minute."
+!!! warning "Each server has a rate limit of 90 requests per minute."
 
 !!! note "The place ID is sent along with the request under the header named `PT-Game-ID`."
 
