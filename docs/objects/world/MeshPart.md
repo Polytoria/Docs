@@ -40,10 +40,6 @@ The asset ID of the mesh part.
 
 Specifies whether the part can be collided with or not.
 
-### Loading:bool { property }
-
-True if the mesh is loading.
-
 ### Mass:int { property }
 
 Specifies the mass of a part in kilograms.
