@@ -253,7 +253,7 @@ def event(name):
         elif len(parameters) == 1:
             parametersList = f"\n!!! quote \"**Parameters:** <span style=\"font-weight: normal;\">" + parameters[0] + "</span>\""
 
-    return "### :polytoria-Event: %s { #%s data-toc-label=\"%s\" }%s" % (name, name, name, parametersList)
+    return "### <a href=\"/objects/types/Event/\">:polytoria-Event:</a> %s { #%s data-toc-label=\"%s\" }%s" % (name, name, name, parametersList)
 
 def method(name):
     value = name[3:] # in form "name:type"
