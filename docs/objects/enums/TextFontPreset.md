@@ -22,3 +22,5 @@ icon: polytoria/Enum
 | <p style="font-family: 'Fredoka', sans-serif">Fredoka</p>             |
 | <p style="font-family: 'Comic Neue', sans-serif">ComicNeue</p>        |
 | <p style="font-family: 'Orbitron', sans-serif">Orbitron</p>           |
+| <p style="font-family: 'Papyrus', sans-serif">Papyrus</p>             |
+| <p style="font-family: 'Comic Sans MS', sans-serif">ComicSansMS</p>   |
