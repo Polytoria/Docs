@@ -55,7 +55,6 @@ end)
 
 Cast a ray from the camera at screen point into the game world
 
-
 ### ViewportPointToRay(Vector3;pos, List ignoreList = null):RayResult { method }
 
 Cast a ray from the camera at the specified ViewportPoint (Vector3 with components with values in range of 0 - 1 describing how far a point is to to right and to the top of the screen) into the game world
