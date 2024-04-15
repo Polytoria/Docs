@@ -41,7 +41,7 @@ def define_env(env):
     """
     Used to generate the "Inherited from" links in the documentation.
     This runs custom logic to find the correct link for a given class name,
-    as the class name is not always equvilent to the markdown file's path.
+    as the class name is not always equivalent to the markdown file's path.
 
     This assumes that the class is correctly placed in the docs/objects/ folder.
     """
