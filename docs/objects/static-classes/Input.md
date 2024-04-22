@@ -63,7 +63,7 @@ Cast a ray from the camera at the specified ViewportPoint (Vector3 with componen
 
 Transforms `screenPosition` parameter from screen space into viewport space.
 
-### ScreenToWorldPoint(screenPosition;Vector3):Vector3 { method }
+### ScreenToWorldPoint(screenPosition;Vector2):Vector3 { method }
 
 Transforms `screenPosition` from screen space into world space.
 
@@ -71,11 +71,11 @@ Transforms `screenPosition` from screen space into world space.
 !!! note "World space coordinates can still be calculated even when provided as an off-screen coordinate."
 </div>
 
-### ViewportToScreenPoint(viewportPosition;Vector3):Vector3 { method }
+### ViewportToScreenPoint(viewportPosition;Vector2):Vector3 { method }
 
 Transforms `viewportPosition` from viewport space into screen space.
 
-### ViewportToWorldPoint(viewportPosition;Vector3):Vector3 { method }
+### ViewportToWorldPoint(viewportPosition;Vector2):Vector3 { method }
 
 Transforms `viewportPosition` from viewport space into world space.
 

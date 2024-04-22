@@ -24,7 +24,7 @@ Creates a deadly explosion killing players and applying force to parts at the gi
 **Example**
 
 ```lua
-game["Environment"]:CreateExplosion(Vector3.New(0, 0, 0), 30, 5000, false, 10)
+game["Environment"]:CreateExplosion(Vector3.New(0, 0, 0), 30, 5000, false, nil, 10)
 ```
 
 <div data-search-exclude markdown>
