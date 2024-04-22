@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&family=Poppins:wght@400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&family=Poppins:wght@400;500;700&display=swap');
 
 :root {
 	--background: #181818;
@@ -13,7 +13,7 @@
 html,
 body {
 	background-color: var(--background) !important;
-	font-family: "Poppins", sans-serif !important;
+	font-family: 'Poppins', sans-serif !important;
 
 	--bs-body-color: #fff;
 	--bs-secondary-color: #a1a3a4;
@@ -28,7 +28,7 @@ body {
 		visibility: hidden;
 	}
 
-	[class^="col"] {
+	[class^='col'] {
 		margin-bottom: 10px;
 	}
 
@@ -52,7 +52,7 @@ body {
 }
 
 nav .navbar-brand {
-	font-family: "JetBrains Mono", sans-serif;
+	font-family: 'JetBrains Mono', sans-serif;
 	font-weight: 500;
 }
 
@@ -71,8 +71,7 @@ nav .nav-link {
 }
 
 .accent-blue {
-	background: linear-gradient(180deg, #0097ff 26.11%, #804fe8 73.33%),
-		linear-gradient(0deg, #ffffff, #ffffff);
+	background: linear-gradient(180deg, #0097ff 26.11%, #804fe8 73.33%), linear-gradient(0deg, #ffffff, #ffffff);
 	background-clip: text;
 	-webkit-background-clip: text;
 	color: transparent;

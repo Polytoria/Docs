@@ -47,7 +47,7 @@ Accessing a child of an object that doesn't exist results in an error:
 game["Environment"]["Non-existant Object"]["myPart2"]
 ```
 
-Accessing a non-existant child of an object will not error instantly, but further use cases might do:
+Accessing a non-existent child of an object will not error instantly, but further use cases might do:
 
 ```lua
 local part = game["Environment"]["Existing Model"]["Non existing Part"]
@@ -59,7 +59,7 @@ local light = part["Light source"]
 local price = part:FindChild("PriceValue")
 ```
 
-Accessing a non-existant child of an object will return `nil`, which we can use to check if an object exists:
+Accessing a non-existent child of an object will return `nil`, which we can use to check if an object exists:
 
 ```lua
 if game["Environment"]["myPart"] ~= nil then

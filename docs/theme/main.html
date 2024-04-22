@@ -1,21 +1,21 @@
 {% extends "base.html" %}
 
 {% block extrahead %}
-    {{ super() }}
-    {% if page and page.meta %} 
-        <meta name="theme-color" content="#2094f3">
-        {% if page.meta.title %}
-        <meta property="og:title" content="{{ page.meta.title }}">
-        {% endif %}
-        {% if page.meta.description %}
-        <meta property="og:description" content="{{ page.meta.description }}">
-        {% endif %}
-        {% if page.meta.icon %}
-        <meta property="og:image" content="{{ page.meta.icon|replace("polytoria/", "/assets/tree/", 1) }}.png">
-        {% endif %}
-        <meta property="og:site_name" content="Polytoria Scripting Documentation">
-    {% endif %}
+	{{ super() }}
+	{% if page and page.meta %}
+		<meta name="theme-color" content="#2094f3" />
+		{% if page.meta.title %}
+			<meta property="og:title" content="{{ page.meta.title }}" />
+		{% endif %}
+		{% if page.meta.description %}
+			<meta property="og:description" content="{{ page.meta.description }}" />
+		{% endif %}
+		{% if page.meta.icon %}
+			<meta property="og:image" content="{{ page.meta.icon|replace("polytoria/", "/assets/tree/", 1) }}.png" />
+		{% endif %}
+		<meta property="og:site_name" content="Polytoria Scripting Documentation" />
+	{% endif %}
 {% endblock %}
 {% block scripts %}
-    {{ super() }}
+	{{ super() }}
 {% endblock %}

@@ -17,16 +17,10 @@
 			integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
 			crossorigin="anonymous"
 		/>
-		<link
-			href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-			rel="stylesheet"
-		/>
+		<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
 		<meta name="theme-color" content="#2094f3" />
 		<meta name="title" content="Polytoria Scripting API - Contributors" />
-		<meta
-			name="description"
-			content="The Polytoria Scripting API is brought to you by... &lt;3"
-		/>
+		<meta name="description" content="The Polytoria Scripting API is brought to you by... &lt;3" />
 		<style>
 			body {
 				font-family: Arial, sans-serif;
@@ -99,8 +93,8 @@
 	<body>
 		<!-- ICONS BACKGROUND-->
 		<div
-			style="
-				background-image: url(&quot;images/icons-background.png&quot;);
+			style='
+				background-image: url("images/icons-background.png");
 				position: absolute;
 				margin-right: auto;
 				margin-left: auto;
@@ -109,29 +103,17 @@
 				background-position: top center;
 				width: 100%;
 				height: 450px;
-			"
+			'
 		></div>
 
 		<!-- NAVBAR -->
 		<nav class="navbar navbar-expand-lg w-75 mx-auto">
 			<div class="container-fluid">
 				<a class="navbar-brand" href="#">
-					<img
-						src="images/polytoria-white.svg"
-						alt="Polytoria Logo"
-						style="vertical-align: top; margin-top: 1px"
-					/>
+					<img src="images/polytoria-white.svg" alt="Polytoria Logo" style="vertical-align: top; margin-top: 1px" />
 					/docs
 				</a>
-				<button
-					class="navbar-toggler"
-					type="button"
-					data-bs-toggle="collapse"
-					data-bs-target="#navbarContent"
-					aria-controls="navbarContent"
-					aria-expanded="false"
-					aria-label="Toggle navigation"
-				>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarContent">
@@ -140,9 +122,7 @@
 							<a class="nav-link" href="objects/game/Game/">API</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="tutorials/basic-scripting/"
-								>Tutorials</a
-							>
+							<a class="nav-link" href="tutorials/basic-scripting/">Tutorials</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="tutorials/getting-started/">Demos</a>
@@ -161,18 +141,10 @@
 		<div class="container">
 			<div class="text-center">
 				<!-- TITLE -->
-				<h1 class="main-title">
-					Brought to you by... <span class="accent-blue">&lt3</span>
-				</h1>
+				<h1 class="main-title">Brought to you by... <span class="accent-blue">&lt3</span></h1>
 				<p>Thanks for contributing to Polytoria's scripting documentation!</p>
 				<p>
-					<a
-						href="https://github.com/Polytoria/Docs"
-						target="_blank"
-						class="text-decoration-none"
-					>
-						Want to contribute? Go to the GitHub repository here!
-					</a>
+					<a href="https://github.com/Polytoria/Docs" target="_blank" class="text-decoration-none"> Want to contribute? Go to the GitHub repository here! </a>
 				</p>
 			</div>
 		</div>
@@ -186,38 +158,38 @@
 		</div>
 
 		<script>
-			const repo = "Polytoria/Docs";
+			const repo = 'Polytoria/Docs';
 			const apiUrl = `https://api.github.com/repos/${repo}/contributors`;
 
 			fetch(apiUrl)
 				.then((response) => response.json())
 				.then((data) => {
-					const contributorsList = document.getElementById("contributorsList");
+					const contributorsList = document.getElementById('contributorsList');
 					data.forEach((contributor) => {
-						const contributorDiv = document.createElement("div");
-						contributorDiv.classList.add("contributor");
+						const contributorDiv = document.createElement('div');
+						contributorDiv.classList.add('contributor');
 
-						const avatarImg = document.createElement("img");
+						const avatarImg = document.createElement('img');
 						avatarImg.src = contributor.avatar_url;
 						avatarImg.alt = `${contributor.login}'s avatar`;
-						avatarImg.classList.add("avatar");
+						avatarImg.classList.add('avatar');
 						contributorDiv.appendChild(avatarImg);
 
-						const nameSpan = document.createElement("span");
+						const nameSpan = document.createElement('span');
 						nameSpan.textContent = contributor.login;
-						nameSpan.classList.add("name");
+						nameSpan.classList.add('name');
 						contributorDiv.appendChild(nameSpan);
 
-						const contributionsSpan = document.createElement("span");
+						const contributionsSpan = document.createElement('span');
 						contributionsSpan.textContent = `Contributions: ${contributor.contributions}`;
-						contributionsSpan.classList.add("contributions");
+						contributionsSpan.classList.add('contributions');
 						contributorDiv.appendChild(contributionsSpan);
 
 						contributorsList.appendChild(contributorDiv);
 					});
 				})
 				.catch((error) => {
-					console.error("Error fetching contributors:", error);
+					console.error('Error fetching contributors:', error);
 				});
 		</script>
 	</body>

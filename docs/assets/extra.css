@@ -1,18 +1,18 @@
-[dir="ltr"] .md-header__title {
+[dir='ltr'] .md-header__title {
 	margin-left: initial;
 }
 
-[dir="rtl"] .md-header__title {
+[dir='rtl'] .md-header__title {
 	margin-right: initial;
 }
 
-.md-nav__link svg[viewBox="0 0 48 48"] {
+.md-nav__link svg[viewBox='0 0 48 48'] {
 	width: 22px;
 	height: 22px;
 	margin-right: -4px;
 }
 
-svg[viewBox="0 0 48 48"] {
+svg[viewBox='0 0 48 48'] {
 	color: transparent !important;
 	transform: translateY(0.5px);
 }

@@ -47,11 +47,19 @@ end)
 <div data-search-exclude markdown>
 !!! danger "Undocumented Methods"
 
-    This section is a work in progress! The methods `GetMouseWorldPoint`, `GetMouseWorldPosition`, `ScreenPointToRay`, and `ViewportPointToRay` are not written yet. Want to contribute? Go to the GitHub and open a pull request [here](https://github.com/Polytoria/Docs)!
+    This section is a work in progress! The methods `GetMouseWorldPoint`, and `GetMouseWorldPosition`, are not written yet. Want to contribute? Go to the GitHub and open a pull request [here](https://github.com/Polytoria/Docs)!
 
 </div>
 
-### ScreenToViewportPoint(screenPosition;Vector2):Vector3 { method }
+### ScreenPointToRay(Vector3;pos, List ignoreList = null):RayResult { method }
+
+Cast a ray from the camera at screen point into the game world
+
+### ViewportPointToRay(Vector3;pos, List ignoreList = null):RayResult { method }
+
+Cast a ray from the camera at the specified ViewportPoint (Vector3 with components with values in range of 0 - 1 describing how far a point is to to right and to the top of the screen) into the game world
+
+### ScreenToViewportPoint(screenPosition;Vector3):Vector3 { method }
 
 Transforms `screenPosition` parameter from screen space into viewport space.
 
