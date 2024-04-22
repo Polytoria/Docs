@@ -1,3 +1,17 @@
 {
-	"useTabs": true
+	"arrowParens": "always",
+	"bracketSpacing": false,
+	"printWidth": 200,
+	"singleQuote": true,
+	"trailingComma": "none",
+	"useTabs": true,
+	"plugins": ["prettier-plugin-jinja-template"],
+	"overrides": [
+		{
+			"files": "*.html",
+			"options": {
+				"parser": "jinja-template"
+			}
+		}
+	]
 }

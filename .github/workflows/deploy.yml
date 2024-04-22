@@ -1,21 +1,38 @@
 name: Deploy
+
 on:
   push:
     branches: main
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Python
+        uses: actions/setup-python@v5
         with:
-          python-version: ^3.12.2
+          python-version: ^3.12.3
           cache: pip
-      - run: |
-          set -euo pipefail
-          pip install -r requirements.txt
-          mkdocs build -s
-          mkdir ~/.ssh
-          echo '${{ secrets.KEY }}' > ~/.ssh/id_rsa
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Configure SSH keys
+        run: |
+          mkdir -m 700 ~/.ssh
+
+          echo "${{ secrets.KEY }}" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
-          rsync -aze 'ssh -o StrictHostKeyChecking=no' --delete --force site/ ${{ secrets.USER }}@${{ secrets.HOST }}:${{ secrets.DEST }}
+
+          ssh-keyscan -t rsa -p ${{ secrets.PORT }} ${{ secrets.HOST }} > ~/.ssh/known_hosts
+          chmod 600 ~/.ssh/known_hosts
+
+      - name: Build for production
+        run: mkdocs build -s
+
+      - name: Sync to production
+        run: rsync -ae "ssh -p ${{ secrets.PORT }}" --zc zstd --zl 19 --delete site/ ${{ secrets.USER }}@${{ secrets.HOST }}:${{ secrets.DEST }}

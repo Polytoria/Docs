@@ -1,5 +1,6 @@
 site_name: Polytoria Scripting Documentation
 copyright: Copyright &copy; 2019 - 2024 Polytoria - <a href="/contributors" class="contributors-link-footer">brought to you by &lt3</a>
+
 theme:
   features:
     - navigation.tabs
@@ -12,36 +13,45 @@ theme:
     - header.autohide
     - navigation.top
     - toc.follow
+
   name: material
   custom_dir: docs/theme
   logo: assets/logo.svg
+
   font:
     text: Rubik
+
   palette:
     - scheme: slate
       primary: blue
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
+
     - scheme: default
       primary: blue
       toggle:
         icon: material/weather-night
         name: Switch to light mode
+
 extra:
   generator: true
+
 plugins:
   - search
   - macros
+
   - mkdocs-nav-weight:
       section_renamed: true
       index_weight: -10
       warning: true
       reverse: false
+
   - minify_html:
       ensure_spec_compliant_unquoted_attribute_values: false
       keep_closing_tags: true
       keep_html_and_head_opening_tags: true
+
 markdown_extensions:
   - pymdownx.highlight
   - pymdownx.inlinehilite
@@ -52,13 +62,19 @@ markdown_extensions:
   - admonition
   - attr_list
   - md_in_html
+
   - toc:
       permalink: true
+
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
       options:
         custom_icons:
           - docs/theme/.icons
+
 extra_css:
   - assets/extra.css
+
+validation:
+  absolute_links: ignore
