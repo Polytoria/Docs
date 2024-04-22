@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for waiting to contribute to the new unofficial Polytoria documentation! If you can't contribute at this time please notify one of our contributers and tell them the change that should be made and they can do it for you. Otherwise, you can open a pull request and we'll either accept it or request changes depending on what the pull request is about.
+Thanks for waiting to contribute to the new unofficial Polytoria documentation! If you can't contribute at this time please notify one of our contributors and tell them the change that should be made and they can do it for you. Otherwise, you can open a pull request and we'll either accept it or request changes depending on what the pull request is about.
 
 ## Dependencies
 

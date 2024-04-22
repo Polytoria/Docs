@@ -37,5 +37,5 @@ Specifies how far out the light can reach.
 Specifies whether this light emits shadows or not.
 
 <div data-search-exclude markdown>
-!!! note "Having many lights with shadows enabled will cause a massive hit in performance. Consider minimzing the amount of lights with shadows to ensure every player is enjoying your place with minimal framerate issues."
+!!! note "Having many lights with shadows enabled will cause a massive hit in performance. Consider minimizing the amount of lights with shadows to ensure every player is enjoying your place with minimal framerate issues."
 </div>

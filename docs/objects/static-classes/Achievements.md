@@ -1,6 +1,6 @@
 ---
 title: Achievements
-description: Achivements is a static class, that is used to award place achivements to a player.
+description: Achievements is a static class, that is used to award place achievements to a player.
 icon: polytoria/Achievements
 ---
 
@@ -33,7 +33,7 @@ game["Players"].PlayerAdded:Connect(function(plr)
 end)
 ```
 
-The callback function has the parameters "success", indicating if the award succeded, and "error", which contains the error message if the award failed.
+The callback function has the parameters "success", indicating if the award succeeded, and "error", which contains the error message if the award failed.
 
 ### HasAchievement(playerUserID;number,achievementID;number,callback;function):callback { method }
 
