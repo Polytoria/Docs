@@ -41,9 +41,9 @@ def define_env(env):
     """
     Used to generate the "Inherited from" links in the documentation.
     This runs custom logic to find the correct link for a given class name,
-    as the class name is not always equvilent to the markdown file's path.
+    as the class name is not always equivalent to the markdown file's path.
 
-    This assumes that the class is correctly placed in the docs/objects/ folder
+    This assumes that the class is correctly placed in the docs/objects/ folder.
     """
     @env.macro
     def inherits(className):
@@ -91,7 +91,7 @@ def define_env(env):
         return """<div data-search-exclude markdown>
 
 !!! warning "Not newable"
-    This object cannot be created by scripts using `Instance.New()`
+    This object cannot be created by scripts using `Instance.New()`.
 
     </div>"""
 
@@ -101,7 +101,7 @@ def define_env(env):
 !!! danger "Abstract Object"
     This object exists only to serve as a foundation for other objects. It cannot be accessed directly, but its properties are documented below.
 
-    Additionally, it cannot be created in the creator menu or with `Instance.New()`
+    Additionally, it cannot be created in the creator menu or with `Instance.New()`.
 </div>"""
 
     @env.macro
@@ -115,9 +115,9 @@ def define_env(env):
     def staticclass(className):
         return """<div data-search-exclude markdown>
 !!! tip "Static Class"
-    This object is a static class. It can be accessed by using it's name as a keyword like this `%s`.
+    This object is a static class. It can be accessed by using its name as a keyword like this: `%s`.
 
-    Additionally, it cannot be created in the creator menu or with `Instance.New()`
+    Additionally, it cannot be created in the creator menu or with `Instance.New()`.
 </div>""" % (className)
 
     @env.macro
@@ -141,7 +141,7 @@ def define_env(env):
 
     @env.macro
     def comingsoon():
-        return "!!! failure \"This currently doesn't exist but has been promised by Polytoria developers.\""
+        return "!!! failure \"This currently does not exist but has been promised by Polytoria developers.\""
 
     @env.macro
     def classLink(className):
