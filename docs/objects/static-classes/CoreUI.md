@@ -8,7 +8,7 @@ icon: polytoria/CoreUI
 
 {{ staticclass("CoreUI")}}
 
-_NEEDS AN ICON_ CoreUI is a static class that allows for the toggling of certain core GUI.
+CoreUI is a static class that allows for the toggling of certain core GUI.
 
 {{ clientexclusive() }}
 

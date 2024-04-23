@@ -8,9 +8,9 @@ icon: polytoria/Camera
 
 {{ staticclass("Camera") }}
 
-{{ clientexclusive() }}
-
 {{ notnewable() }}
+
+{{ clientexclusive() }}
 
 :polytoria-Camera: Camera is a class that represents the local player's camera.
 
@@ -20,7 +20,7 @@ icon: polytoria/Camera
 
 ### Distance:int { property }
 
-The distance between the camera and the player when the camera is in FollowPlayer mode.
+Determines the distance between the camera and the player when the camera is in `FollowPlayer` mode.
 
 **Example**
 
@@ -30,7 +30,7 @@ Camera.Distance = 20
 
 ### FOV:int { property }
 
-Sets or return the camera's field of view.
+Determines or returns the camera's field of view.
 
 **Example**
 
@@ -40,7 +40,7 @@ Camera.FOV = 90
 
 ### FastFlySpeed:int { property }
 
-The camera speed when the camera is in FreeCam mode while holding shift.
+Determines the camera speed when the camera is in `FreeCam` mode while holding shift.
 
 **Example**
 
@@ -50,7 +50,7 @@ Camera.FastFlySpeed = 100
 
 ### FlySpeed:int { property }
 
-The camera speed when the camera is in FreeCam mode.
+Determines the camera speed when the camera is in `FreeCam` mode.
 
 **Example**
 
@@ -60,7 +60,7 @@ Camera.FlySpeed = 10
 
 ### FollowLerp:bool { property }
 
-Determines whether or not to use lerping in FollowPlayer mode.
+Determines whether or not to use lerping in `FollowPlayer` mode.
 
 **Example**
 
@@ -70,7 +70,7 @@ Camera.FollowLerp = true
 
 ### FreeLookSensitivity:int { property }
 
-The mouse sensitivity while in FreeCam mode.
+Determines the mouse sensitivity while in `FreeCam` mode.
 
 **Example**
 
@@ -80,7 +80,7 @@ Camera.FreeLookSensitivity = 3
 
 ### HorizontalSpeed:int { property }
 
-The horizontal movement speed of the camera in FollowPlayer mode.
+Determines the horizontal movement speed of the camera in `FollowPlayer` mode.
 
 **Example**
 
@@ -102,7 +102,7 @@ print(Camera.IsFirstPerson)
 
 ### LerpSpeed:int { property }
 
-The lerp speed of the camera when lerping is enabled.
+Determines the lerp speed of the camera when lerping is enabled.
 
 **Example**
 
@@ -112,7 +112,7 @@ Camera.LerpSpeed = 15
 
 ### MaxDistance:int { property }
 
-The camera's maximum distance from the player in FollowPlayer mode.
+Determines camera's maximum distance from the player in `FollowPlayer` mode.
 
 **Example**
 
@@ -132,7 +132,7 @@ Camera.MinDistance = 5
 
 ### Mode:CameraMode { property }
 
-Sets or returns the camera's current mode.
+Determines or returns the camera's current mode `(Scripted, FollowPlayer, Freecam)`.
 
 **Example**
 
@@ -162,7 +162,7 @@ Camera.OrthographicSize = 30
 
 ### Position:Vector3 { property }
 
-The position of the camera in the world.
+Determines or returns position of the camera in the world.
 
 **Example**
 
@@ -172,7 +172,7 @@ Camera.Position = Vector3.New(0, 100, 0)
 
 ### Rotation:Vector3 { property }
 
-The rotation of the camera.
+Determines or returns rotation of the camera.
 
 **Example**
 

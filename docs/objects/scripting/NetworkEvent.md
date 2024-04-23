@@ -8,7 +8,7 @@ weight: 5
 
 # NetworkEvent
 
-:polytoria-NetworkEvent: NetworkEvents are events that can be called to communicate between server and client. {{ classLink("NetMessage") }} are the class used for sharing data between server and client when sending NetworkEvents.
+:polytoria-NetworkEvent: NetworkEvents are events that can be called to communicate between server and client. {{ classLink("NetMessage") }}s are the class used for sharing data between server and client when sending NetworkEvents.
 
 {{ inherits("Instance") }}
 
@@ -44,19 +44,18 @@ end)
 
 ## Methods
 
-### InvokeClient(message;NetMessage,player;Player) { method }
+### InvokeServer(message;NetMessage) { method }
 
-Sends a network event to a specific player from the server.
+Sends a network event to the server from the client.
 
 **Example**
 
 ```lua
+-- netEvent defined somewhere else in the code
 local message = NetMessage.New()
 message.AddString("key", "value")
-netEvent.InvokeClient(message, game["Players"]["willemsteller"])
+netEvent.InvokeServer(message)
 ```
-
-{{ serverexclusive() }}
 
 ### InvokeClients(message;NetMessage) { method }
 
@@ -72,15 +71,16 @@ netEvent.InvokeClients(message)
 
 {{ serverexclusive() }}
 
-### InvokeServer(message;NetMessage) { method }
+### InvokeClient(message;NetMessage,player;Player) { method }
 
-Sends a network event to the server from the client.
+Sends a network event to a specific player from the server.
 
 **Example**
 
 ```lua
--- netEvent defined somewhere else in the code
 local message = NetMessage.New()
 message.AddString("key", "value")
-netEvent.InvokeServer(message)
+netEvent.InvokeClient(message, game["Players"]["willemsteller"])
 ```
+
+{{ serverexclusive() }}

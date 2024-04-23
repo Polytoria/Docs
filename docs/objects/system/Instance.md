@@ -77,7 +77,7 @@ end)
 
 ### Touched(otherPart;Instance) { event }
 
-Fires when the instance was touched by another instance.
+Fires when the instance was touched by another instance. If you are trying to detect a player touching the instance, make sure to check with `otherPart:IsA('Player')` before continuing the anonymous function. Also, it's recommended to apply a debounce variable to the event.
 
 **Example**
 

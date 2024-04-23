@@ -12,6 +12,10 @@ icon: polytoria/Achievements
 
 :polytoria-Achievements: Achievements is a static class, that is used to award place achievements to a player.
 
+<div data-search-exclude markdown>
+!!! note "The `:Award` and `:HasAchievement` methods share a rate limit of 30 requests per minute, with an additional 10 requests per player in the server."
+</div>
+
 ## Methods
 
 ### Award(playerUserID;number,achievementID;number,callback;function):callback { method }
