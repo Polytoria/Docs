@@ -19,7 +19,7 @@ weight: 1
 
 ## Events
 
-### Rendered(deltaTime;int) { event }
+### Rendered(deltaTime;float) { event }
 
 Fires every frame after the place has been rendered. The `deltaTime` parameter is the time between the last frame and the current.
 
