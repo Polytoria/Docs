@@ -158,15 +158,11 @@ def define_env(env):
 
 # define list of friendly names for method and property types
 type_friendlyname_table = {
-    "int": "number",
-    "float": "number",
     "bool": "boolean",
     "array": "[]"
 }
 
 parametertype_friendlyname_table = {
-    "int": "number",
-    "float": "number",
     "bool": "boolean"
 }
 
