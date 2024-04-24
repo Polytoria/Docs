@@ -40,11 +40,11 @@ game["Environment"]["Part"]:MovePosition(Vector3.New(0, 180, 0))
 
 Specifies whether the part is to be affected by physics or not.
 
-### AngularDrag:int { property }
+### AngularDrag:float { property }
 
 Angular drag (air resistance) of this part.
 
-### AngularDrag:int { property }
+### AngularDrag:float { property }
 
 Angular drag (air resistance) of this part.
 
@@ -60,7 +60,7 @@ Specifies whether the part can be collided with or not.
 
 Specifies the color of a part.
 
-### Drag:int { property }
+### Drag:float { property }
 
 Determines Drag (air resistance) of this part.
 
@@ -76,7 +76,7 @@ Determines whether to display studs on the part or not.
 
 Specifies whether the part can be used as a spawn location or not.
 
-### Mass:int { property }
+### Mass:float { property }
 
 Specifies the mass of a part in kilograms.
 

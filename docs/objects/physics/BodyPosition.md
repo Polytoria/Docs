@@ -13,7 +13,7 @@ icon: polytoria/BodyPosition
 
 ## Properties
 
-### AcceptableDistance:int { property }
+### AcceptableDistance:float { property }
 
 Determines how close the body has to be to the target position to stop applying forces to it.
 
@@ -23,7 +23,7 @@ Determines how close the body has to be to the target position to stop applying 
 bodyPosition.AcceptanceDistance = 5
 ```
 
-### Force:int { property }
+### Force:float { property }
 
 Determines how much force the body applies.
 

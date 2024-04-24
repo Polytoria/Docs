@@ -61,6 +61,6 @@ Specifies the top padding of the UIHVLayout.
 
 Specifies if the alignment is reversed.
 
-### Spacing:int { property }
+### Spacing:float { property }
 
 Specifies the spacing between child.

@@ -1,13 +1,13 @@
 ---
 title: NumberValue
-description: NumberValue is a ValueBase that stores numbers.
+description: NumberValue is a ValueBase that stores floats.
 icon: polytoria/NumberValue
 weight: 10
 ---
 
 # NumberValue
 
-:polytoria-NumberValue: NumberValue is a ValueBase that stores numbers.
+:polytoria-NumberValue: NumberValue is a ValueBase that stores floats.
 
 {{ inherits("ValueBase") }}
 

@@ -12,7 +12,7 @@ icon: polytoria/PointLight
 
 ## Properties
 
-### Brightness:int { property }
+### Brightness:float { property }
 
 Specifies how bright/intense the light is.
 
@@ -32,7 +32,7 @@ Specifies the color of the light.
 light.Color = Color.Random()
 ```
 
-### Range:int { property }
+### Range:float { property }
 
 Specifies how far out the light can reach.
 

@@ -41,7 +41,7 @@ Stops playing the sound.
 
 Determines whether the sound should start playing automatically.
 
-### Length:int { property }
+### Length:float { property }
 
 Returns the length of the currently loaded audio
 
@@ -49,7 +49,7 @@ Returns the length of the currently loaded audio
 
 Determines whether the sound should loop or not.
 
-### Pitch:int { property }
+### Pitch:float { property }
 
 The pitch of the sound.
 
@@ -57,7 +57,7 @@ The pitch of the sound.
 
 When enabled, the sound will be played in 3D world space rather than having the same volume for everyone.
 
-### MaxDistance:int { property }
+### MaxDistance:float { property }
 
 Specifies how far the player must be from the sound for it to stop playing, if the `PlayInWorld` property is set to true.
 
@@ -73,10 +73,10 @@ The size of the sound.
 
 The asset ID of the sound.
 
-### Time:int { property }
+### Time:float { property }
 
 The time position the track is currently on.
 
-### Volume:int { property }
+### Volume:float { property }
 
 The volume of the sound.

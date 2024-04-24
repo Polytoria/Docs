@@ -15,6 +15,6 @@ weight: 100
 
 Whether or not the player can interact with the GUI.
 
-### Opacity:int { property }
+### Opacity:float { property }
 
 The opacity of the player's GUI.

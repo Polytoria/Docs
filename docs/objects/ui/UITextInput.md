@@ -59,7 +59,7 @@ The font of the label.
 element.Font = TextFontPreset.Montserrat
 ```
 
-### FontSize:int { property }
+### FontSize:float { property }
 
 The font size of the label.
 
@@ -99,7 +99,7 @@ Determines how the text is justified.
 element.JustifyText = TextJustify.Center
 ```
 
-### MaxFontSize:int { property }
+### MaxFontSize:float { property }
 
 The maximum font size of the UI element if AutoSize is set to true.
 

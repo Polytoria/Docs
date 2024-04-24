@@ -18,7 +18,7 @@ icon: polytoria/Camera
 
 ## Properties
 
-### Distance:int { property }
+### Distance:float { property }
 
 Determines the distance between the camera and the player when the camera is in `FollowPlayer` mode.
 
@@ -28,7 +28,7 @@ Determines the distance between the camera and the player when the camera is in 
 Camera.Distance = 20
 ```
 
-### FOV:int { property }
+### FOV:float { property }
 
 Determines or returns the camera's field of view.
 
@@ -38,7 +38,7 @@ Determines or returns the camera's field of view.
 Camera.FOV = 90
 ```
 
-### FastFlySpeed:int { property }
+### FastFlySpeed:float { property }
 
 Determines the camera speed when the camera is in `FreeCam` mode while holding shift.
 
@@ -48,7 +48,7 @@ Determines the camera speed when the camera is in `FreeCam` mode while holding s
 Camera.FastFlySpeed = 100
 ```
 
-### FlySpeed:int { property }
+### FlySpeed:float { property }
 
 Determines the camera speed when the camera is in `FreeCam` mode.
 
@@ -68,7 +68,7 @@ Determines whether or not to use lerping in `FollowPlayer` mode.
 Camera.FollowLerp = true
 ```
 
-### FreeLookSensitivity:int { property }
+### FreeLookSensitivity:float { property }
 
 Determines the mouse sensitivity while in `FreeCam` mode.
 
@@ -78,7 +78,7 @@ Determines the mouse sensitivity while in `FreeCam` mode.
 Camera.FreeLookSensitivity = 3
 ```
 
-### HorizontalSpeed:int { property }
+### HorizontalSpeed:float { property }
 
 Determines the horizontal movement speed of the camera in `FollowPlayer` mode.
 
@@ -100,7 +100,7 @@ print(Camera.IsFirstPerson)
 
 {{ readonly() }}
 
-### LerpSpeed:int { property }
+### LerpSpeed:float { property }
 
 Determines the lerp speed of the camera when lerping is enabled.
 
@@ -110,7 +110,7 @@ Determines the lerp speed of the camera when lerping is enabled.
 Camera.LerpSpeed = 15
 ```
 
-### MaxDistance:int { property }
+### MaxDistance:float { property }
 
 Determines camera's maximum distance from the player in `FollowPlayer` mode.
 
@@ -120,7 +120,7 @@ Determines camera's maximum distance from the player in `FollowPlayer` mode.
 Camera.MaxDistance = 0
 ```
 
-### MinDistance:int { property }
+### MinDistance:float { property }
 
 The camera's minimum distance from the player in FollowPlayer mode.
 
@@ -150,7 +150,7 @@ Determines whether or not the camera should render in orthographic (2D) mode or 
 Camera.Orthographic = true
 ```
 
-### OrthographicSize:int { property }
+### OrthographicSize:float { property }
 
 Determines the half-size of the camera when in orthographic mode.
 
@@ -180,7 +180,7 @@ Determines or returns rotation of the camera.
 Camera.Rotation = Vector3.New(90, 0, 0)
 ```
 
-### ScrollSensitivity:int { property }
+### ScrollSensitivity:float { property }
 
 Determines the scroll move speed of the camera.
 
@@ -190,7 +190,7 @@ Determines the scroll move speed of the camera.
 Camera.ScrollSensitivity = 15
 ```
 
-### VerticalSpeed:int { property }
+### VerticalSpeed:float { property }
 
 Determines the vertical move speed of the camera.
 

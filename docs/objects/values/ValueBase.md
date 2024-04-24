@@ -7,7 +7,7 @@ weight: 20
 
 # ValueBase
 
-{{ ambiguousMultiple([["BoolValue", "used for storing bool values."], ["ColorValue", "used for storing color values."], ["InstanceValue", "used for storing instances."], ["IntValue", "used for storing integer values."], ["NumberValue", "used for storing number values."], ["StringValue", "used for storing string values."], ["Vector3Value", "used for storing Vector3 values."]])}}
+{{ ambiguousMultiple([["BoolValue", "used for storing bool values."], ["ColorValue", "used for storing color values."], ["InstanceValue", "used for storing instances."], ["IntValue", "used for storing integer values."], ["NumberValue", "used for storing float values."], ["StringValue", "used for storing string values."], ["Vector3Value", "used for storing Vector3 values."]])}}
 
 Base class of all value classes.
 

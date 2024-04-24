@@ -14,6 +14,6 @@ weight: 100
 
 ## Properties
 
-### ClimbSpeed:int { property }
+### ClimbSpeed:float { property }
 
 Determines how fast a player can climb the object.

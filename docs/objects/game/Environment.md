@@ -17,7 +17,7 @@ weight: 2
 
 ## Methods
 
-### CreateExplosion(Position;Vector3,Radius;int=10,Force;int=5000,affectAnchored;bool=true,callback;function=nil,damage;int=10000) { method }
+### CreateExplosion(Position;Vector3,Radius;float=10,Force;float=5000,affectAnchored;bool=true,callback;function=nil,damage;float=10000) { method }
 
 Creates a deadly explosion killing players and applying force to parts at the given position.
 
@@ -35,7 +35,7 @@ game["Environment"]:CreateExplosion(Vector3.New(0, 0, 0), 30, 5000, false, nil, 
 !!! note "Callback gets called for each part within explosion radius."
 </div>
 
-### Raycast(origin;Vector3,direction;Vector3,maxDistance;int=infinite,ignoreList;array=Instance[]):RayResult { method }
+### Raycast(origin;Vector3,direction;Vector3,maxDistance;float=infinite,ignoreList;array=Instance[]):RayResult { method }
 
 Casts a ray from origin with a specified direction and returns a RayResult for the first hit object.
 
@@ -49,7 +49,7 @@ if hit and hit.Instance:IsA("Player") then
 end
 ```
 
-### RaycastAll(origin;Vector3,direction;Vector3,maxDistance;int=infinite,ignoreList;array=Instance[]):RayResult { method }
+### RaycastAll(origin;Vector3,direction;Vector3,maxDistance;float=infinite,ignoreList;array=Instance[]):RayResult { method }
 
 Casts a ray from origin with a specified direction and returns a RayResult array for all hit objects.
 

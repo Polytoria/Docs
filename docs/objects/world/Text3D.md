@@ -39,7 +39,7 @@ text.FaceCamera = true
 
 Specifies the font of the text (using the `TextFontPreset` enum)
 
-### FontSize:int { property }
+### FontSize:float { property }
 
 Specifies the size of the font.
 

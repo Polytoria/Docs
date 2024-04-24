@@ -53,7 +53,7 @@ The offset of the UI element in pixels.
 
 The position of the UI element relative to its parent.
 
-### Rotation:int { property }
+### Rotation:float { property }
 
 The rotation of the UI element.
 

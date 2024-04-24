@@ -20,7 +20,7 @@ icon: polytoria/Tween
 
 ## Methods
 
-### TweenColor(startValue;Color,endValue;Color,time;number,callPerStep;function,type;TweenType,callback;function):int { method }
+### TweenColor(startValue;Color,endValue;Color,time;float,callPerStep;function,type;TweenType,callback;function):int { method }
 
 Tweens a color between two specified values.
 
@@ -34,7 +34,7 @@ end, TweenType.linear, function()
 end
 ```
 
-### TweenNumber(startValue;int,endValue;int,time;number,callPerStep;function,type;TweenType,callback;function):int { method }
+### TweenNumber(startValue;float,endValue;float,time;float,callPerStep;function,type;TweenType,callback;function):int { method }
 
 Tweens a number between two specified values.
 
@@ -48,7 +48,7 @@ end, TweenType.linear, function()
 end)
 ```
 
-### TweenPosition(target;DynamicInstance,destination;Vector3,time;number,type;TweenType,callback;function):int { method }
+### TweenPosition(target;DynamicInstance,destination;Vector3,time;float,type;TweenType,callback;function):int { method }
 
 Tweens the position of a DynamicInstance
 
@@ -60,7 +60,7 @@ Tween:TweenPosition(part, Vector3.New(100, 0, 0), 100, TweenType.linear, functio
 end)
 ```
 
-### TweenRotation(target;DynamicInstance,destination;Vector3,time;number,type;TweenType,callback;function):int { method }
+### TweenRotation(target;DynamicInstance,destination;Vector3,time;float,type;TweenType,callback;function):int { method }
 
 Tweens the rotation of a DynamicInstance
 
@@ -76,7 +76,7 @@ Tween:TweenRotation(part, Vector3.New(0, 90, 0), 1, TweenType.linear, function()
 end)
 ```
 
-### TweenSize(target;DynamicInstance,endValue;Vector3,time;number,type;TweenType,callback;function):int { method }
+### TweenSize(target;DynamicInstance,endValue;Vector3,time;float,type;TweenType,callback;function):int { method }
 
 Tweens the size of a DynamicInstance
 
@@ -88,7 +88,7 @@ Tween:TweenSize(part, Vector3.New(5, 5, 5), 1, TweenType.linear, function()
 end)
 ```
 
-### TweenVector2(startValue;Vector2,endValue;Vector2,time;int,callPerStep;function,type;TweenType,callback;function):int { method }
+### TweenVector2(startValue;Vector2,endValue;Vector2,time;float,callPerStep;function,type;TweenType,callback;function):int { method }
 
 Tweens a vector2 between two specified values.
 
@@ -102,7 +102,7 @@ end, TweenType.linear, function()
 end)
 ```
 
-### TweenVector3(startValue;Vector3,endValue;Vector3,time;int,callPerStep;function,type;TweenType,callback;function):int { method }
+### TweenVector3(startValue;Vector3,endValue;Vector3,time;float,callPerStep;function,type;TweenType,callback;function):int { method }
 
 Tweens a vector3 between two specified values.
 
