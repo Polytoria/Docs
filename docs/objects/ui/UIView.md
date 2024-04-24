@@ -23,7 +23,7 @@ Determines the border color of the UI.
 element.BorderColor = Color.New(1, 0, 0, 1)
 ```
 
-### BorderWidth:int { property }
+### BorderWidth:float { property }
 
 Determines the border width of the UI.
 
@@ -43,7 +43,7 @@ Determines the color of the UI.
 element.Color = Color.New(0, 0, 0, 1)
 ```
 
-### CornerRadius:int { property }
+### CornerRadius:float { property }
 
 Determines the corner radius of the UI.
 

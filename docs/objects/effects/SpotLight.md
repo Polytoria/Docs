@@ -12,11 +12,11 @@ icon: polytoria/SpotLight
 
 ## Properties
 
-### Angle:int { property }
+### Angle:float { property }
 
 Specifies the angle of the spotlight.
 
-### Brightness:int { property }
+### Brightness:float { property }
 
 Specifies how bright/intense the light is.
 
@@ -28,7 +28,7 @@ Specifies how bright/intense the light is.
 
 Specifies the color of the light.
 
-### Range:int { property }
+### Range:float { property }
 
 Specifies how far out the light can reach.
 

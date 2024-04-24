@@ -27,27 +27,27 @@ Resets the specified player back to their default values.
 
 Determines the default color of players' usernames in chat.
 
-### JumpPower:int=36 { property }
+### JumpPower:float=36 { property }
 
 Determines how high the player jumps by default.
 
-### MaxHealth:int=100 { property }
+### MaxHealth:float=100 { property }
 
 Determines the default maximum health of players.
 
-### MaxStamina:int=3 { property }
+### MaxStamina:float=3 { property }
 
 Determines the default maximum stamina of players.
 
-### RespawnTime:int=5 { property }
+### RespawnTime:float=5 { property }
 
 Determines the default of how long it takes between player's death and respawn.
 
-### SprintSpeed:int=25 { property }
+### SprintSpeed:float=25 { property }
 
 Determines the default sprint speed of players.
 
-### Stamina:int=0 { property }
+### Stamina:float=0 { property }
 
 Determines the default stamina of players.
 
@@ -55,10 +55,10 @@ Determines the default stamina of players.
 
 Determines whether or not stamina is enabled by default for players.
 
-### StaminaRegen:int=1.2 { property }
+### StaminaRegen:float=1.2 { property }
 
 Determines the default rate at which stamina regenerates after being depleted for players.
 
-### WalkSpeed:int=16 { property }
+### WalkSpeed:float=16 { property }
 
 Determines how fast the player walks by default.

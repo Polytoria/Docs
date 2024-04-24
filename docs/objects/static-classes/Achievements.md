@@ -18,7 +18,7 @@ icon: polytoria/Achievements
 
 ## Methods
 
-### Award(playerUserID;number,achievementID;number,callback;function):callback { method }
+### Award(playerUserID;int,achievementID;int,callback;function):callback { method }
 
 Awards the specified player the specified achievement.
 
@@ -39,7 +39,7 @@ end)
 
 The callback function has the parameters "success", indicating if the award succeeded, and "error", which contains the error message if the award failed.
 
-### HasAchievement(playerUserID;number,achievementID;number,callback;function):callback { method }
+### HasAchievement(playerUserID;int,achievementID;int,callback;function):callback { method }
 
 Check if the specified player has the specified achievement.
 

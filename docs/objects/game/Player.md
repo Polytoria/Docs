@@ -167,7 +167,7 @@ game["Players"]["willemsteller"].ChatColor = Color3.New(0, 1, 0)
 
 Specifies the color of the players's head.
 
-### Health:int=100 { property }
+### Health:float=100 { property }
 
 The current health of the player.
 
@@ -189,7 +189,7 @@ Determines whether or not the player is currently focused on an input.
 
 {{ readonly() }}
 
-### JumpPower:int=36 { property }
+### JumpPower:float=36 { property }
 
 Specifies how high the player's jump is.
 
@@ -201,15 +201,15 @@ Specifies the color of the players's left arm.
 
 Specifies the color of the players's left leg.
 
-### MaxHealth:int=100 { property }
+### MaxHealth:float=100 { property }
 
 Specifies the maximum health the player can have.
 
-### MaxStamina:int=3 { property }
+### MaxStamina:float=3 { property }
 
 Specifies the maximum stamina the player can have.
 
-### RespawnTime:int=5 { property }
+### RespawnTime:float=5 { property }
 
 Determines how long it takes between the player's death and respawn.
 
@@ -225,7 +225,7 @@ Specifies the color of the players's right leg.
 
 Returns the seat the player is currently sitting in, `nil` if the player is not sitting in any seat.
 
-### SprintSpeed:int=25 { property }
+### SprintSpeed:float=25 { property }
 
 Determines how fast the player is while sprinting.
 
@@ -236,7 +236,7 @@ Determines how fast the player is while sprinting.
 
 </div>
 
-### Stamina:int=0 { property }
+### Stamina:float=0 { property }
 
 The player's current amount of stamina.
 
@@ -244,7 +244,7 @@ The player's current amount of stamina.
 
 Determines whether or not stamina is enabled for the player.
 
-### StaminaRegen:int=1.2 { property }
+### StaminaRegen:float=1.2 { property }
 
 The rate at which stamina regenerates after being depleted for the player.
 
@@ -258,6 +258,6 @@ Returns the player's user ID.
 
 {{ readonly() }}
 
-### WalkSpeed:int=16 { property }
+### WalkSpeed:float=16 { property }
 
 Determines how fast the player walks.

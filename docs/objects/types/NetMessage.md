@@ -17,8 +17,8 @@ icon: polytoria/NetMessage
 | NetMessage.GetString(`string` key)                        | Gets the value of a string key.     |
 | NetMessage.AddInt(`string` key, `int` int)                | Sets a key as an integer.           |
 | NetMessage.GetInt(`string` key)                           | Gets the value of a integer key.    |
-| NetMessage.AddNumber(`string` key, `number` number)       | Sets a key as a number.             |
-| NetMessage.GetNumber(`string` key)                        | Gets the value of a number key.     |
+| NetMessage.AddNumber(`string` key, `float` number)        | Sets a key as a float.              |
+| NetMessage.GetNumber(`string` key)                        | Gets the value of a float key.      |
 | NetMessage.AddBool(`string` key, `boolean` bool)          | Sets a key as a boolean.            |
 | NetMessage.GetBool(`string` key)                          | Gets the value of a boolean key.    |
 | NetMessage.AddVector2(`string` key, `Vector2` Vector2)    | Sets a key as a Vector2.            |

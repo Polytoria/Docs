@@ -68,7 +68,7 @@ Returns true if the NPC is currently standing on the ground.
 
 Specifies the color of the NPC's head.
 
-### Health:int { property }
+### Health:float { property }
 
 Specifies the current amount of health the NPC has.
 
@@ -76,11 +76,11 @@ Specifies the current amount of health the NPC has.
 
 Determines the instance the NPC should walk towards.
 
-### WalkSpeed:int { property }
+### WalkSpeed:float { property }
 
 Determines the walkspeed of the NPC.
 
-### MaxHealth:int=100 { property }
+### MaxHealth:float=100 { property }
 
 Specifies the maximum amount of health a NPC can have.
 
