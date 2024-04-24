@@ -12,7 +12,7 @@ weight: 4
 
 {{ abstract() }}
 
-:polytoria-BaseScript: BaseScripts are the base classes of all scripts (ScriptInstances, LocalScripts). They can be parented to any instance.
+:polytoria-BaseScript: BaseScripts are the base class of all script types ({{ classLink("ScriptInstance") }}, {{ classLink("LocalScript") }}, {{ classLink("ModuleScript") }}). They can be parented to any instance.
 
 {{ inherits("Instance") }}
 

@@ -75,6 +75,8 @@ end
 
 Returns the local player currently playing.
 
+{{ readonly() }}
+
 {{ clientexclusive() }}
 
 **Example**
