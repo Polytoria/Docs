@@ -35,7 +35,7 @@ game["Environment"]:CreateExplosion(Vector3.New(0, 0, 0), 30, 5000, false, nil, 
 !!! note "Callback gets called for each part within explosion radius."
 </div>
 
-### OverlapBox(position;Vector3,halfExtents;Vector3,rotation;Vector3,ignoreList;array=Instance[]):Instance[] { method }
+### OverlapBox(position;Vector3,size;Vector3,rotation;Vector3,ignoreList;array=Instance[]):Instance[] { method }
 
 Returns a list of instances intersecting with the sphere in the given position and radius.
 
