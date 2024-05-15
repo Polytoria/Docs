@@ -37,7 +37,7 @@ game["Environment"]:CreateExplosion(Vector3.New(0, 0, 0), 30, 5000, false, nil, 
 
 ### OverlapBox(position;Vector3,size;Vector3,rotation;Vector3,ignoreList;array=Instance[]):Instance[] { method }
 
-Returns a list of instances intersecting with the sphere in the given position and radius.
+Returns a list of instances intersecting with the box in the given position, size and rotation.
 
 A demo of this method is available [here](https://polytoria.com/places/9269).
 
