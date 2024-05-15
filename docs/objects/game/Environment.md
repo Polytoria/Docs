@@ -39,6 +39,8 @@ game["Environment"]:CreateExplosion(Vector3.New(0, 0, 0), 30, 5000, false, nil, 
 
 Returns a list of instances intersecting with the sphere in the given position and radius.
 
+A demo of this method is available [here](https://polytoria.com/places/9269).
+
 **Example**
 
 ```lua
