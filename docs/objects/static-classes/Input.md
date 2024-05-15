@@ -51,11 +51,55 @@ end)
 
 </div>
 
-### ScreenPointToRay(Vector3;pos, List ignoreList = null):RayResult { method }
+### GetAxis(axisName;string):float { method }
+
+Returns the value of the specified axis.
+
+### GetAxisRaw(axisName;string):float { method }
+
+Returns the value of the specified axis without smoothing filtering.
+
+### GetButton(buttonName;string):bool { method }
+
+Returns `true` if the specified button is being held down.
+
+### GetButtonDown(buttonName;string):bool { method }
+
+Returns `true` during the frame in which the specified button was pressed.
+
+### GetButtonUp(buttonName;string):bool { method }
+
+Returns `true` during the frame in which the specified button was released.
+
+### GetKey(keyName;string):bool { method }
+
+Returns `true` if the specified key is being held down.
+
+### GetKeyDown(keyName;string):bool { method }
+
+Returns `true` during the frame in which the specified key was pressed.
+
+### GetKeyUp(keyName;string):bool { method }
+
+Returns `true` during the frame in which the specified key was released.
+
+### GetMouseButton(mouseButton;int):bool { method }
+
+Returns `true` if the specified mouse button is being held down.
+
+### GetMouseButtonDown(mouseButton;int):bool { method }
+
+Returns `true` during the frame in which the specified mouse button was pressed.
+
+### GetMouseButtonUp(mouseButton;int):bool { method }
+
+Returns `true` during the frame in which the specified mouse button was released.
+
+### ScreenPointToRay(position;Vector3, List ignoreList = null):RayResult { method }
 
 Cast a ray from the camera at screen point into the game world
 
-### ViewportPointToRay(Vector3;pos, List ignoreList = null):RayResult { method }
+### ViewportPointToRay(position;Vector3, List ignoreList = null):RayResult { method }
 
 Cast a ray from the camera at the specified ViewportPoint (Vector3 with components with values in range of 0 - 1 describing how far a point is to to right and to the top of the screen) into the game world
 
@@ -92,6 +136,14 @@ Transforms `worldPosition` from world space into screen space.
 Transforms `worldPosition` from world space into viewport space.
 
 ## Properties
+
+### AnyKey:bool { property }
+
+Returns `true` if any key is being pressed.
+
+### AnyKeyDown:bool { property }
+
+Returns `true` if any new key presses happened during the current frame. Held down key presses from previous frames do not count.
 
 ### MousePosition:Vector2 { property }
 
