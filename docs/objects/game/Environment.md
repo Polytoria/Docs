@@ -35,6 +35,36 @@ game["Environment"]:CreateExplosion(Vector3.New(0, 0, 0), 30, 5000, false, nil, 
 !!! note "Callback gets called for each part within explosion radius."
 </div>
 
+### OverlapBox(position;Vector3,size;Vector3,rotation;Vector3,ignoreList;array=Instance[]):Instance[] { method }
+
+Returns a list of instances intersecting with the sphere in the given position and radius.
+
+A demo of this method is available [here](https://polytoria.com/places/9269).
+
+**Example**
+
+```lua
+local intersections = game["Environment"]:OverlapBox(Vector3.New(0,0,0), Vector3.New(2,2,3), Vector3.New(0,0,0))
+
+for i,v in ipairs(intersections) do
+    print(v.Name .." is intersecting the box!")
+end
+```
+
+### OverlapSphere(position;Vector3,radius;float,ignoreList;array=Instance[]):Instance[] { method }
+
+Returns a list of instances intersecting with the sphere in the given position and radius.
+
+**Example**
+
+```lua
+local intersections = game["Environment"]:OverlapSphere(Vector3.New(100,0,45), 25)
+
+for i,v in ipairs(intersections) do
+    print(v.Name .." is intersecting the sphere!")
+end
+```
+
 ### Raycast(origin;Vector3,direction;Vector3,maxDistance;float=infinite,ignoreList;array=Instance[]):RayResult { method }
 
 Casts a ray from origin with a specified direction and returns a RayResult for the first hit object.
