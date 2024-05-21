@@ -93,7 +93,19 @@ for i, hit in pairs(hits) do
 end
 ```
 
+### RebuildNavMesh { method }
+
+Rebuilds the navigation mesh which determines the empty space where NPCs can pathfind in.
+
 ## Properties
+
+### AutoGenerateNavMesh:bool { property }
+
+Determines whether or not to automatically build a navigation mesh for NPC pathfinding. This property is disabled by default so there are no performance issues with larger maps.
+
+<div data-search-exclude markdown>
+!!! note "When updating the map, even if the property is set to true, you will still have to manually call the `Environment:BuildNavMesh()` method."
+</div>
 
 ### FogColor:Color { property }
 

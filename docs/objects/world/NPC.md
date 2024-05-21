@@ -50,6 +50,10 @@ Clears the NPC's appearance.
 npc:ClearAppearance()
 ```
 
+### SetNavDestination(position;Vector3) { method }
+
+Sets the destination for the NPC's pathfind.
+
 ## Properties
 
 ### Anchored:bool { property }
@@ -111,3 +115,21 @@ Specifies the color of the NPC's left leg.
 ### RightLegColor:Color { property }
 
 Specifies the color of the NPC's right leg.
+
+### NavDestinationDistance:number { property }
+
+Returns the remaining distance before the NPC reaches the end of its pathfind.
+
+{{ readonly() }}
+
+### NavDestinationValid:bool { property }
+
+Returns whether or not the NPC has a valid path to its set destination.
+
+{{ readonly() }}
+
+### NavDestinationReached:bool { property }
+
+Returns whether or not the NPC has reached the end of its pathfind.
+
+{{ readonly() }}
