@@ -15,7 +15,7 @@ weight: 4
 
 :polytoria-Camera: Camera is a class that represents the local player's camera.
 
-{{ inherits("Instance") }}
+{{ inherits("DynamicInstance") }}
 
 ## Properties
 
