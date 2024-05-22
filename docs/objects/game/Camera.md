@@ -2,11 +2,12 @@
 title: Camera
 description: Camera is a class that represents the local player's camera.
 icon: polytoria/Camera
+weight: 4
 ---
 
 # Camera
 
-{{ staticclass("Camera") }}
+{{ service() }}
 
 {{ notnewable() }}
 
