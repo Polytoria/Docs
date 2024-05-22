@@ -161,16 +161,6 @@ Determines the half-size of the camera when in orthographic mode.
 Camera.OrthographicSize = 30
 ```
 
-### Position:Vector3 { property }
-
-Determines or returns position of the camera in the world.
-
-**Example**
-
-```lua
-Camera.Position = Vector3.New(0, 100, 0)
-```
-
 ### PositionOffset:Vector3 { property }
 
 Determines the camera's offset from its position.
@@ -180,16 +170,6 @@ Determines the camera's offset from its position.
 ```lua
 -- Offsets the camera to be slightly above the player
 Camera.PositionOffset = Vector3.New(0, 5, 0)
-```
-
-### Rotation:Vector3 { property }
-
-Determines or returns rotation of the camera.
-
-**Example**
-
-```lua
-Camera.Rotation = Vector3.New(90, 0, 0)
 ```
 
 ### RotationOffset:Vector3 { property }
