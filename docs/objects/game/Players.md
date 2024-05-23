@@ -2,7 +2,7 @@
 title: Players
 description: Players is the container class for all Player instances.
 icon: polytoria/Players
-weight: 4
+weight: 6
 ---
 
 # Players
