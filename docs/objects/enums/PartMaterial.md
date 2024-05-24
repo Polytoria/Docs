@@ -7,7 +7,7 @@ icon: polytoria/Enum
 # PartMaterial
 
 | Name                         | Value |
-|          ---------------------------- | ----- |
+| ---------------------------- | ----- |
 | `PartMaterial.SmoothPlastic` | 0     |
 | `PartMaterial.Wood`          | 1     |
 | `PartMaterial.Concrete`      | 2     |
