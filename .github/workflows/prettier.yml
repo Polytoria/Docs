@@ -1,4 +1,4 @@
-name: Prettier Format and Commit
+name: Prettier Format
 
 on:
   push:
