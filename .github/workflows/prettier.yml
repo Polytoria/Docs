@@ -26,15 +26,17 @@ jobs:
         run: npx prettier --write .
 
       - name: Commit changes
+        id: commit
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add .
-          git commit -m "chore: format code with Prettier"
+          git diff-index --quiet HEAD || git commit -m "chore: format code with Prettier"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Push changes
+        if: steps.commit.outputs.committed == 'true'
         run: git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
