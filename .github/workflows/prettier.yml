@@ -1,4 +1,4 @@
-name: Prettier Format
+name: Prettier Format and Commit
 
 on:
   push:
@@ -33,16 +33,16 @@ jobs:
           git add .
           if git diff-index --quiet HEAD; then
             echo "No changes to commit."
-            echo "::set-output name=changes_committed::false"
+            echo "changes_committed=false" >> $GITHUB_ENV
           else
             git commit -m "chore: format code with Prettier"
-            echo "::set-output name=changes_committed::true"
+            echo "changes_committed=true" >> $GITHUB_ENV
           fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Push changes
-        if: steps.commit.outputs.changes_committed == 'true'
+        if: env.changes_committed == 'true'
         run: git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
