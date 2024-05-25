@@ -59,7 +59,7 @@ Http:Post("https://example.com/api/post", "id=1&name=Hello" , function (data, er
 end, {})
 ```
 
-### Put(url;string,parameters;string,callback;function) { method }
+### Put(url;string,parameters;string,callback;function,headers;array) { method }
 
 Sends a PUT request to the specified URL.
 
@@ -77,7 +77,7 @@ Http:Put("https://example.com", "id=1&content=Hello" , function (data, error, er
 end)
 ```
 
-### Delete(url;string,parameters;string,callback;function) { method }
+### Delete(url;string,parameters;string,callback;function,headers;array) { method }
 
 Sends a DELETE request to the specified url.
 
