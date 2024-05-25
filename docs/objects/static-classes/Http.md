@@ -41,7 +41,7 @@ Http:Get("https://api.polytoria.com/v1/store/25272", function (data, error, errm
 end,{})
 ```
 
-### Post(url;string,parameters;string,callback;function) { method }
+### Post(url;string,parameters;string,callback;function,headers;array) { method }
 
 Sends a POST request to the specified URL.
 
@@ -56,7 +56,7 @@ Http:Post("https://example.com/api/post", "id=1&name=Hello" , function (data, er
         script.Parent.Color = Color.New(1, 0, 0)
         script.Parent.Text = errmsg
     end
-end)
+end, {})
 ```
 
 ### Put(url;string,parameters;string,callback;function) { method }
