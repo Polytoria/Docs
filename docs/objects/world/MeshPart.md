@@ -10,7 +10,7 @@ weight: 2
 
 :polytoria-MeshPart: MeshPart is a part that can have custom mesh applied to it, the mesh may be from the Polytoria Store (Hats, Tools and Heads) or user-uploaded meshes.
 
-{{ inherits("BasePart") }}
+{{ inherits("Part") }}
 
 ## Methods
 

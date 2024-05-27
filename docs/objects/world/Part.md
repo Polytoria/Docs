@@ -10,7 +10,7 @@ weight: 1
 
 :polytoria-Part: Parts are physical objects that can be placed in the world.
 
-{{ inherits("BasePart") }}
+{{ inherits("DynamicInstance") }}
 
 ## Methods
 
