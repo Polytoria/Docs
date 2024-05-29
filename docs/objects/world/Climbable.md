@@ -2,7 +2,7 @@
 title: Climbable
 description: Base class of all climbable objects.
 
-icon: polytoria/BasePart
+icon: polytoria/Climbable
 weight: 100
 ---
 
