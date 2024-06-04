@@ -1,18 +1,18 @@
 ---
 title: RemoteEvent
 description: RemoteEvents was events that can be called by clients to send data to the server.
-icon: polytoria/NetworkEvent
+icon: polytoria/RemoteEvent
 ---
 
 # (Removed) RemoteEvent
 
 <div data-search-exclude markdown>
 !!! danger "Removed"
-    The RemoteEvent class was removed in a previous version of Polytoria, and is currently noted for documentation purposes.
+    :polytoria-RemoteEvent: RemoteEvent class was removed in a previous version of Polytoria, and is currently noted for documentation purposes.
     
 </div>
 
-RemoteEvents was events that could be called by clients to send data to the server.
+:polytoria-RemoteEvent: RemoteEvents was events that could be called by clients to send data to the server.
 
 <div data-search-exclude markdown>
 !!! note "RemoteEvents only supported one parameter due to networking limitations."
