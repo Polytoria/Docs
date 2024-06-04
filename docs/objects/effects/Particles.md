@@ -1,12 +1,12 @@
 ---
 title: Particles
 description: Particles are objects, that spawn and render particles in the world.
-icon: polytoria/Unknown
+icon: polytoria/Particles
 ---
 
 # Particles
 
-:polytoria-Unknown: Particles are objects, that spawn and render particles in the world.
+:polytoria-Particles: Particles are objects, that spawn and render particles in the world.
 
 {{ inherits("DynamicInstance") }}
 
@@ -64,7 +64,7 @@ The size of the particles, over the lifetime of the particle.
 
 ### Speed:NumberRange { property }
 
-The speed of the particles.  A random value in this range will be choosen. The particle moves in its direction at this speed.
+The speed of the particles. A random value in this range will be choosen. The particle moves in its direction at this speed.
 
 ### EmissionRate:int { property }
 
@@ -153,4 +153,3 @@ The current time in the duration timespan.
 The total time the particles object has been emitting particles for.
 
 {{ readonly() }}
-
