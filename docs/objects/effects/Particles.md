@@ -1,12 +1,12 @@
 ---
 title: Particles
 description: Particles are objects, that spawn and render particles in the world.
-icon: polytoria/Unknown
+icon: polytoria/Particles
 ---
 
 # Particles
 
-:polytoria-Unknown: Particles are objects, that spawn and render particles in the world.
+:polytoria-Particles: Particles are objects, that spawn and render particles in the world.
 
 {{ inherits("DynamicInstance") }}
 

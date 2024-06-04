@@ -1,12 +1,12 @@
 ---
 title: NumberRange
 description: NumberRange is a data type that represents a number range.
-icon: polytoria/Unknown
+icon: polytoria/NumberRange
 ---
 
-# ColorRange
+# NumberRange
 
-:polytoria-Unknown: NumberRange is a data type that represents a number range.
+:polytoria-NumberRange: NumberRange is a data type that represents a number range.
 
 ## Constructors
 
