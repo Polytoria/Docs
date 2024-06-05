@@ -13,6 +13,13 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Checkout PR
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh pr checkout ${{ github.event.pull_request.number }}
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -29,28 +36,14 @@ jobs:
         run: npx prettier --write .
 
       - name: Commit changes
-        id: commit
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add .
           if git diff-index --quiet HEAD; then
             echo "No changes to commit."
-            echo "changes_committed=false" >> $GITHUB_ENV
           else
             git commit -m "chore: format code with Prettier"
-            echo "changes_committed=true" >> $GITHUB_ENV
+            git push origin HEAD:${{ github.event.pull_request.number }}
           fi
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Create Pull Request
-        if: env.changes_committed == 'true'
-        uses: peter-evans/create-pull-request@v5
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: 'chore: format code with Prettier'
-          branch: prettier-fix
-          title: 'chore: format code with Prettier'
-          body: 'This PR formats the code with Prettier.'
-          labels: prettier
