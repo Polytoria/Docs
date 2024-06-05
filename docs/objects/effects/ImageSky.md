@@ -12,17 +12,11 @@ icon: polytoria/ImageSky
 
 ### BackId:int { property }
 
+
+
+
+
 The image ID of the back side of the skybox.
-
-
-
-
-
-
-
-
-
-
 
 ### BottomId:int { property }
 

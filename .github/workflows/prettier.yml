@@ -49,8 +49,8 @@ jobs:
         uses: peter-evans/create-pull-request@v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "chore: format code with Prettier"
+          commit-message: 'chore: format code with Prettier'
           branch: prettier-fix
-          title: "chore: format code with Prettier"
-          body: "This PR formats the code with Prettier."
+          title: 'chore: format code with Prettier'
+          body: 'This PR formats the code with Prettier.'
           labels: prettier
