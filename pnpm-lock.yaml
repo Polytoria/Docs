@@ -13,7 +13,6 @@ devDependencies:
     version: 1.4.0(prettier@3.3.0)
 
 packages:
-
   /prettier-plugin-jinja-template@1.4.0(prettier@3.3.0):
     resolution: {integrity: sha512-9i7HwTAryhOTtY1ENyZBZA+KNaPphSaI/sXbQno5a6/DgiP6ZAnUiax4cOKiutEwiSDhVfLbTXEfHS5QAUVWBg==}
     peerDependencies:
