@@ -1,7 +1,7 @@
 name: Prettier Format and Commit
 
 on:
-  push:
+  pull_request:
     branches:
       - main
       - 'refs/heads/*'
@@ -21,9 +21,6 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-
-      - name: Pull latest changes
-        run: git pull
 
       - name: Run Prettier
         run: npx prettier --write .
@@ -46,6 +43,7 @@ jobs:
 
       - name: Push changes
         if: env.changes_committed == 'true'
-        run: git push
+        run: |
+          git push origin HEAD:${{ github.head_ref }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
