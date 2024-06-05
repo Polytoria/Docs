@@ -44,6 +44,6 @@ jobs:
             echo "No changes to commit."
           else
             git commit -m "chore: format code with Prettier"
-            git push origin HEAD:${{ github.event.pull_request.head.ref }}
+            git push origin HEAD:${{ github.event.pull_request.number }}
           fi
 
