@@ -264,11 +264,11 @@ def method(name):
         if getClassLink(property_type) != "?":
             property_type = getClassLink(property_type)
             has_link = True
-    else:
-        property_type = "void"
 
-    if has_link == False:
-        property_type = "`" + property_type + "`"
+    if property_type != "":
+        if has_link == False:
+            property_type = "`" + property_type + "`"
+        property_type = "→ " + property_type
 
     parametersList = ""
 
@@ -313,7 +313,7 @@ def method(name):
         elif len(parameters) == 1:
             parametersList = f"\n!!! quote \"**Parameters:** <span style=\"font-weight: normal;\">" + parameters[0] + "</span>\""
 
-    return "### :polytoria-Method: %s → %s { #%s data-toc-label=\"%s\" }%s" % (name, property_type, name, name, parametersList)
+    return "### :polytoria-Method: %s %s { #%s data-toc-label=\"%s\" }%s" % (name, property_type, name, name, parametersList)
 
 def on_pre_page_macros(env):
     #find headers with { macroName } at the end and replace with the associated macro
