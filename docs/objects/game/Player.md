@@ -163,6 +163,18 @@ The player's username color in the chat.
 game["Players"]["willemsteller"].ChatColor = Color3.New(0, 1, 0)
 ```
 
+### ShirtID:int { property }
+
+Determines the ID of the shirt the player is wearing.
+
+### PantsID:int { property }
+
+Determines the ID of the shirt the player is wearing.
+
+### FaceID:int { property }
+
+Determines the ID of the shirt the player is wearing.
+
 ### HeadColor:Color { property }
 
 Specifies the color of the players's head.
