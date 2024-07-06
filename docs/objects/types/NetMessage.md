@@ -10,22 +10,60 @@ icon: polytoria/NetMessage
 
 ## Constructors
 
-| Name                                                      | Description                         |
-| --------------------------------------------------------- | ----------------------------------- |
-| NetMessage.New()                                          | Creates a new NetMessage.           |
-| NetMessage.AddString(`string` key, `string` value)        | Sets a key as a string.             |
-| NetMessage.GetString(`string` key)                        | Gets the value of a string key.     |
-| NetMessage.AddInt(`string` key, `int` int)                | Sets a key as an integer.           |
-| NetMessage.GetInt(`string` key)                           | Gets the value of a integer key.    |
-| NetMessage.AddNumber(`string` key, `float` number)        | Sets a key as a float.              |
-| NetMessage.GetNumber(`string` key)                        | Gets the value of a float key.      |
-| NetMessage.AddBool(`string` key, `boolean` bool)          | Sets a key as a boolean.            |
-| NetMessage.GetBool(`string` key)                          | Gets the value of a boolean key.    |
-| NetMessage.AddVector2(`string` key, `Vector2` Vector2)    | Sets a key as a Vector2.            |
-| NetMessage.GetVector2(`string` key)                       | Gets the value of a Vector2 key.    |
-| NetMessage.AddVector3(`string` key, `Vector3` Vector3)    | Sets a key as a Vector3.            |
-| NetMessage.GetVector3(`string` key)                       | Gets the value of a Vector3 key.    |
-| NetMessage.AddColor(`string` key, `Color` Color)          | Sets a key as a Color.              |
-| NetMessage.GetColor(`string` key)                         | Gets the value of a Color key.      |
-| NetMessage.AddInstance(`string` key, `Instance` Instance) | Sets a key as an Instance.          |
-| NetMessage.GetInstance(`string` key)                      | CGets the value of an Instance key. |
+### NetMessage.New { method }
+Creates a new NetMessage instance.
+
+## Methods
+
+### AddString(key;string,value;string) { method }
+Sets a key as a string.
+
+!!! warning "Limitations"
+    Adding a string longer than 65,535 characters will cause the message to be silently dropped during transmission, and the {{ classLink("NetworkEvent") }} will not be fired on the other side.
+
+    If you need to send a large string, consider sending it in smaller chunks.
+
+### GetString(key;string):string { method }
+Gets the value of a string key.
+
+### AddInt(key;string,int;int) { method }
+Sets a key as an integer.
+
+### GetInt(key;string):int { method }
+Gets the value of an integer key.
+
+### AddNumber(key;string,number;float) { method }
+Sets a key as a float.
+
+### GetNumber(key;string):float { method }
+Gets the value of a float key.
+
+### AddBool(key;string,bool;boolean) { method }
+Sets a key as a boolean.
+
+### GetBool(key;string):boolean { method }
+Gets the value of a boolean key.
+
+### AddVector2(key;string,vector2;Vector2) { method }
+Sets a key as a Vector2.
+
+### GetVector2(key;string):Vector2 { method }
+Gets the value of a Vector2 key.
+
+### AddVector3(key;string,vector3;Vector3) { method }
+Sets a key as a Vector3.
+
+### GetVector3(key;string):Vector3 { method }
+Gets the value of a Vector3 key.
+
+### AddColor(key;string,color;Color) { method }
+Sets a key as a Color.
+
+### GetColor(key;string):Color { method }
+Gets the value of a Color key.
+
+### AddInstance(key;string,instance;Instance) { method }
+Sets a key as an Instance.
+
+### GetInstance(key;string):Instance { method }
+Gets the value of an Instance key.
