@@ -22,6 +22,104 @@ body {
 	overflow-x: hidden;
 }
 
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.contributors {
+	overflow-x: auto;
+	white-space: nowrap;
+	padding: 20px 0;
+}
+
+.text-center {
+	position: relative;
+	z-index: 1;
+}
+
+.contributor {
+	display: inline-block;
+	margin-right: 20px;
+	padding: 10px;
+	border: 3px solid #484848;
+	border-radius: 5px;
+	text-align: center;
+	background-color: #252525;
+}
+
+.avatar {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	margin-bottom: 10px;
+}
+
+.name {
+	font-weight: bold;
+	display: block;
+	margin-bottom: 5px;
+	color: #cdcdcd;
+}
+
+.contributions {
+	color: #cdcdcd;
+}
+
+.commits-container {
+	max-width: 600px;
+	margin: 20px auto;
+	padding: 10px;
+	background-color: #252525;
+	border: 3px solid #484848;
+	border-radius: 5px;
+	overflow-y: auto;
+	max-height: 400px;
+}
+
+.commit {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	border-bottom: 1px solid #484848;
+}
+
+.commit:last-child {
+	border-bottom: none;
+}
+
+.commit-avatar {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.commit-details {
+	flex: 1;
+}
+
+.commit-message {
+	display: block;
+	font-weight: bold;
+	color: #cdcdcd;
+	word-wrap: break-word;
+}
+
+.commit-author,
+.commit-date {
+	display: block;
+	color: #cdcdcd;
+}
+
 @media only screen and (max-width: 850px) {
 	.mobile-hidden {
 		display: none;

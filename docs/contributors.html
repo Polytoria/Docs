@@ -157,9 +157,16 @@
 			</div>
 		</div>
 
+		<div class="container">
+			<div class="commits-container" id="commitsContainer">
+				<!-- Commits will be added here -->
+			</div>
+		</div>
+
 		<script>
 			const repo = 'Polytoria/Docs';
 			const apiUrl = `https://api.github.com/repos/${repo}/contributors`;
+			const commitsApiUrl = `https://api.github.com/repos/${repo}/commits`;
 
 			fetch(apiUrl)
 				.then((response) => response.json())
@@ -190,6 +197,47 @@
 				})
 				.catch((error) => {
 					console.error('Error fetching contributors:', error);
+				});
+
+			fetch(commitsApiUrl)
+				.then((response) => response.json())
+				.then((data) => {
+					const commitsContainer = document.getElementById('commitsContainer');
+					data.slice(0, 10).forEach((commit) => {
+						const commitDiv = document.createElement('div');
+						commitDiv.classList.add('commit');
+
+						const avatarImg = document.createElement('img');
+						avatarImg.src = commit.author ? commit.author.avatar_url : 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png';
+						avatarImg.alt = `${commit.commit.author.name}'s avatar`;
+						avatarImg.classList.add('commit-avatar');
+						commitDiv.appendChild(avatarImg);
+
+						const commitDetailsDiv = document.createElement('div');
+						commitDetailsDiv.classList.add('commit-details');
+
+						const messageSpan = document.createElement('span');
+						messageSpan.textContent = commit.commit.message;
+						messageSpan.classList.add('commit-message');
+						commitDetailsDiv.appendChild(messageSpan);
+
+						const authorSpan = document.createElement('span');
+						authorSpan.textContent = `Committed by: ${commit.commit.author.name} (${commit.sha.substring(0, 7)})`;
+						authorSpan.classList.add('commit-author');
+						commitDetailsDiv.appendChild(authorSpan);
+
+						const dateSpan = document.createElement('span');
+						dateSpan.textContent = new Date(commit.commit.author.date).toLocaleString();
+						dateSpan.classList.add('commit-date');
+						commitDetailsDiv.appendChild(dateSpan);
+
+						commitDiv.appendChild(commitDetailsDiv);
+
+						commitsContainer.appendChild(commitDiv);
+					});
+				})
+				.catch((error) => {
+					console.error('Error fetching commits:', error);
 				});
 		</script>
 	</body>
