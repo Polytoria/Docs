@@ -222,7 +222,7 @@
 						commitDetailsDiv.appendChild(messageSpan);
 
 						const authorSpan = document.createElement('span');
-						authorSpan.textContent = `Committed by: ${commit.commit.author.name}`;
+						authorSpan.textContent = `Committed by: ${commit.commit.author.name} (${commit.sha.substring(0, 7)})`;
 						authorSpan.classList.add('commit-author');
 						commitDetailsDiv.appendChild(authorSpan);
 
