@@ -168,6 +168,10 @@
 			const apiUrl = `https://api.github.com/repos/${repo}/contributors`;
 			const commitsApiUrl = `https://api.github.com/repos/${repo}/commits`;
 
+			function escapeHtml(unsafe) {
+				return unsafe.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#039;');
+			}
+
 			fetch(apiUrl)
 				.then((response) => response.json())
 				.then((data) => {
@@ -183,7 +187,7 @@
 						contributorDiv.appendChild(avatarImg);
 
 						const nameSpan = document.createElement('span');
-						nameSpan.textContent = contributor.login;
+						nameSpan.textContent = escapeHtml(contributor.login);
 						nameSpan.classList.add('name');
 						contributorDiv.appendChild(nameSpan);
 
@@ -217,12 +221,12 @@
 						commitDetailsDiv.classList.add('commit-details');
 
 						const messageSpan = document.createElement('span');
-						messageSpan.textContent = commit.commit.message;
+						messageSpan.textContent = escapeHtml(commit.commit.message);
 						messageSpan.classList.add('commit-message');
 						commitDetailsDiv.appendChild(messageSpan);
 
 						const authorSpan = document.createElement('span');
-						authorSpan.textContent = `Committed by: ${commit.commit.author.name} (${commit.sha.substring(0, 7)})`;
+						authorSpan.textContent = `Committed by: ${escapeHtml(commit.commit.author.name)} (${commit.sha.substring(0, 7)})`;
 						authorSpan.classList.add('commit-author');
 						commitDetailsDiv.appendChild(authorSpan);
 
