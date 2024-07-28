@@ -2,7 +2,7 @@
   FRONTEND CREATED BY INDEX
   DESIGN CREATED BY https://github.com/SK-Fast
   ART CREATED BY https://github.com/SK-Fast
-  CONTRIBUTORS SCRIPT CREATED BY https://github.com/StarManTheGamer
+  CONTRIBUTORS/COMMITS SCRIPT CREATED BY https://github.com/StarManTheGamer
 -->
 <!doctype html>
 <html lang="en">
@@ -183,12 +183,12 @@
 						contributorDiv.appendChild(avatarImg);
 
 						const nameSpan = document.createElement('span');
-						nameSpan.textContent = contributor.login;
+						nameSpan.innerText = contributor.login;
 						nameSpan.classList.add('name');
 						contributorDiv.appendChild(nameSpan);
 
 						const contributionsSpan = document.createElement('span');
-						contributionsSpan.textContent = `Contributions: ${contributor.contributions}`;
+						contributionsSpan.innerText = `Contributions: ${contributor.contributions}`;
 						contributionsSpan.classList.add('contributions');
 						contributorDiv.appendChild(contributionsSpan);
 
@@ -217,17 +217,17 @@
 						commitDetailsDiv.classList.add('commit-details');
 
 						const messageSpan = document.createElement('span');
-						messageSpan.textContent = commit.commit.message;
+						messageSpan.innerText = commit.commit.message;
 						messageSpan.classList.add('commit-message');
 						commitDetailsDiv.appendChild(messageSpan);
 
 						const authorSpan = document.createElement('span');
-						authorSpan.textContent = `Committed by: ${commit.commit.author.name} (${commit.sha.substring(0, 7)})`;
+						authorSpan.innerText = `Committed by: ${commit.commit.author.name} (${commit.sha.substring(0, 7)})`;
 						authorSpan.classList.add('commit-author');
 						commitDetailsDiv.appendChild(authorSpan);
 
 						const dateSpan = document.createElement('span');
-						dateSpan.textContent = new Date(commit.commit.author.date).toLocaleString();
+						dateSpan.innerText = new Date(commit.commit.author.date).toLocaleString();
 						dateSpan.classList.add('commit-date');
 						commitDetailsDiv.appendChild(dateSpan);
 
