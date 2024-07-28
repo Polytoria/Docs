@@ -168,10 +168,6 @@
 			const apiUrl = `https://api.github.com/repos/${repo}/contributors`;
 			const commitsApiUrl = `https://api.github.com/repos/${repo}/commits`;
 
-			function escapeHtml(unsafe) {
-				return unsafe.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#039;');
-			}
-
 			fetch(apiUrl)
 				.then((response) => response.json())
 				.then((data) => {
@@ -187,12 +183,12 @@
 						contributorDiv.appendChild(avatarImg);
 
 						const nameSpan = document.createElement('span');
-						nameSpan.textContent = escapeHtml(contributor.login);
+						nameSpan.innerText = contributor.login;
 						nameSpan.classList.add('name');
 						contributorDiv.appendChild(nameSpan);
 
 						const contributionsSpan = document.createElement('span');
-						contributionsSpan.textContent = `Contributions: ${contributor.contributions}`;
+						contributionsSpan.innerText = `Contributions: ${contributor.contributions}`;
 						contributionsSpan.classList.add('contributions');
 						contributorDiv.appendChild(contributionsSpan);
 
@@ -221,17 +217,17 @@
 						commitDetailsDiv.classList.add('commit-details');
 
 						const messageSpan = document.createElement('span');
-						messageSpan.textContent = escapeHtml(commit.commit.message);
+						messageSpan.innerText = commit.commit.message;
 						messageSpan.classList.add('commit-message');
 						commitDetailsDiv.appendChild(messageSpan);
 
 						const authorSpan = document.createElement('span');
-						authorSpan.textContent = `Committed by: ${escapeHtml(commit.commit.author.name)} (${commit.sha.substring(0, 7)})`;
+						authorSpan.innerText = `Committed by: ${commit.commit.author.name} (${commit.sha.substring(0, 7)})`;
 						authorSpan.classList.add('commit-author');
 						commitDetailsDiv.appendChild(authorSpan);
 
 						const dateSpan = document.createElement('span');
-						dateSpan.textContent = new Date(commit.commit.author.date).toLocaleString();
+						dateSpan.innerText = new Date(commit.commit.author.date).toLocaleString();
 						dateSpan.classList.add('commit-date');
 						commitDetailsDiv.appendChild(dateSpan);
 
