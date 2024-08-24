@@ -1,10 +1,10 @@
 ---
 title: Insert
 description: Insert is a class used for inserting user-generated models into your game via scripts.
-icon: polytoria/Unknown
+icon: polytoria/Insert
 ---
 
-:polytoria-Unknown: Insert is a class used for inserting user-generated models into your game via scripts.
+:polytoria-Insert: Insert is a class used for inserting user-generated models into your game via scripts.
 
 ## Methods
 
