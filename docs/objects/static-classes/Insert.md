@@ -8,11 +8,12 @@ icon: polytoria/Insert
 
 ## Methods
 
-### Model(modelID;int, callback;func=nil) { method }
+### Model(modelID;int,callback;func=nil) { method }
 
 Inserts the specified model ID into your game, with an optional callback for when the model successfully loads.
 
 **Example:**
+
 ```lua
 -- Loads the tree model associated with that ID
 Insert:Model(739)
