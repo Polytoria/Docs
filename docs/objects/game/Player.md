@@ -151,6 +151,10 @@ Unsit the player.
 
 ## Properties
 
+### Anchored:bool=false { property }
+
+Determines whether or not the player is anchored. The idle animation still plays and this property does not reset on respawn/reset.
+
 ### CanMove:bool=true { property }
 
 Determines whether or not the player can move.
