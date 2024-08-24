@@ -203,6 +203,10 @@ Returns whether or not the player is the creator of the current place.
 
 Determines whether or not the player is currently focused on an input.
 
+<div data-search-exclude markdown>
+!!! note "The {{ classLink("Player") }} `.IsInputFocused` property has been moved to the {{ classLink("Input") }} static class, however the property still exists on the {{ classLink("Player") }} class for backwards-compatibility."
+</div>
+
 {{ readonly() }}
 
 ### JumpPower:float=36 { property }

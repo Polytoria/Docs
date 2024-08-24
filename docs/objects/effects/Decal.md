@@ -12,6 +12,10 @@ icon: polytoria/Decal
 
 ## Properties
 
+### Color:Color { property }
+
+Determines the color of the decal.
+
 ### ImageType:ImageType { property }
 
 The type of image to be used.

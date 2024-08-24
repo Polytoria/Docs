@@ -145,6 +145,12 @@ Returns `true` if any key is being pressed.
 
 Returns `true` if any new key presses happened during the current frame. Held down key presses from previous frames do not count.
 
+### IsInputFocused:bool { property }
+
+Determines whether or not the local player is currently focused on an input.
+
+{{ readonly() }}
+
 ### MousePosition:Vector2 { property }
 
 Returns the current mouse position.

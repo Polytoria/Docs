@@ -22,9 +22,17 @@ Moves the MeshPart to the specified position.
 
 Rotates the MeshPart to the specified rotation.
 
-### PlayAnimation(string;name) { method }
+### PlayAnimation(animationName;string) { method }
 
 Plays the animation with the specified name, if it exists.
+
+### StopAnimation() { method }
+
+Stops playing the current animation.
+
+### GetAnimations() { method }
+
+Returns the names of the animations associated with the mesh.
 
 ## Properties
 
