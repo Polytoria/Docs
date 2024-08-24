@@ -31,6 +31,10 @@ end)
 
 Plays the sound.
 
+### PlayOneShot(volume;float):void { method }
+
+Plays the sound once, able to be ran in rapid succession without stopping existing playback.
+
 ### Stop:void { method }
 
 Stops playing the sound.
@@ -49,7 +53,9 @@ Returns whether or not the sound is loading or not.
 
 ### Length:float { property }
 
-Returns the length of the currently loaded audio
+Returns the length of the currently loaded audio.
+
+{{ readonly() }}
 
 ### Loop:bool { property }
 
