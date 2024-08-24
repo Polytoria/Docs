@@ -22,6 +22,10 @@ Moves the MeshPart to the specified position.
 
 Rotates the MeshPart to the specified rotation.
 
+### PlayAnimation(string;name) { method }
+
+Plays the animation with the specified name, if it exists.
+
 ## Properties
 
 ### Anchored:bool { property }
