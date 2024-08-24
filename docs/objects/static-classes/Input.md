@@ -168,3 +168,15 @@ Determines whether or not the cursor is visible.
 ```lua
 Input.CursorVisible = true
 ```
+
+### ScreenWidth:float { property }
+
+Returns the current screen's width.
+
+{{ readonly() }}
+
+### ScreenHeight:float { property }
+
+Returns the current screen's height.
+
+{{ readonly() }}
