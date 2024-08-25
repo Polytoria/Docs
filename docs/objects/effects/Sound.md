@@ -31,6 +31,10 @@ end)
 
 Plays the sound.
 
+### PlayOneShot(volume;float):void { method }
+
+Plays the sound once, able to be ran in rapid succession without stopping existing playback.
+
 ### Stop:void { method }
 
 Stops playing the sound.
@@ -41,9 +45,17 @@ Stops playing the sound.
 
 Determines whether the sound should start playing automatically.
 
+### Loading:bool { property }
+
+Returns whether or not the sound is loading or not.
+
+{{ readonly() }}
+
 ### Length:float { property }
 
-Returns the length of the currently loaded audio
+Returns the length of the currently loaded audio.
+
+{{ readonly() }}
 
 ### Loop:bool { property }
 
@@ -64,6 +76,8 @@ Specifies how far the player must be from the sound for it to stop playing, if t
 ### Playing:bool { property }
 
 Determines whether the sound is currently playing or not.
+
+{{ readonly() }}
 
 ### Size:Vector3 { property }
 

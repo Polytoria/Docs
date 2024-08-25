@@ -11,6 +11,17 @@ weight: 100
 
 {{ inherits("UIView") }}
 
+## Methods
+
+### Focus() { method }
+
+Forces the local player to focus on the text input.
+
+```lua
+-- Focuses on the ExampleTextField
+game["PlayerGUI"]["ExampleTextField"]:Focus()
+```
+
 ## Events
 
 ### Changed { event }

@@ -24,6 +24,8 @@ weight: 3
 
 It is important to define and return a table in a ModuleScript. When the place starts, the server and the client will run the ModuleScript once and store the result for other scripts to retrieve with `require()`.
 
+Polytoria's script run order prioritizes ModuleScripts.
+
 <div data-search-exclude markdown>
 !!! note "When trying to require a specific module script, put the path to the ModuleScript in the require function."
 </div>
