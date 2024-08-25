@@ -52,6 +52,10 @@ Angular drag (air resistance) of this part.
 
 Specifies the angular velocity of a part.
 
+### Bounciness:float { property }
+
+Determines how bouncy the part is when players land on it.
+
 ### CanCollide:bool { property }
 
 Specifies whether the part can be collided with or not.
@@ -63,6 +67,10 @@ Specifies the color of a part.
 ### Drag:float { property }
 
 Determines Drag (air resistance) of this part.
+
+### Friction:float { property }
+
+Determines the amount of friction between the part and players on it.
 
 ### Forward:Vector3 { property }
 
