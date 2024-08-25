@@ -17,7 +17,7 @@ weight: 5
 
 ## Events
 
-### Chatted(message;string,event;table={Player|message|Cancelled}) { event }
+### Chatted(message;string,event;table={Player|message|Canceled}) { event }
 
 Fires when the player sends a chat message. You can cancel the chat message by setting the event's `Cancelled` property like this: `event.Cancelled = true`.
 
