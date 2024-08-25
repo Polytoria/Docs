@@ -1,12 +1,12 @@
 ---
 title: ColorRange
 description: ColorRange is a data type that represents a color range.
-icon: polytoria/Unknown
+icon: polytoria/ColorRange
 ---
 
 # ColorRange
 
-:polytoria-Unknown: ColorRange is a data type that represents a color range.
+:polytoria-ColorRange: ColorRange is a data type that represents a color range.
 
 ## Constructors
 
