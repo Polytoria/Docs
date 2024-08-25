@@ -1,12 +1,12 @@
 ---
 title: GradientSky
 description: GradientSky is a class that is used to set a gradient skybox in the world.
-icon: polytoria/Unknown
+icon: polytoria/GradientSky
 ---
 
 # GradientSky
 
-:polytoria-Unknown: GradientSky is a class that is used to set a gradient skybox in the world.
+:polytoria-GradientSky: GradientSky is a class that is used to set a gradient skybox in the world.
 
 ## Properties
 
