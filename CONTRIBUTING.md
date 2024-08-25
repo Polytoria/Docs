@@ -6,12 +6,12 @@ Thanks for waiting to contribute to the new unofficial Polytoria documentation! 
 
 | Name                       | Version |
 | -------------------------- | ------- |
-| mkdocs                     | 1.5.3   |
+| mkdocs                     | 1.6.0   |
 | mkdocs-macros-plugin       | 1.0.5   |
-| mkdocs-material            | 9.5.7   |
+| mkdocs-material            | 9.5.33   |
 | mkdocs-material-extensions | 1.3.1   |
 | mkdocs-nav-weight          | 0.2.0   |
-| pymdown-extensions         | 10.7    |
+| pymdown-extensions         | 10.9    |
 | ghp-import                 | 2.1.0   |
 
 ## Notes
