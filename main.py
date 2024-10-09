@@ -18,7 +18,11 @@ def getClassLink(className):
 def getDirectory(category):
     # Find the actual link for the input classname by searching for the markdown file
     search_path = "docs/objects/" + category
-    if category == "removed": search_path = "docs/removed"
+    linkPath = "/objects/"
+    if category == "removed":
+        search_path = "docs/removed"
+        linkPath = "/"
+
     results = []
     for root, dirs, files in os.walk(search_path):
         for file in files:
@@ -28,9 +32,9 @@ def getDirectory(category):
                 filePath = filePath[len(search_path):]
                 filePath = filePath[:-3]
                 if category == "enums":
-                    results.append("[:polytoria-%s: %s](/objects/%s)" % ("Enum", className, (category + "/" + className)))
+                    results.append("[:polytoria-%s: %s](%s)" % ("Enum", className, (linkPath + category + "/" + className)))
                 else:
-                    results.append("[:polytoria-%s: %s](/objects/%s)" % (className, className, (category + "/" + className)))
+                    results.append("[:polytoria-%s: %s](%s)" % (className, className, (linkPath + category + "/" + className)))
     results.sort()
     return results
 

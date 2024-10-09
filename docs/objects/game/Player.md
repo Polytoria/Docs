@@ -19,7 +19,7 @@ weight: 5
 
 ### Chatted(message;string,event;table={Player|message|Canceled}) { event }
 
-Fires when the player sends a chat message. You can cancel the chat message by setting the event's `Cancelled` property like this: `event.Cancelled = true`.
+Fires when the player sends a chat message. You can prevent other players from seeing the chat message by setting the event's `Canceled` property like this: `event.Canceled = true`.
 
 **Example**
 
@@ -173,11 +173,11 @@ Determines the ID of the shirt the player is wearing.
 
 ### PantsID:int { property }
 
-Determines the ID of the shirt the player is wearing.
+Determines the ID of the pants the player is wearing.
 
 ### FaceID:int { property }
 
-Determines the ID of the shirt the player is wearing.
+Determines the ID of the face the player is wearing.
 
 ### HeadColor:Color { property }
 

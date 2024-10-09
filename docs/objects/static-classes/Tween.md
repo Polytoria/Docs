@@ -31,7 +31,7 @@ Tween:TweenColor(Color.New(1,1,1,1), Color.New(1,1,1,0), 5, function(val)
     part.Color = val
 end, TweenType.linear, function()
     print("Tween finished")
-end
+end)
 ```
 
 ### TweenNumber(startValue;float,endValue;float,time;float,callPerStep;function,type;TweenType,callback;function):int { method }
