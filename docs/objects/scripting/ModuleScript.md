@@ -10,7 +10,7 @@ weight: 3
 <div data-search-exclude markdown>
 !!! bug "BETA Feature"
 
-    ModuleScripts are currently in BETA. As of right now, you aren't able to run functions from ModuleScripts. However this is a planned feature in the near future.
+    ModuleScripts are currently in BETA and its behaviour may change at any point, so use it at your own risk. As of right now, you aren't able to run functions from ModuleScripts. However this is a planned feature in the near future.
 
     Current Issues:
 
