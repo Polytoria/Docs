@@ -84,6 +84,10 @@ Determines the instance the NPC should walk towards.
 
 Determines the walkspeed of the NPC.
 
+### JumpPower:float { property }
+
+Determines the jump power of the NPC.
+
 ### MaxHealth:float=100 { property }
 
 Specifies the maximum amount of health a NPC can have.
@@ -133,3 +137,7 @@ Returns whether or not the NPC has a valid path to its set destination.
 Returns whether or not the NPC has reached the end of its pathfind.
 
 {{ readonly() }}
+
+### Velocity:float { property }
+
+Returns or sets the velocity of the NPC.

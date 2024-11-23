@@ -60,6 +60,10 @@ Determines how bouncy the part is when players land on it.
 
 Specifies whether the part can be collided with or not.
 
+### CastShadows:bool { property }
+
+Specifies whether the part casts its shadow on other parts.
+
 ### Color:Color { property }
 
 Specifies the color of a part.

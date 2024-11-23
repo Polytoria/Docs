@@ -85,7 +85,7 @@ Returns the local player currently playing.
 print(game["Players"].LocalPlayer.Name)
 ```
 
-### PlayerCollisionEnabled:bool { property }
+### PlayerCollisionEnabled:bool=true { property }
 
 Determines whether or not collisions between players are enabled.
 

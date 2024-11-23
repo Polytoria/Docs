@@ -24,3 +24,9 @@ script.Parent.Clicked:Connect(function ()
     print("The button was clicked!")
 end)
 ```
+
+## Properties
+
+### Interactable:bool=true { property }
+
+Determines whether or not the player can click on the button and if the `.Clicked` event will be fired.

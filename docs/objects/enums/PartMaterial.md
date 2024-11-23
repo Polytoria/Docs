@@ -25,3 +25,5 @@ icon: polytoria/Enum
 | `PartMaterial.Plastic`       | 14    |
 | `PartMaterial.Plywood`       | 15    |
 | `PartMaterial.Planks`        | 16    |
+| `PartMaterial.Fabric`        | 17    |
+| `PartMaterial.Marble`        | 18    |
