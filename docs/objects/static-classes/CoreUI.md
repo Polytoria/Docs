@@ -18,6 +18,10 @@ CoreUI is a static class that allows for the toggling of certain core GUI.
 
 Determines whether or not the chat box is visible.
 
+### CanRespawn:bool=true { property }
+
+Determines whether or not the player can respawn.
+
 ### MenuButtonEnabled:bool=true { property }
 
 Determines whether or not the menu button is visible.
