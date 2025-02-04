@@ -31,7 +31,7 @@ Rotates the part while keeping physics in mind.
 **Example**
 
 ```lua
-game["Environment"]["Part"]:MovePosition(Vector3.New(0, 180, 0))
+game["Environment"]["Part"]:MoveRotation(Vector3.New(0, 180, 0))
 ```
 
 ## Properties
