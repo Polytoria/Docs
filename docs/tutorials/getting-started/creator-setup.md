@@ -32,7 +32,8 @@ If you haven't downloaded the Launcher yet, you must download it from the [Place
 
 ## Coding in the creator
 
-To code in Polytoria Creator we recommend you to use a IDE (Integrated Development Environment). These are some of the widely used IDEs: 
+To code in Polytoria Creator we recommend you to use a IDE (Integrated Development Environment). These are some of the widely used IDEs:
+
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Sublime Text](https://www.sublimetext.com/)
 
