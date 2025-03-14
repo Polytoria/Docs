@@ -1,7 +1,7 @@
 ---
 title: Getting Started
 description: Getting started with making your own places on Polytoria.
-weight: 1
+weight: 0
 ---
 
 # Getting Started
