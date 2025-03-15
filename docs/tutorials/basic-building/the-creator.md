@@ -24,8 +24,13 @@ When you open your first place, you'll be greeted by the creator's UI. It's not 
 
     Currently the following known bugs exist:
 
+    - Creator Application
+    	- Scrolling when focused but outside of window causes camera to zoom.
+    	- Undoing does not re-spawn objects properly.
+
 	- Properties Panel
 		- The properties panel does not update until you de-select and re-select an object.
+		- Undoing does not update properties until after update
 
 
 	- Explorer 
