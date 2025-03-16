@@ -78,6 +78,7 @@ game.Rendered:Connect(function(dt)
     Brick.Position = Vector3.New(0, 10 + math.sin(time) ,0)
 end)
 ```
+
 Now we should have a nice bouncing `Brick` that goes up and down! How magical!
 
 We'll also apply this concept to the `Size` of the `Brick` so it's constantly changing size over time!
@@ -93,7 +94,7 @@ game.Rendered:Connect(function(dt)
   	Brick.Rotation = Vector3.New(0, Brick.Rotation.y + 1 ,0)
     Brick.Position = Vector3.New(0, 10 + math.sin(time) ,0)
 
-    local compiledscale = 2 + math.sin(time) 
+    local compiledscale = 2 + math.sin(time)
     Brick.Size = Vector3.New(compiledscale,compiledscale,compiledscale)
 
 end)
@@ -116,7 +117,7 @@ game.Rendered:Connect(function(dt)
   	Brick.Rotation = Vector3.New(0, Brick.Rotation.y + 1 ,0)
     Brick.Position = Vector3.New(0, 10 + math.sin(time) ,0)
 
-    local compiledscale = 2 + math.sin(time) 
+    local compiledscale = 2 + math.sin(time)
     Brick.Size = Vector3.New(compiledscale,compiledscale,compiledscale)
 
 end)
