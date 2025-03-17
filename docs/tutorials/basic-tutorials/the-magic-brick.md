@@ -46,7 +46,7 @@ Okay good! Now we just need to double click the `LocalScript` to open it in a te
 
 We're going to start off by adding the following code:
 
-```
+```lua
 local Brick = script.Parent
 
 game.Rendered:Connect(function(dt)
@@ -68,7 +68,7 @@ Next we should add a `time` variable! This will hold our time so that when we wa
 
 We'll also want to see this in action, so we'll update the `time` variable and apply it using a `math.sin()` function to the `y` position of our `Brick`. We also want to use `10` as our base position, as this is updated every frame, if we used the current `Brick` position, it can get a little crazy.
 
-```
+```lua
 local Brick = script.Parent
 local time = 0
 
@@ -84,7 +84,7 @@ We'll also apply this concept to the `Size` of the `Brick` so it's constantly ch
 
 We need do this uniformly, so we need to create a variable to hold our total compiled size and apply it!
 
-```
+```lua
 local Brick = script.Parent
 local time = 0
 
@@ -105,7 +105,7 @@ To differentiate our `Brick` in the `LocalScript` we should give it a `Color`! I
 
 So we need to add that to our `LocalScript` just above the `game.Rendered` line. As we want it to run once, and not every frame!
 
-```
+```lua
 local Brick = script.Parent
 local time = 0
 
