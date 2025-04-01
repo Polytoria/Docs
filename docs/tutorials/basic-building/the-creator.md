@@ -17,7 +17,7 @@ When you open your first place, you'll be greeted by the creator's UI. It's not 
 5. <b>Insert / Model / Tools</b> - These top menu buttons allow you to do the more in-depth creation spawning, or, testing your place in the case of `Tools`.
 6. <b>Toolbox</b> - The toolbox allows you to spawn models that you, or anybody else published to the website.
 7. <b>Explorer</b> - The explorer is your heirarchy to the place, this is where you'll find the placement of objects within your place.
-8. <b>Properties</b> - The properties panel allows you to edit your selected objects or items (with the exception of scripts) to look or be moved in various places 
+8. <b>Properties</b> - The properties panel allows you to edit your selected objects or items (with the exception of scripts) to look or be moved in various places
 
 <div data-search-exclude markdown>
 !!! warning "Known Bugs"
@@ -28,16 +28,16 @@ When you open your first place, you'll be greeted by the creator's UI. It's not 
     	- Scrolling when focused but outside of window causes camera to zoom.
     	- Undoing does not re-spawn objects properly.
 
-	- <b>Properties Panel</b>
-		- The properties panel does not update until you de-select and re-select an object.
-		- Undoing does not update properties until after update
+    - <b>Properties Panel</b>
+    	- The properties panel does not update until you de-select and re-select an object.
+    	- Undoing does not update properties until after update
 
 
-	- <b>Explorer</b>
-		- Renaming Objects in the properties panel will not update until the part is moved in the explorer.
+    - <b>Explorer</b>
+    	- Renaming Objects in the properties panel will not update until the part is moved in the explorer.
 
 
-	- <b>Translation Tools</b>
-		- Parenting a part to another part and translating the rotation will distort the parented part.
+    - <b>Translation Tools</b>
+    	- Parenting a part to another part and translating the rotation will distort the parented part.
 
 </div>
