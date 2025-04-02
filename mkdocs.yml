@@ -47,11 +47,6 @@ plugins:
       warning: true
       reverse: false
 
-  - minify_html:
-      ensure_spec_compliant_unquoted_attribute_values: false
-      keep_closing_tags: true
-      keep_html_and_head_opening_tags: true
-
 markdown_extensions:
   - pymdownx.highlight
   - pymdownx.inlinehilite

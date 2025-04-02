@@ -1,9 +1,13 @@
 {
+	"name": "polytoria-docs",
+	"version": "1.0.0",
+	"private": true,
 	"scripts": {
 		"format": "prettier --write ."
 	},
 	"devDependencies": {
-		"prettier": "^3.3.3",
-		"prettier-plugin-jinja-template": "^1.4.1"
-	}
+		"prettier": "^3.5.3",
+		"prettier-plugin-jinja-template": "^2.0.0"
+	},
+	"packageManager": "pnpm@10.7.1"
 }
