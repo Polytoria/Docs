@@ -4,29 +4,30 @@ on:
   push:
     branches:
       - main
-      - 'refs/heads/*'
+      - refs/heads/*
 
 jobs:
   prettier:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Set up Node.js
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Install Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 'latest'
+          node-version: lts/*
+          cache: pnpm
 
       - name: Install dependencies
-        run: npm install
-
-      - name: Pull latest changes
-        run: git pull
+        run: pnpm install
 
       - name: Run Prettier
-        run: npx prettier --write .
+        run: pnpm run format
 
       - name: Commit changes
         id: commit
@@ -52,5 +53,5 @@ jobs:
           commit-message: 'chore: format code with Prettier'
           branch: prettier-fix
           title: 'chore: format code with Prettier'
-          body: 'This PR formats the code with Prettier.'
+          body: This PR formats the code with Prettier.
           labels: prettier
