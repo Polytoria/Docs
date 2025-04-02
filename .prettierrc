@@ -2,6 +2,8 @@
 	"arrowParens": "always",
 	"bracketSpacing": false,
 	"printWidth": 200,
+	"quoteProps": "as-needed",
+	"semi": true,
 	"singleQuote": true,
 	"trailingComma": "none",
 	"useTabs": true,
