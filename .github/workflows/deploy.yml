@@ -28,7 +28,7 @@ jobs:
           echo "${{ secrets.KEY }}" > ~/.ssh/id_ed25519
           chmod 600 ~/.ssh/id_ed25519
 
-          ssh-keyscan -t rsa -p ${{ secrets.PORT }} ${{ secrets.HOST }} > ~/.ssh/known_hosts
+          ssh-keyscan -t ed25519 -p ${{ secrets.PORT }} ${{ secrets.HOST }} > ~/.ssh/known_hosts
           chmod 600 ~/.ssh/known_hosts
 
       - name: Build for production
