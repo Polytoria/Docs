@@ -35,4 +35,4 @@ jobs:
         run: mkdocs build -s
 
       - name: Sync to production
-        run: rsync -ae "ssh -p ${{ secrets.PORT }}" --zc zstd --zl 19 --delete site/ ${{ secrets.USER }}@${{ secrets.HOST }}:${{ secrets.DEST }}
+        run: rsync -ae "ssh -vp ${{ secrets.PORT }}" --zc zstd --zl 19 --delete site/ ${{ secrets.USER }}@${{ secrets.HOST }}:${{ secrets.DEST }}
