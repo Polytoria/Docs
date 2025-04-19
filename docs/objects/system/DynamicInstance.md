@@ -25,6 +25,14 @@ Rotates the DynamicInstance so that the forward vector looks at the target.
 part.LookAt(Vector3.New(12, 34, 56))
 ```
 
+### LookAt(rotation;Vector3,worldUp;Vector3) { method }
+
+Rotates the DynamicInstance so that the forward vector looks at the target.
+
+### LookAt(dynamicInstance;DynamicInstance) { method }
+
+Rotates the DynamicInstance so that the forward vector looks at the target.
+
 ### Translate(translation;Vector3) { method }
 
 Moves the transform in the direction and distance of translation.
@@ -34,6 +42,38 @@ Moves the transform in the direction and distance of translation.
 ```lua
 part.Translate(part.Forward * 5)
 ```
+
+### RotateAround(point;Vector3,axis;Vector3,angle;float) { method }
+
+Rotates the DynamicInstance around a point.
+
+### Rotate(eulerAngles;Vector3) { method }
+
+Rotates the DynamicInstance by the specified Euler angles.
+
+### InverseTransformPoint(point;Vector3):Vector3 { method }
+
+Undocumented
+
+### TransformPoint(point;Vector3):Vector3 { method }
+
+Undocumented
+
+### InverseTransformDirection(direction;Vector3):Vector3 { method }
+
+Undocumented
+
+### TransformDirection(direction;Vector3):Vector3 { method }
+
+Undocumented
+
+### InverseTransformVector(vector;Vector3):Vector3 { method }
+
+Undocumented
+
+### InverseTransformPosition(position;Vector3):Vector3 { method }
+
+Undocumented
 
 ## Properties
 
@@ -86,3 +126,11 @@ Specifies the size of an instance.
 ### Up:Vector3 { property }
 
 The Y axis of this DynamicInstance
+
+### Quaternion:Quaternion { property }
+
+The quaternion of this DynamicInstance
+
+### LocalQuaternion:Quaternion { property }
+
+The local quaternion of this DynamicInstance

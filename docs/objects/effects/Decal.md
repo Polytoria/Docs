@@ -41,5 +41,9 @@ The scale of the texture on the decal.
 **Example**
 
 ```lua
-game["Environment"]["Decal"].ImageID = 11643
+game["Environment"]["Decal"].TextureOffset = Vector2.New(0, 0)
 ```
+
+### CastShadows:bool { property }
+
+Determines whether or not the decal should cast shadows.

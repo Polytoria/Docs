@@ -79,11 +79,7 @@ Determines whether the sound is currently playing or not.
 
 {{ readonly() }}
 
-### Size:Vector3 { property }
-
-The size of the sound.
-
-### SoundID:int { property }
+### SoundID:string { property }
 
 The asset ID of the sound.
 

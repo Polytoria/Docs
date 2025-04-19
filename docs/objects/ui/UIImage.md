@@ -23,7 +23,7 @@ Specifies the color of the image.
 image.Color = Color.New(1, 0, 0)
 ```
 
-### ImageID:int { property }
+### ImageID:string { property }
 
 Specifies the image ID of the UIImage.
 
@@ -50,12 +50,6 @@ end
 print("Image loaded")
 ```
 
-### Visible:bool { property }
+### Clickable:bool { property }
 
-Specifies if the image is visible.
-
-**Example**
-
-```lua
-image.Visible = false
-```
+Determines whether the image is clickable.

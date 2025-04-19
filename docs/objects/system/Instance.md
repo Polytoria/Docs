@@ -109,9 +109,25 @@ end)
 
 ## Methods
 
-### New(typeOfInstance):Instance { method }
+### New(typeOfInstance;string):Instance { method }
 
 Create a new instance.
+
+**Example**
+
+```lua
+local newInstance = Instance.New("Part")
+```
+
+### New(typeOfInstance;string,parent;Instance):Instance { method }
+
+Create a new instance.
+
+**Example**
+
+```lua
+local newInstance = Instance.New("Part", game["Environment"])
+```
 
 ### Clone { method }
 
@@ -156,6 +172,10 @@ Returns an array of all the children instances parented to the instance.
 ### GetChildrenOfClass(className;string):Instance[] { method }
 
 Returns an array of all the children instances with the specified class.
+
+### GetBounds():Bounds { method }
+
+Returns the bounds of the instance.
 
 ## Properties
 
@@ -211,3 +231,7 @@ killBrick.Touched:Connect(function(hit)
     end
 end
 ```
+
+### ClientSpawned:bool { property }
+
+Returns whether or not the instance was spawned by the client.
