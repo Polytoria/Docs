@@ -10,7 +10,7 @@ weight: 100
 
 {{ abstract() }}
 
-{{ inherits("Instance") }}
+{{ inherits("Part") }}
 
 ## Properties
 
