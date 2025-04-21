@@ -202,3 +202,21 @@ Determines the vertical move speed of the camera.
 ```lua
 Camera.VerticalSpeed = 120
 ```
+
+### ClipThroughWalls:bool { property }
+
+Determines whether or not the camera should clip through walls.
+
+**Example**
+
+```lua
+Camera.ClipThroughWalls = true
+```
+
+### SensitivityMultiplier:float { property }
+
+**Example**
+
+```lua
+Camera.SensitivityMultiplier = 1
+```

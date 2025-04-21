@@ -38,7 +38,7 @@ Simulates the particles object for the specified time. This includes all physics
 
 ## Properties
 
-### ImageID:int { property }
+### ImageID:string { property }
 
 Specifies the image asset ID that the particles will use.
 

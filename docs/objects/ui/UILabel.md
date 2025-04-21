@@ -9,7 +9,7 @@ weight: 100
 
 :polytoria-UILabel: UILabel is a label that can be used to display text.
 
-{{ inherits("Instance") }}
+{{ inherits("UIView") }}
 
 ## Properties
 

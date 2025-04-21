@@ -10,4 +10,4 @@ weight: 100
 
 :polytoria-Folder: Folder is similar to a model, used for storing objects in the place.
 
-{{ inherits("DynamicInstance") }}
+{{ inherits("Instance") }}
