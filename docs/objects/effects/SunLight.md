@@ -23,5 +23,3 @@ The brightness of the sun light.
 ### Shadows:bool { property }
 
 Whether the sun light casts shadows.
-
-
