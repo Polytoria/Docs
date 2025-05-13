@@ -4,10 +4,9 @@ description: ForceMode is an Enum.
 icon: polytoria/Enum
 ---
 
-| Name                 |
-| -------------------- |
-| `Force`              |
-| `Acceleration`       |
-| `Impulse`            |
-| `VelocityChange`     |
-
+| Name             |
+| ---------------- |
+| `Force`          |
+| `Acceleration`   |
+| `Impulse`        |
+| `VelocityChange` |

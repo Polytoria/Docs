@@ -109,7 +109,6 @@ game["Environment"]:RebuildNavMesh(game["Workspace"]["Map"])
 
 Returns a point on the navigation mesh at the given position.
 
-
 ## Properties
 
 ### AutoGenerateNavMesh:bool { property }
