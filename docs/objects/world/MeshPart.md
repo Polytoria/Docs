@@ -22,17 +22,21 @@ Moves the MeshPart to the specified position.
 
 Rotates the MeshPart to the specified rotation.
 
-### PlayAnimation(animationName;string) { method }
+### PlayAnimation(animationName;string,objectPath;string=nil,speed;float=1,loop;bool=false) { method }
 
 Plays the animation with the specified name, if it exists.
 
-### StopAnimation() { method }
+### StopAnimation(name;string=nil) { method }
 
 Stops playing the current animation.
 
 ### GetAnimations() { method }
 
 Returns the names of the animations associated with the mesh.
+
+### GetAnimationSources:string[] { method }
+
+### GetAnimationInfo:AnimationInfo[] { method }
 
 ## Properties
 
@@ -67,3 +71,19 @@ Specifies the shape of a part.
 ### Velocity:Vector3 = Vector3.New(0, 100, 0) { property }
 
 Specifies the velocity of a part.
+
+### CurrentAnimation:string { property }
+
+The current animation of the mesh part.
+
+### IsAnimationPlaying:bool { property }
+
+Returns whether or not the animation is playing.
+
+### PlayAnimationOnStart:bool { property }
+
+Specifies whether or not to play the animation on start.
+
+### CollisionType:CollisionType { property }
+
+Specifies the collision type of the part.

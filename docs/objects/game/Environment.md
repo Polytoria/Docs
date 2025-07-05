@@ -79,7 +79,7 @@ if hit and hit.Instance:IsA("Player") then
 end
 ```
 
-### RaycastAll(origin;Vector3,direction;Vector3,maxDistance;float=infinite,ignoreList;array=Instance[]):RayResult { method }
+### RaycastAll(origin;Vector3,direction;Vector3,maxDistance;float=infinite,ignoreList;array=Instance[]):RayResult[] { method }
 
 Casts a ray from origin with a specified direction and returns a RayResult array for all hit objects.
 
@@ -93,9 +93,21 @@ for i, hit in pairs(hits) do
 end
 ```
 
-### RebuildNavMesh { method }
+### RebuildNavMesh(root;Instance=nil) { method }
 
 Rebuilds the navigation mesh which determines the empty space where NPCs can pathfind in.
+
+**Example**
+
+```lua
+game["Environment"]:RebuildNavMesh()
+# or
+game["Environment"]:RebuildNavMesh(game["Workspace"]["Map"])
+```
+
+### GetPointOnNavMesh(position;Vector3,maxDistance;float=infinite):Vector3 { method }
+
+Returns a point on the navigation mesh at the given position.
 
 ## Properties
 
@@ -135,7 +147,7 @@ The distance from the camera at which fog is fully opaque
 
 The direction and strength of gravity in the world
 
-### PartDestroyHeight:int { property }
+### PartDestroyHeight:float { property }
 
 The height at which unanchored parts are destroyed when they fall below it.
 

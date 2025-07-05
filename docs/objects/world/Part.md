@@ -31,18 +31,34 @@ Rotates the part while keeping physics in mind.
 **Example**
 
 ```lua
-game["Environment"]["Part"]:MovePosition(Vector3.New(0, 180, 0))
+game["Environment"]["Part"]:MoveRotation(Vector3.New(0, 180, 0))
 ```
+
+### AddForce(force;Vector3,mode;ForceMode) { method }
+
+Adds a force to the part.
+
+### AddTorque(torque;Vector3,mode;ForceMode) { method }
+
+Adds a torque to the part.
+
+### AddForceAtPosition(force;Vector3,position;Vector3,mode;ForceMode) { method }
+
+Adds a force to the part at a specific position.
+
+### AddRelativeForce(force;Vector3,mode;ForceMode) { method }
+
+Adds a force to the part relative to its own rotation.
+
+### AddRelativeTorque(torque;Vector3,mode;ForceMode) { method }
+
+Adds a torque to the part relative to its own rotation.
 
 ## Properties
 
 ### Anchored:bool { property }
 
 Specifies whether the part is to be affected by physics or not.
-
-### AngularDrag:float { property }
-
-Angular drag (air resistance) of this part.
 
 ### AngularDrag:float { property }
 

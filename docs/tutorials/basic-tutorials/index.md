@@ -1,8 +1,8 @@
 ---
-weight: 1
+weight: 2
 empty: true
 ---
 
-# Scripting Basics
+# Basic Tutorials
 
 {{ directory("basic-tutorials") }}

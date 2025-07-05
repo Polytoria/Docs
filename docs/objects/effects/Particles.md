@@ -38,7 +38,7 @@ Simulates the particles object for the specified time. This includes all physics
 
 ## Properties
 
-### ImageID:int { property }
+### ImageID:string { property }
 
 Specifies the image asset ID that the particles will use.
 
@@ -56,7 +56,7 @@ The color mode of the particles.
 
 ### Lifetime:NumberRange { property }
 
-Specifies the range of the lifetime of the particles. A random value in this range will be choosen as particle lifetime.
+Specifies the range of the lifetime of the particles. A random value in this range will be chosen as particle lifetime.
 
 ### SizeOverLifetime:NumberRange { property }
 
@@ -64,7 +64,7 @@ The size of the particles, over the lifetime of the particle.
 
 ### Speed:NumberRange { property }
 
-The speed of the particles. A random value in this range will be choosen. The particle moves in its direction at this speed.
+The speed of the particles. A random value in this range will be chosen. The particle moves in its direction at this speed.
 
 ### EmissionRate:int { property }
 
@@ -84,11 +84,11 @@ Whether the particles are simulated in world or local space.
 
 ### StartRotation:NumberRange { property }
 
-The rotation the particles will start in. A random value in this range will be choosen.
+The rotation the particles will start in. A random value in this range will be chosen.
 
 ### AngularVelocity:NumberRange { property }
 
-The angular velocity (= the rate of rotation) of the particles. A random value in this range will be choosen.
+The angular velocity (= the rate of rotation) of the particles. A random value in this range will be chosen.
 
 ### Autoplay:bool { property }
 

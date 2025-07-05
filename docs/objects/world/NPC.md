@@ -54,6 +54,22 @@ npc:ClearAppearance()
 
 Sets the destination for the NPC's pathfind.
 
+### Respawn { method }
+
+Respawns the NPC.
+
+### Jump { method }
+
+Makes the NPC jump.
+
+### EquipTool(tool;Tool) { method }
+
+Equips the specified tool on the NPC.
+
+### DropTool { method }
+
+Drops the tool currently equipped on the NPC.
+
 ## Properties
 
 ### Anchored:bool { property }
@@ -120,7 +136,7 @@ Specifies the color of the NPC's left leg.
 
 Specifies the color of the NPC's right leg.
 
-### NavDestinationDistance:number { property }
+### NavDestinationDistance:float { property }
 
 Returns the remaining distance before the NPC reaches the end of its pathfind.
 
@@ -138,6 +154,6 @@ Returns whether or not the NPC has reached the end of its pathfind.
 
 {{ readonly() }}
 
-### Velocity:float { property }
+### Velocity:Vector3 { property }
 
 Returns or sets the velocity of the NPC.

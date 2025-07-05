@@ -10,7 +10,7 @@ weight: 7
 
 :polytoria-Tool: Tools are objects that can be held by players.
 
-{{ inherits("Instance") }}
+{{ inherits("DynamicInstance") }}
 
 ## Events
 

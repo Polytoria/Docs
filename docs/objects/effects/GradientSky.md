@@ -14,11 +14,11 @@ icon: polytoria/GradientSky
 
 Determines the horizon line's color.
 
-### HorizonLineExponent:int { property }
+### HorizonLineExponent:float { property }
 
 Determines the horizon line's exponent.
 
-### HorizonLineContribution:int { property }
+### HorizonLineContribution:float { property }
 
 Determines how much the horizon line contributes.
 
@@ -37,3 +37,23 @@ Determines the gradient's exponent.
 ### SunDiscColor:Color { property }
 
 Determines the color emitting off the sun.
+
+### SunDiscMultiplier:float { property }
+
+Determines the multiplier of the sun.
+
+### SunDiscExponent:float { property }
+
+Determines the exponent of the sun.
+
+### SunHaloColor:Color { property }
+
+Determines the color of the sun halo.
+
+### SunHaloExponent:float { property }
+
+Determines the exponent of the sun halo.
+
+### SunHaloContribution:float { property }
+
+Determines the contribution of the sun halo.

@@ -4,15 +4,12 @@ Thanks for waiting to contribute to the new unofficial Polytoria documentation! 
 
 ## Dependencies
 
-| Name                       | Version |
-| -------------------------- | ------- |
-| mkdocs                     | 1.6.0   |
-| mkdocs-macros-plugin       | 1.0.5   |
-| mkdocs-material            | 9.5.33  |
-| mkdocs-material-extensions | 1.3.1   |
-| mkdocs-nav-weight          | 0.2.0   |
-| pymdown-extensions         | 10.9    |
-| ghp-import                 | 2.1.0   |
+| Name                      | Version |
+| ------------------------- | ------- |
+| mkdocs-macros-plugin      | ~=1.3   |
+| mkdocs-material           | ~=9.6   |
+| mkdocs-minify-html-plugin | ~=0.3   |
+| mkdocs-nav-weight         | ~=0.2   |
 
 ## Notes
 

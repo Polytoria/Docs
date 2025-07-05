@@ -13,7 +13,7 @@ icon: polytoria/BodyPosition
 
 ## Properties
 
-### AcceptableDistance:float { property }
+### AcceptanceDistance:float { property }
 
 Determines how close the body has to be to the target position to stop applying forces to it.
 

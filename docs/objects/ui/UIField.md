@@ -68,3 +68,7 @@ The size of the UI element relative to its parent.
 ### Visible:bool { property }
 
 Determines whether the UI element is visible or not.
+
+### ClipDescendants:bool { property }
+
+Determines whether the UI element clips its descendants.
