@@ -10,11 +10,9 @@ weight: 3
 <div data-search-exclude markdown>
 !!! bug "BETA Feature"
 
-    ModuleScripts are currently in BETA and its behaviour may change at any point, so use it at your own risk. As of right now, you aren't able to run functions from ModuleScripts. However this is a planned feature in the near future.
+    ModuleScripts are currently in BETA and its behaviour may change at any point, so use it at your own risk.
 
     Current Issues:
-
-    - You can't call functions that are imported from a ModuleScript
 
     - You can't edit data such as tables that are imported from a ModuleScript
 
