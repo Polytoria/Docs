@@ -12,7 +12,7 @@ Polytoria Creator, available for Windows, Mac and Linux, is a tool to make your 
 
 | Operating System             | Windows                                                                               | MacOS                                      | Linux                                               |
 | ---------------------------- | ------------------------------------------------------------------------------------- | ------------------------------------------ | --------------------------------------------------- |
-| **Operating System Version** | Windows 10 21H1+ and Windows 11                                                       | High Sierra 11+                            | Ubuntu 20.04+, Fedora 38+, Debian 12+               |
+| **Operating System Version** | Windows 10 22H2+ and Windows 11                                                       | Monterey 12+                               | Ubuntu 22.04+, Fedora 41+, Debian 12+               |
 | **CPU**                      | x86, x64 architecture with SSE2 instruction set support.                              | Apple Silicon, x64 architecture with SSE2. | x64 architecture with SSE2 instruction set support. |
 | **Graphics API**             | DX10, DX11, DX12 capable.                                                             | Metal capable Intel and AMD GPUs           | OpenGL 3.2+, Vulkan capable.                        |
 | **RAM**                      | At least 4GB+                                                                         |
