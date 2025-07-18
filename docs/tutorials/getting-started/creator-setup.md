@@ -6,19 +6,19 @@ weight: 2
 
 # Setting up Polytoria Creator
 
-Polytoria Creator, available for Windows, Mac and Linux, is a tool to make your own places on Polytoria.
+Polytoria Creator is a 3D editing software used to create your own places.
 
 ## System Requirements
 
-| Operating System             | Windows                                                                               | MacOS                                      | Linux                                               |
-| ---------------------------- | ------------------------------------------------------------------------------------- | ------------------------------------------ | --------------------------------------------------- |
-| **Operating System Version** | Windows 10 22H2+ and Windows 11                                                       | Monterey 12+                               | Ubuntu 22.04+, Fedora 41+, Debian 12+               |
-| **CPU**                      | x86, x64 architecture with SSE2 instruction set support.                              | Apple Silicon, x64 architecture with SSE2. | x64 architecture with SSE2 instruction set support. |
-| **Graphics API**             | DX10, DX11, DX12 capable.                                                             | Metal capable Intel and AMD GPUs           | OpenGL 3.2+, Vulkan capable.                        |
-| **RAM**                      | At least 4GB+                                                                         |
-| **Internet Connection**      | An internet connection is required to update the creator and connect to its services. |
+| Operating System            | Processor                                                                         | Graphics Card  | Memory | Additional                                                   |
+| --------------------------- | --------------------------------------------------------------------------------- | -------------- | ------ | ------------------------------------------------------------ |
+| Windows 10 22H2+            | Intel or AMD<br>x64 architecture<br>SSE4.2 instruction set                        | Vulkan capable | 4 GB+  | Latest offical drivers from hardware vendor                  |
+| macOS Monterey 12+          | Intel or Apple M1<br>x64 or ARM64 architecture<br>SSE4.2 or ARMv8 instruction set | Metal capable  | 4 GB+  | Rosetta 2 is required for Apple Silicon devices              |
+| Ubuntu 22.04+<br>Fedora 41+ | Intel or AMD<br>x64 architecture<br>SSE4.2 instruction set                        | Vulkan capable | 4 GB+  | NVIDIA Proprietary or AMD Mesa drivers<br>Wayland compositor |
 
-A 2-button mouse with a scroll wheel is also recommended.
+An internet connection is required to update the creator and connect to its services.
+
+Desktop keyboard and two-button mouse with a scroll wheel is also recommended.
 
 ## Launching the Creator
 
