@@ -47,7 +47,7 @@ end)
 <div data-search-exclude markdown>
 !!! danger "Undocumented Methods"
 
-    This section is a work in progress! The methods `GetMouseWorldPoint`, and `GetMouseWorldPosition`, are not written yet. Want to contribute? Go to the GitHub and open a pull request [here](https://github.com/Polytoria/Docs)!
+    This section is a work in progress! The method `GetMouseWorldPoint` is not written yet. Want to contribute? Go to the GitHub and open a pull request [here](https://github.com/Polytoria/Docs)!
 
 </div>
 
@@ -94,6 +94,10 @@ Returns `true` during the frame in which the specified mouse button was pressed.
 ### GetMouseButtonUp(mouseButton;int):bool { method }
 
 Returns `true` during the frame in which the specified mouse button was released.
+
+### GetMouseWorldPosition:Vector3 { method }
+
+Returns the 3D world-space position corresponding to the current mouse cursor location.
 
 ### ScreenPointToRay(position;Vector3, List ignoreList = null):RayResult { method }
 
