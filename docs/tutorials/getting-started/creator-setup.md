@@ -6,7 +6,7 @@ weight: 2
 
 # Setting up Polytoria Creator
 
-Polytoria Creator is a game creation software used to create your own places on Polytoria.
+Polytoria Creator is a 3D editing software used to create your own places.
 
 ## System Requirements
 
