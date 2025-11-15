@@ -20,4 +20,4 @@ Determines whether the GUI is visible or not.
 gui.Visible = true
 ```
 
-!!! warning "The Visible property will be automatically set to true when launching the game, it's recommended to only use this property in-studio."
+!!! warning "The Visible property will be automatically set to true when launching the client."
