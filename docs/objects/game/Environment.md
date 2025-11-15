@@ -29,9 +29,7 @@ game["Environment"]:CreateExplosion(Vector3.New(0, 0, 0), 30, 5000, false, nil, 
 
 <div data-search-exclude markdown>
 !!! note "When set to true, AffectAnchored will disable the Anchor property for {{ classLink("DynamicInstance") }}s within the explosion radius."
-</div>
 
-<div data-search-exclude markdown>
 !!! note "Callback gets called for each {{ classLink("DynamicInstance") }} within explosion radius."
 </div>
 
@@ -85,7 +83,7 @@ end
 ```
 
 <div data-search-exclude markdown>
-!!! note "The descendants of an {{ classLink("Instance") }} in ignoreList are ignored too."
+!!! tip "The descendants of an {{ classLink("Instance") }} in ignoreList are ignored too."
 !!! warning "If the Raycast fails to hit a {{ classLink("DynamicInstance") }}, it is returned as nil."
 </div>
 

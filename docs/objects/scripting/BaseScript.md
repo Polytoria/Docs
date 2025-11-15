@@ -29,9 +29,7 @@ game["ScriptService"]["Script"]:Call("Foo", "Bar")
 ```
 
 <div data-search-exclude markdown>
-!!! warning "Scripts are naturally single-threaded, but can run multiple threads at once through Signals and :Call."
-</div>
+!!! tip "Scripts are naturally single-threaded, but can run multiple threads at once through Signals and :Call."
 
-<div data-search-exclude markdown>
 !!! failure "Local Functions cannot be ran using the Call function."
 </div>
