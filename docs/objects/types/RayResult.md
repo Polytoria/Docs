@@ -16,3 +16,10 @@ icon: polytoria/RayResult
 | `Vector3` Position  | The position the ray made contact at.    |
 | `float` Distance    | The distance between the hit and origin. |
 | `Vector3` Normal    | The normal of the surface the ray hit.   |
+
+<div data-search-exclude markdown>
+!!! tip "Don't understand Normal?"
+
+    Normal is a naturally complicated property to describe. In a simple case of a cube, Normal describes the exact side the RayResult hit, with x being left/right, y being top/bottom, and z being front/back.
+    For a more complicated hitbox like a Sphere, the values can blend together. It's important to remember that the Instance's Rotation should be considered when making calculations with Normal.
+</div>

@@ -12,6 +12,10 @@ weight: 7
 
 {{ inherits("DynamicInstance") }}
 
+<div data-search-exclude markdown>
+!!! warning "{{ classLink("BaseScript") }}s that are descendants of Tools won't run until after the Tool's first Equipped Event."
+</div>
+
 ## Events
 
 ### Activated { event }

@@ -165,11 +165,11 @@ Attempts to find the first child instance with the specified name (`nil` if not 
 
 Attempts to find the first child instance with the specified class (`nil` if not found).
 
-### GetChildren:Instance[] { method }
+### GetChildren:{Instance} { method }
 
 Returns an array of all the children instances parented to the instance.
 
-### GetChildrenOfClass(className;string):Instance[] { method }
+### GetChildrenOfClass(className;string):{Instance} { method }
 
 Returns an array of all the children instances with the specified class.
 

@@ -17,9 +17,9 @@ weight: 2
 
 ## Methods
 
-### CreateExplosion(Position;Vector3,Radius;float=10,Force;float=5000,affectAnchored;bool=true,callback;function=nil,damage;float=10000) { method }
+### CreateExplosion(Position;Vector3,?Radius;float=10,?Force;float=5000,?affectAnchored;bool=true,?callback;function=DynamicInstance,?damage;float=10000) { method }
 
-Creates a deadly explosion killing players and applying force to parts at the given position.
+Creates a deadly explosion killing {{ classLink("Players") }} and applying force to {{ classLink("DynamicInstance") }}s at the given position.
 
 **Example**
 
@@ -28,16 +28,14 @@ game["Environment"]:CreateExplosion(Vector3.New(0, 0, 0), 30, 5000, false, nil, 
 ```
 
 <div data-search-exclude markdown>
-!!! note "When set to true, AffectAnchored will unanchor parts within the explosion radius."
+!!! note "When set to true, AffectAnchored will disable the Anchor property for {{ classLink("DynamicInstance") }}s within the explosion radius."
+
+!!! note "Callback gets called for each {{ classLink("DynamicInstance") }} within explosion radius."
 </div>
 
-<div data-search-exclude markdown>
-!!! note "Callback gets called for each part within explosion radius."
-</div>
+### OverlapBox(position;Vector3,size;Vector3,rotation;Vector3,?ignoreList;array={Instance}):{Instance} { method }
 
-### OverlapBox(position;Vector3,size;Vector3,rotation;Vector3,ignoreList;array=Instance[]):Instance[] { method }
-
-Returns a list of instances intersecting with the box in the given position, size and rotation.
+Returns a list of {{ classLink("DynamicInstance") }}s intersecting with the box in the given position, size and rotation.
 
 A demo of this method is available [here](https://polytoria.com/places/9269).
 
@@ -51,61 +49,77 @@ for i,v in ipairs(intersections) do
 end
 ```
 
-### OverlapSphere(position;Vector3,radius;float,ignoreList;array=Instance[]):Instance[] { method }
+### OverlapSphere(position;Vector3,radius;float,?ignoreList;array={Instance}):{Instance} { method }
 
-Returns a list of instances intersecting with the sphere in the given position and radius.
+Returns a list of {{ classLink("DynamicInstance") }}s intersecting with the sphere in the given position and radius.
 
 **Example**
 
 ```lua
-local intersections = game["Environment"]:OverlapSphere(Vector3.New(100,0,45), 25)
+local intersections = game["Environment"]:OverlapSphere(Vector3.New(100,0,45), 25, {game["Environment"]["TheIgnored"]})
 
 for i,v in ipairs(intersections) do
     print(v.Name .." is intersecting the sphere!")
 end
 ```
 
-### Raycast(origin;Vector3,direction;Vector3,maxDistance;float=infinite,ignoreList;array=Instance[]):RayResult { method }
+### Raycast(origin;Vector3,direction;Vector3,?maxDistance;float=infinite,?ignoreList;array={Instance}):RayResult { method }
 
-Casts a ray from origin with a specified direction and returns a RayResult for the first hit object.
+Casts a ray from origin, shooting in the direction of the second argument until it reaches the distance threshold, only stopping upon reaching a {{ classLink("DynamicInstance") }} that isn't nested in ignoreList.
 
 **Example**
 
 ```lua
-local hit = game["Environment"]:Raycast(barrel.Position, barrel.Forward)
+local Ray = game["Environment"]:Raycast(barrel.Position, barrel.Forward, 25, {game["Environment"]["IgnoredInstances"], game["Environment"]["OtherIgnoredInstances"]})
 
-if hit and hit.Instance:IsA("Player") then
-    hit.Instance.Health = 0
+if Ray ~= nil then
+    local Hit = Ray.Instance -- Player
+    if Hit:IsA("Player") then
+        print("Hit",Hit,"at",Ray.Position,"!") -- [Hit Player at (3.24, 1.2, 5.93) !]
+        Hit.Health = math.max(Hit.Health - 12 * (1.5-(1- Ray.Distance / 25)), 0)
+        --Point blank deals 18 damage while max distance deals 6 damage
+    end
 end
 ```
 
-### RaycastAll(origin;Vector3,direction;Vector3,maxDistance;float=infinite,ignoreList;array=Instance[]):RayResult[] { method }
+<div data-search-exclude markdown>
+!!! tip "The descendants of an {{ classLink("Instance") }} in ignoreList are ignored too."
+!!! warning "If the Raycast fails to hit a {{ classLink("DynamicInstance") }}, it is returned as nil."
+</div>
 
-Casts a ray from origin with a specified direction and returns a RayResult array for all hit objects.
+### RaycastAll(origin;Vector3,direction;Vector3,?maxDistance;float=infinite,?ignoreList;array={Instance}):{RayResult} { method }
+
+Casts a ray from origin, shooting in the given direction until it reaches the distance threshold, only returning a table of {{ classLink("DynamicInstance") }}s that aren't nested within the ignoreList.
 
 **Example**
 
 ```lua
-local hits = game["Environment"]:RaycastAll(Vector3.New(0, 10, 0), Vector3.New(0, -1, 0), 100)
+local Ray = game["Environment"]:RaycastAll(Vector3.New(0, 10, 0), Vector3.New(0, -1, 0), 100, game["Environment"]["Map"])
 
-for i, hit in pairs(hits) do
-    print("Hit at " .. hit.Position .. "!")
+--We call this the Railgun.
+for i, hit in pairs(Ray) do
+    if hit.Instance:IsA("NPC") then
+        if hit.Position.y - hit.Instance.Position.y >= hit.Instance.Size.y then
+            hit.Instance.Health = 0 --An accurate headshot detection, no matter the size of the NPC
+            --(hit.Instance.Position.y + hit.instance.Size.y == where the NPC's neck is on the y scale)
+        else
+            hit.Instance.Health = math.max(0, hit.Instance.Health - 50) --Body shot
+        end
+    end
 end
 ```
 
-### RebuildNavMesh(root;Instance=nil) { method }
+### RebuildNavMesh(?root;Instance) { method }
 
-Rebuilds the navigation mesh which determines the empty space where NPCs can pathfind in.
+Rebuilds the navigation mesh which determines the empty space where {{ classLink("NPC") }}s can pathfind in.
 
 **Example**
 
 ```lua
-game["Environment"]:RebuildNavMesh()
-# or
-game["Environment"]:RebuildNavMesh(game["Workspace"]["Map"])
+game["Environment"]:RebuildNavMesh(game["Environment"]["Map"])
 ```
 
-### GetPointOnNavMesh(position;Vector3,maxDistance;float=infinite):Vector3 { method }
+### GetPointOnNavMesh(position;Vector3,?maxDistance;float=infinite):Vector3 { method }
 
 Returns a point on the navigation mesh at the given position.
 
@@ -113,10 +127,10 @@ Returns a point on the navigation mesh at the given position.
 
 ### AutoGenerateNavMesh:bool { property }
 
-Determines whether or not to automatically build a navigation mesh for NPC pathfinding. This property is disabled by default so there are no performance issues with larger maps.
+Determines whether or not to automatically build a navigation mesh from :polytoria-Environment: Environment for {{ classLink("NPC") }} pathfinding. This property is disabled by default so there are no performance issues with larger maps.
 
 <div data-search-exclude markdown>
-!!! note "When updating the map, even if the property is set to true, you will still have to manually call the `Environment:BuildNavMesh()` method."
+!!! warning "AutoGenerateNavMesh only runs once upon being set to true. Changing the map will still require you to run RebuildNavMesh."
 </div>
 
 ### FogColor:Color { property }
@@ -137,11 +151,11 @@ Whether or not fog is enabled.
 
 ### FogStartDistance:float { property }
 
-The distance from the camera at which fog starts to appear
+The distance from the {{ classLink("Camera") }} at which fog starts to appear
 
 ### FogEndDistance:float { property }
 
-The distance from the camera at which fog is fully opaque
+The distance from the {{ classLink("Camera") }} at which fog is fully opaque
 
 ### Gravity:Vector3=Vector3.New(0, -75, 0) { property }
 
@@ -156,6 +170,11 @@ The height at which unanchored parts are destroyed when they fall below it.
 ```lua
 game["Environment"].PartDestroyHeight = -2000
 ```
+
+<div data-search-exclude markdown>
+!!! note "PartDestroyHeight only kills {{ classLink("Players") }}, and destroys {{ classLink("DynamicInstance") }}s with Anchor set to false."
+!!! warning "PartDestroyHeight may kill {{ classLink("Players") }}, but it does not kill {{ classLink("NPC") }}s."
+</div>
 
 ### Skybox:SkyboxPreset { property }
 
