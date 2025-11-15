@@ -133,7 +133,7 @@ Camera.MinDistance = 5
 
 ### Mode:CameraMode { property }
 
-Determines or returns the camera's current mode `(Scripted, FollowPlayer, Freecam)`.
+Determines or returns the camera's current mode `(Scripted, FollowPlayer, FreeCam)`.
 
 **Example**
 

@@ -34,9 +34,9 @@ Stops playing the current animation.
 
 Returns the names of the animations associated with the mesh.
 
-### GetAnimationSources:string[] { method }
+### GetAnimationSources:{string} { method }
 
-### GetAnimationInfo:AnimationInfo[] { method }
+### GetAnimationInfo:{AnimationInfo} { method }
 
 ## Properties
 
