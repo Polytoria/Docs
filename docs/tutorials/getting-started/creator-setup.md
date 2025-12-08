@@ -13,7 +13,7 @@ Polytoria Creator is a 3D editing software used to create your own places.
 | Operating System            | Processor                                                                         | Graphics Card  | Memory | Additional                                                   |
 | --------------------------- | --------------------------------------------------------------------------------- | -------------- | ------ | ------------------------------------------------------------ |
 | Windows 10 22H2+            | Intel or AMD<br>x64 architecture<br>SSE4.2 instruction set                        | Vulkan capable  | 4 GB+  | Latest offical drivers from hardware vendor<br>Dedicated GPU recommended                  |
-| macOS Ventura 13+          | Intel or Apple M1<br>x64 or ARM64 architecture<br>SSE4.2 or ARMv8 instruction set | Metal capable  | 4 GB+  | Rosetta 2 is required for Apple Silicon devices<br>Latest version of macOS recommended              |
+| macOS Sonoma 14+          | Intel or Apple M1<br>x64 or ARM64 architecture<br>SSE4.2 or ARMv8 instruction set | Metal capable  | 4 GB+  | Rosetta 2 is required for Apple Silicon devices<br>Latest version of macOS recommended              |
 | Ubuntu 22.04+<br>Fedora 42+ | Intel or AMD<br>x64 architecture<br>SSE4.2 instruction set                        | Vulkan capable | 4 GB+  | NVIDIA Proprietary or AMD Mesa drivers<br>Wayland compositor<br>Dedicated GPU recommended |
 
 A stable internet connection is required to update Polytoria Creator and connect to its services.
