@@ -36,7 +36,6 @@ To code in Polytoria Creator we recommend you to use a IDE (Integrated Developme
 
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Sublime Text](https://www.sublimetext.com/)
-- [JetBrains Fleet](https://www.jetbrains.com/fleet/)
 
 These are examples, but you can use whatever IDE you want, even Notepad! When editing a script after installation, your system will ask where should it open the script file. Select the IDE you want and starting coding!
 
