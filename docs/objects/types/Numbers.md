@@ -50,7 +50,7 @@ The exponentation operation may be done using `^` or `math.pow()`
 
 ```lua
 local power = base^exponent
-local power2 = math.pow(base^exponent)
+local power2 = math.pow(base, exponent)
 ```
 
 ### Root
