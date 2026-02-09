@@ -19,3 +19,7 @@ Determines whether the GUI is visible or not.
 ```lua
 gui.Visible = true
 ```
+
+<div data-search-exclude markdown>
+!!! warning "The Visible property will be automatically set to true when launching the client."
+</div>
